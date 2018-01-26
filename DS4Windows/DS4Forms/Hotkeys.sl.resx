@@ -118,21 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lbAbout.Text" xml:space="preserve">
-    <value>DS4Windows - Jays2Kings Build (Verzija</value>
+    <value>DS4Windows - Jays2Kings Build (različica</value>
   </data>
   <data name="lbTranslators.Text" xml:space="preserve">
     <value>Prevajalci</value>
   </data>
   <data name="linkDonate.Text" xml:space="preserve">
-    <value>Daruj preko Paypal-a</value>
+    <value>Daruj s Paypalom</value>
   </data>
   <data name="lLChangelog.Text" xml:space="preserve">
-    <value>Changelog</value>
+    <value>Dnevnik sprememb</value>
   </data>
   <data name="tPCredits.Text" xml:space="preserve">
-    <value>Credits</value>
+    <value>Zasluge</value>
   </data>
   <data name="tPHotkeys.Text" xml:space="preserve">
-    <value>Hotkeys</value>
+    <value>Bližnjice na tipkovnici</value>
+  </data>
+  <data name="linkSourceCode.Text" xml:space="preserve">
+    <value>Izvorna koda</value>
+  </data>
+  <data name="lbHotkeys.Text" xml:space="preserve">
+    <value>Skrij krmilnik DS4: skrije običajni (Dinput) vnos krmilnika DS4; potrdite, če se pojavljajo dvojni vnosi, ali pa R2 vklopi premor
+Kliknite levo stran drsne ploščice: levi dotik
+Kliknite desno stran drsne ploščice: desni dotik
+Kliknite drsno ploščico z dvema prstoma: večkratni dotik
+Kliknite zgornji del drsne ploščice: zgornji dotik
+PS + Options ali drži PS 10 sekund: odklopi krmilnik (samo na Bluetoothu)
+Dotik drsne ploščice + PS: izklopi drsno ploščico (klikanje še vedno deluje)
+Klik drsne ploščice desno spodaj: Desni klik (najbolje kadar je desna stran nastavljena kot miškina tipka)
+Podrsnite z dvema prstoma po drsni ploščici gor/dol*: drsenje gor/dol
+Tapnite in pridržite ploščico*: vlečenje z levo miškino tipko
+Podrsnite po ploščici z dvema prstoma v levo ali desno: menjava profilov
+Tipka Shift: pridržite za uporabo drugih naborov nastavitev
+Pri preslikavi tipkovnice in miške:
+Preklopi: tipka bo ostala v pritisnjenem stanju dokler se je ne pritisne ponovno
+Makro: dodeli več tipk enemu vnosu
+Koda tipke: drugačna interpretacija tipk; morda potrebno za nekatere igre
+*Če je omogočeno</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Pomoč</value>
   </data>
 </root>

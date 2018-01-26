@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -123,375 +123,206 @@
   <data name="chData.Text" xml:space="preserve">
     <value>Podatki</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lbTest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>792, 12</value>
-  </data>
   <data name="btnStartStop.Text" xml:space="preserve">
-    <value>Zaženi</value>
+    <value>Začni</value>
   </data>
-  <data name="lbLastMessage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>916, 22</value>
-  </data>
-  <data name="llbHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>929, 11</value>
-  </data>
-  <data name="llbHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 17</value>
-  </data>
-  <data name="llbHelp.Text" xml:space="preserve">
-    <value>Hotkeys/ O tem?</value>
-  </data>
-  <data name="btnClear.Text" xml:space="preserve">
-    <value>Počisti</value>
-  </data>
-  <data name="cMTaskbar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 192</value>
-  </data>
-  <data name="editProfileForController1ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>249, 26</value>
+  <data name="notifyIcon1.Text" xml:space="preserve">
+    <value>Orodje za DS4 Xinput</value>
   </data>
   <data name="editProfileForController1ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Uredi račun za Krmilnik 1</value>
-  </data>
-  <data name="editProfileForController2ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>249, 26</value>
+    <value>Uredi profil krmilnika 1</value>
   </data>
   <data name="editProfileForController2ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Uredi račun za Krmilnik 2</value>
-  </data>
-  <data name="editProfileForController3ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>249, 26</value>
+    <value>Uredi profil krmilnika 2</value>
   </data>
   <data name="editProfileForController3ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Uredi račun za Krmilnik 3</value>
-  </data>
-  <data name="editProfileForController4ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>249, 26</value>
+    <value>Uredi profil krmilnika 3</value>
   </data>
   <data name="editProfileForController4ToolStripMenuItem.Text" xml:space="preserve">
-    <value>uredi račun za Krmilnik 4</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>246, 6</value>
-  </data>
-  <data name="startToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>249, 26</value>
+    <value>Uredi profil krmilnika 4</value>
   </data>
   <data name="startToolStripMenuItem.Text" xml:space="preserve">
-    <value>Zaženi</value>
-  </data>
-  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>249, 26</value>
+    <value>Začni</value>
   </data>
   <data name="openToolStripMenuItem.Text" xml:space="preserve">
     <value>Odpri</value>
   </data>
-  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>249, 26</value>
-  </data>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Izhod (srednja miška)</value>
+    <value>Izhod (srednja miškina tipka)</value>
+  </data>
+  <data name="openProfiles.Filter" xml:space="preserve">
+    <value>XML datoteke (*.xml)|*.xml</value>
   </data>
   <data name="tabControllers.Text" xml:space="preserve">
     <value>Krmilniki</value>
   </data>
-  <data name="bnLight3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1079, 94</value>
+  <data name="tabProfiles.Text" xml:space="preserve">
+    <value>Profili</value>
   </data>
-  <data name="bnLight3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 28</value>
+  <data name="tabAutoProfiles.Text" xml:space="preserve">
+    <value>Samodejni profili</value>
   </data>
-  <data name="pBStatus1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>526, 26</value>
+  <data name="hideDS4CheckBox.Text" xml:space="preserve">
+    <value>Skrij krmilnik DS4</value>
   </data>
-  <data name="bnEditC3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1025, 94</value>
+  <data name="cBSwipeProfiles.Text" xml:space="preserve">
+    <value>Podrsnite po sledilni ploščici za menjavo profilov</value>
+  </data>
+  <data name="StartWindowsCheckBox.Text" xml:space="preserve">
+    <value>Zaženi ob prijavi</value>
+  </data>
+  <data name="startMinimizedCheckBox.Text" xml:space="preserve">
+    <value>Zaženi minimizirano</value>
+  </data>
+  <data name="cBDisconnectBT.Text" xml:space="preserve">
+    <value>Odklopi od Bluetootha ob izhodu</value>
+  </data>
+  <data name="cBCloseMini.Text" xml:space="preserve">
+    <value>Minimiziraj ob zaprtju</value>
+  </data>
+  <data name="cBQuickCharge.Text" xml:space="preserve">
+    <value>Hitro polnjenje</value>
+  </data>
+  <data name="cBUseWhiteIcon.Text" xml:space="preserve">
+    <value>Uporabi belo ikono v območju za obvestila</value>
+  </data>
+  <data name="cBUpdate.Text" xml:space="preserve">
+    <value>Preveri za posodobitve ob zagonu</value>
+  </data>
+  <data name="languagePackComboBox1.LabelText" xml:space="preserve">
+    <value>Uporabi jezikovni paket</value>
+  </data>
+  <data name="lbPad2.Text" xml:space="preserve">
+    <value>Krmilnik 2</value>
   </data>
   <data name="bnEditC3.Text" xml:space="preserve">
     <value>Uredi</value>
   </data>
-  <data name="bnEditC4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1025, 130</value>
-  </data>
   <data name="bnEditC4.Text" xml:space="preserve">
     <value>Uredi</value>
   </data>
-  <data name="cBController1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>879, 23</value>
+  <data name="lbPad3.Text" xml:space="preserve">
+    <value>Krmilnik 3</value>
   </data>
-  <data name="bnEditC2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1025, 58</value>
+  <data name="lbPad4.Text" xml:space="preserve">
+    <value>Krmilnik 4</value>
   </data>
   <data name="bnEditC2.Text" xml:space="preserve">
     <value>Uredi</value>
   </data>
-  <data name="cBController2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>879, 59</value>
-  </data>
-  <data name="cBController3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>879, 95</value>
-  </data>
-  <data name="bnEditC1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1025, 22</value>
-  </data>
   <data name="bnEditC1.Text" xml:space="preserve">
     <value>Uredi</value>
   </data>
-  <data name="cBController4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>879, 131</value>
-  </data>
-  <data name="lbSelectedProfile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>900, 0</value>
-  </data>
-  <data name="lbSelectedProfile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 18</value>
-  </data>
   <data name="lbSelectedProfile.Text" xml:space="preserve">
-    <value>Izberi račun</value>
+    <value>Izbrani profil</value>
   </data>
-  <data name="lbStatus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>517, 0</value>
+  <data name="lbID.Text" xml:space="preserve">
+    <value>ID</value>
   </data>
-  <data name="lbBattery.Location" type="System.Drawing.Point, System.Drawing">
-    <value>736, 0</value>
-  </data>
-  <data name="lbBattery.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 18</value>
+  <data name="lbStatus.Text" xml:space="preserve">
+    <value>Stanje</value>
   </data>
   <data name="lbBattery.Text" xml:space="preserve">
     <value>Baterija</value>
   </data>
-  <data name="lbBatt1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>746, 27</value>
-  </data>
-  <data name="lbBatt2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>746, 63</value>
-  </data>
-  <data name="lbBatt3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>746, 99</value>
-  </data>
-  <data name="lbBatt4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>746, 135</value>
-  </data>
-  <data name="pBStatus2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>526, 62</value>
-  </data>
-  <data name="pBStatus3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>526, 98</value>
-  </data>
-  <data name="pBStatus4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>526, 134</value>
-  </data>
-  <data name="bnLight1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1079, 22</value>
-  </data>
-  <data name="bnLight1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 28</value>
-  </data>
-  <data name="bnLight2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1079, 58</value>
-  </data>
-  <data name="bnLight2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 28</value>
-  </data>
-  <data name="bnLight4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1079, 130</value>
-  </data>
-  <data name="bnLight4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 28</value>
+  <data name="lbLinkProfile.Text" xml:space="preserve">
+    <value>Poveži profil z ID</value>
   </data>
   <data name="lbNoControllers.Text" xml:space="preserve">
-    <value>Ni povezanih Krmilnikov (Max 4)</value>
-  </data>
-  <data name="tabProfiles.Text" xml:space="preserve">
-    <value>Računi</value>
-  </data>
-  <data name="cMProfile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 264</value>
-  </data>
-  <data name="editToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 26</value>
+    <value>Povezan ni noben krmilnik (od štirih možnih)</value>
   </data>
   <data name="editToolStripMenuItem.Text" xml:space="preserve">
     <value>Uredi</value>
   </data>
-  <data name="assignToController1ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 26</value>
-  </data>
   <data name="assignToController1ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Dodeli Krmilniku 1</value>
-  </data>
-  <data name="assignToController2ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 26</value>
+    <value>Dodeli krmilniku 1</value>
   </data>
   <data name="assignToController2ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Dodeli Krmilniku 2</value>
-  </data>
-  <data name="assignToController3ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 26</value>
+    <value>Dodeli krmilniku 2</value>
   </data>
   <data name="assignToController3ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Dodeli Krmilniku 3</value>
-  </data>
-  <data name="assignToController4ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 26</value>
+    <value>Dodeli krmilniku 3</value>
   </data>
   <data name="assignToController4ToolStripMenuItem.Text" xml:space="preserve">
-    <value>Dodeli Krmilniku 4</value>
-  </data>
-  <data name="deleteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 26</value>
+    <value>Dodeli krmilniku 4</value>
   </data>
   <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
     <value>Izbriši (Del)</value>
   </data>
-  <data name="duplicateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 26</value>
-  </data>
   <data name="duplicateToolStripMenuItem.Text" xml:space="preserve">
     <value>Podvoji (Ctrl+D)</value>
   </data>
-  <data name="newProfileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 26</value>
-  </data>
   <data name="newProfileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Nov račun</value>
-  </data>
-  <data name="importToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 26</value>
+    <value>Nov profil</value>
   </data>
   <data name="importToolStripMenuItem.Text" xml:space="preserve">
     <value>Uvozi</value>
-  </data>
-  <data name="exportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 26</value>
   </data>
   <data name="exportToolStripMenuItem.Text" xml:space="preserve">
     <value>Izvozi</value>
   </data>
   <data name="tSOptions.Text" xml:space="preserve">
-    <value>Možnosti računa</value>
-  </data>
-  <data name="toolStripLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 24</value>
+    <value>Možnosti profila</value>
   </data>
   <data name="toolStripLabel1.Text" xml:space="preserve">
-    <value>Ime računa:</value>
-  </data>
-  <data name="tSTBProfile.Text" xml:space="preserve">
-    <value>&lt;tukaj napiši ime računa&gt;</value>
-  </data>
-  <data name="tSBSaveProfile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 24</value>
+    <value>Ime profila:</value>
   </data>
   <data name="tSBSaveProfile.Text" xml:space="preserve">
-    <value>Shrani račun</value>
-  </data>
-  <data name="tSBCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 24</value>
+    <value>Shrani profil</value>
   </data>
   <data name="tSBCancel.Text" xml:space="preserve">
     <value>Prekliči</value>
   </data>
-  <data name="tSBKeepSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>258, 24</value>
-  </data>
   <data name="tSBKeepSize.Text" xml:space="preserve">
-    <value>Obdrži to velikost okna ob zaprtju</value>
-  </data>
-  <data name="tsBNewProfle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 24</value>
+    <value>Zapomni si velikost okna</value>
   </data>
   <data name="tsBNewProfle.Text" xml:space="preserve">
-    <value>Novo</value>
+    <value>Nov</value>
   </data>
   <data name="tsBNewProfle.ToolTipText" xml:space="preserve">
-    <value>Naredi nov račun</value>
-  </data>
-  <data name="tsBEditProfile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 24</value>
+    <value>Ustvari nov profil</value>
   </data>
   <data name="tsBEditProfile.Text" xml:space="preserve">
     <value>Uredi</value>
   </data>
   <data name="tsBEditProfile.ToolTipText" xml:space="preserve">
-    <value>Uredi izbrani račun (Enter)</value>
-  </data>
-  <data name="tsBDeleteProfile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 24</value>
+    <value>Uredi izbrani profil (Enter)</value>
   </data>
   <data name="tsBDeleteProfile.Text" xml:space="preserve">
     <value>Izbriši</value>
   </data>
   <data name="tsBDeleteProfile.ToolTipText" xml:space="preserve">
-    <value>Izbriši izbrani račun (Delete)</value>
-  </data>
-  <data name="tSBDupProfile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 24</value>
+    <value>Izbriši izbrani profil (Del)</value>
   </data>
   <data name="tSBDupProfile.Text" xml:space="preserve">
     <value>Podvoji</value>
   </data>
   <data name="tSBDupProfile.ToolTipText" xml:space="preserve">
-    <value>Podvoji izbrani račun (Ctrl+D)</value>
-  </data>
-  <data name="tSBImportProfile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 24</value>
+    <value>Podvoji izbrani profil (Ctrl+D)</value>
   </data>
   <data name="tSBImportProfile.Text" xml:space="preserve">
     <value>Uvozi</value>
   </data>
   <data name="tSBImportProfile.ToolTipText" xml:space="preserve">
-    <value>Uvozi račun/e</value>
-  </data>
-  <data name="tSBExportProfile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 24</value>
+    <value>Uvozi profile</value>
   </data>
   <data name="tSBExportProfile.Text" xml:space="preserve">
     <value>Izvozi</value>
   </data>
   <data name="tSBExportProfile.ToolTipText" xml:space="preserve">
-    <value>Izvozi izbrani račun</value>
+    <value>Izvozi izbrani profil</value>
   </data>
-  <data name="tabAutoProfiles.Text" xml:space="preserve">
-    <value>Avtomatični računi</value>
+  <data name="runStartTaskRadio.Text" xml:space="preserve">
+    <value>Opravilo</value>
   </data>
-  <data name="tabSettings.Text" xml:space="preserve">
-    <value>Nastavitve</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Zaženi kot:</value>
   </data>
-  <data name="hideDS4CheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 21</value>
-  </data>
-  <data name="hideDS4CheckBox.Text" xml:space="preserve">
-    <value>Skrij DS4 Krmilnik</value>
-  </data>
-  <data name="cBSwipeProfiles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>318, 21</value>
-  </data>
-  <data name="cBSwipeProfiles.Text" xml:space="preserve">
-    <value>Podrsaj po Touchpad-u za zamenjavo računa</value>
-  </data>
-  <data name="StartWindowsCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 21</value>
-  </data>
-  <data name="StartWindowsCheckBox.Text" xml:space="preserve">
-    <value>Zaženi ob odprtju programa</value>
-  </data>
-  <data name="startMinimizedCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 21</value>
-  </data>
-  <data name="startMinimizedCheckBox.Text" xml:space="preserve">
-    <value>Zaženi pomanjšnice</value>
-  </data>
-  <data name="lbNotifications.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 17</value>
+  <data name="runStartProgRadio.Text" xml:space="preserve">
+    <value>Program</value>
   </data>
   <data name="lbNotifications.Text" xml:space="preserve">
-    <value>Pokaži obvestila</value>
-  </data>
-  <data name="cBoxNotifications.Items" xml:space="preserve">
-    <value>Noben</value>
+    <value>Prikaži obvestila</value>
   </data>
   <data name="cBoxNotifications.Items1" xml:space="preserve">
     <value>Samo opozorila</value>
@@ -499,136 +330,70 @@
   <data name="cBoxNotifications.Items2" xml:space="preserve">
     <value>Vse</value>
   </data>
-  <data name="cBDisconnectBT.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 21</value>
-  </data>
-  <data name="cBDisconnectBT.Text" xml:space="preserve">
-    <value>Odklopi od Bluetooth-a ob ustavitvi</value>
-  </data>
-  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>299, 28</value>
-  </data>
-  <data name="nUDLatency.Location" type="System.Drawing.Point, System.Drawing">
-    <value>207, 2</value>
-  </data>
-  <data name="lbMsLatency.Location" type="System.Drawing.Point, System.Drawing">
-    <value>270, 5</value>
-  </data>
-  <data name="cBFlashWhenLate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 21</value>
+  <data name="lbMsLatency.Text" xml:space="preserve">
+    <value>ms</value>
   </data>
   <data name="cBFlashWhenLate.Text" xml:space="preserve">
-    <value>Utripaj z lučko ob zakasnitvi</value>
-  </data>
-  <data name="cBCloseMini.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 21</value>
-  </data>
-  <data name="cBCloseMini.Text" xml:space="preserve">
-    <value>Zapri pomanjšnice</value>
-  </data>
-  <data name="cBQuickCharge.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 21</value>
-  </data>
-  <data name="cBQuickCharge.Text" xml:space="preserve">
-    <value>Hitro polnjenje</value>
-  </data>
-  <data name="cBDownloadLangauge.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 21</value>
-  </data>
-  <data name="cBDownloadLangauge.Text" xml:space="preserve">
-    <value>Prenesite jezikovni paket z posodobitvami</value>
-  </data>
-  <data name="cBUpdate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 21</value>
-  </data>
-  <data name="cBUpdate.Text" xml:space="preserve">
-    <value>Preglej za posodobitve ob zagonu</value>
+    <value>Pobliskuj z osvetlitvijo ob visoki zakasnitvi</value>
   </data>
   <data name="cBUpdateTime.Items" xml:space="preserve">
-    <value>ur</value>
+    <value>ure</value>
   </data>
   <data name="cBUpdateTime.Items1" xml:space="preserve">
     <value>dni</value>
   </data>
-  <data name="lbCheckEvery.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 17</value>
-  </data>
   <data name="lbCheckEvery.Text" xml:space="preserve">
-    <value>Preglej vsako</value>
-  </data>
-  <data name="pnlXIPorts.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 28</value>
-  </data>
-  <data name="lbUseXIPorts.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 17</value>
+    <value>Preveri na</value>
   </data>
   <data name="lbUseXIPorts.Text" xml:space="preserve">
-    <value>Uporabi Xinput vhode</value>
-  </data>
-  <data name="nUDXIPorts.Location" type="System.Drawing.Point, System.Drawing">
-    <value>155, 1</value>
-  </data>
-  <data name="lbLastXIPort.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 4</value>
-  </data>
-  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>339, 13</value>
-  </data>
-  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 85</value>
-  </data>
-  <data name="linkProfiles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 17</value>
+    <value>Xinput vrata</value>
   </data>
   <data name="linkProfiles.Text" xml:space="preserve">
-    <value>Mapa z računi (profili)</value>
-  </data>
-  <data name="lnkControllers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 17</value>
+    <value>Mapa profilov</value>
   </data>
   <data name="lnkControllers.Text" xml:space="preserve">
     <value>Nadzorna plošča</value>
   </data>
-  <data name="linkUninstall.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 17</value>
-  </data>
   <data name="linkUninstall.Text" xml:space="preserve">
-    <value>Odstrani VBus gonilnik</value>
-  </data>
-  <data name="linkSetup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 17</value>
+    <value>Odstrani gonilnik za VBus</value>
   </data>
   <data name="linkSetup.Text" xml:space="preserve">
-    <value>Krmilnik/Gonilnik namestitev</value>
-  </data>
-  <data name="lLBUpdate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 17</value>
+    <value>Namestitev krmilnika/gonilnika</value>
   </data>
   <data name="lLBUpdate.Text" xml:space="preserve">
-    <value>Preglej za posodobitev</value>
+    <value>Preveri za posodobitve</value>
+  </data>
+  <data name="exportLogTxtBtn.Text" xml:space="preserve">
+    <value>Izvozi</value>
+  </data>
+  <data name="saveProfiles.Filter" xml:space="preserve">
+    <value>XML datoteke (*.xml)|*.xml</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>DS4Windows</value>
+  </data>
+  <data name="llbHelp.Text" xml:space="preserve">
+    <value>Bližnjice/Vizitka</value>
+  </data>
+  <data name="tabSettings.Text" xml:space="preserve">
+    <value>Nastavitve</value>
   </data>
   <data name="tabLog.Text" xml:space="preserve">
-    <value>Logaritem</value>
+    <value>Dnevnik</value>
   </data>
-  <data name="cMCustomLed.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 56</value>
+  <data name="tSTBProfile.Text" xml:space="preserve">
+    <value>&lt;vnesite ime profila&gt;</value>
   </data>
-  <data name="useProfileColorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>236, 26</value>
+  <data name="cBoxNotifications.Items" xml:space="preserve">
+    <value>Noben</value>
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>Počisti</value>
   </data>
   <data name="useProfileColorToolStripMenuItem.Text" xml:space="preserve">
-    <value>Uporabi barvo računa</value>
-  </data>
-  <data name="useCustomColorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>236, 26</value>
+    <value>Uporabi barvo profila</value>
   </data>
   <data name="useCustomColorToolStripMenuItem.Text" xml:space="preserve">
     <value>Uporabi barvo po meri</value>
-  </data>
-  <data name="lbID.Text" xml:space="preserve">
-    <value>ID</value>
-  </data>
-  <data name="lbStatus.Text" xml:space="preserve">
-    <value>Status</value>
   </data>
 </root>

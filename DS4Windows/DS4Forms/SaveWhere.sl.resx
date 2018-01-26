@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,24 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="bnAppdataFolder.Text" xml:space="preserve">
-    <value>Podatki aplikacije</value>
+    <value>Appdata</value>
   </data>
   <data name="bnPrgmFolder.Text" xml:space="preserve">
-    <value>Mapa z programom</value>
+    <value>Programska mapa</value>
   </data>
   <data name="cBDeleteOther.Text" xml:space="preserve">
-    <value>Ne izbriši ostalih nastavitev (še)</value>
+    <value>Ne izbriši še
+ostalih nastavitev</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Za tiste, ki imajo raje prenosen program: Ta možnost ne deluje, če ste v admin mapi w/o UAC</value>
+    <value>Za tiste, ki imajo raje prenosen program. Opomba: imeti morate pravico zapisovanja v mapo, kjer se nahaja DS4Windows</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Za tiste, ki imajo raje navadne namestitvene nastavitve shranjeno na %appdata%/ds4tool</value>
+    <value>Za tiste, ki imajo nastavitve raje shranjene v %appdata%/ds4tool</value>
   </data>
   <data name="lbMultiSaves.Text" xml:space="preserve">
-    <value>Več shranjenih mest najdeno</value>
+    <value>Zaznanih je bilo več mest za shranjevanje</value>
   </data>
   <data name="lbPickWhere.Text" xml:space="preserve">
-    <value>izberi kje bodo shranjene nastavitve in računi</value>
+    <value>Izberite, kje naj se shranjujejo nastavitve in profili</value>
   </data>
 </root>

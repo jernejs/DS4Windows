@@ -124,6 +124,9 @@
     <value>Shrani</value>
   </data>
   <data name="tBProfile.Text" xml:space="preserve">
-    <value>&lt;tukaj napiši novo ime&gt;</value>
+    <value>&lt;vnesite novo ime&gt;</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Vnesite ime novega profila</value>
   </data>
 </root>

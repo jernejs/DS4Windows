@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -131,7 +131,7 @@
     <value>50, 17</value>
   </data>
   <data name="lbHeavy.Text" xml:space="preserve">
-    <value>Močno</value>
+    <value>Grobo</value>
   </data>
   <data name="lbLight.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 17</value>
@@ -140,7 +140,7 @@
     <value>Nežno</value>
   </data>
   <data name="bnTest.Text" xml:space="preserve">
-    <value>Testiraj</value>
+    <value>Preizkusi</value>
   </data>
   <data name="cBScanCode.Location" type="System.Drawing.Point, System.Drawing">
     <value>812, 10</value>
@@ -149,19 +149,20 @@
     <value>116, 21</value>
   </data>
   <data name="cBScanCode.Text" xml:space="preserve">
-    <value>Skeniraj kodo</value>
+    <value>Koda tipke</value>
   </data>
   <data name="lBTip.Text" xml:space="preserve">
-    <value>Lahko tudi izbereš tipko s tem, da jo pritisneš</value>
+    <value>Tipko lahko izberete tudi tako, 
+da jo pritisnete</value>
   </data>
   <data name="btnGuide.Text" xml:space="preserve">
-    <value>Vodnik</value>
+    <value>Vodilo</value>
   </data>
   <data name="X360Label.Size" type="System.Drawing.Size, System.Drawing">
     <value>83, 17</value>
   </data>
   <data name="X360Label.Text" xml:space="preserve">
-    <value>X360 gumbi</value>
+    <value>Gumbi X360</value>
   </data>
   <data name="KBMlabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>131, 17</value>
@@ -173,10 +174,10 @@
     <value>411, 17</value>
   </data>
   <data name="lBMacroOn.Text" xml:space="preserve">
-    <value>Macro je vklopljen; Izberi tipko za izklop; zapri okno za shranitev</value>
+    <value>Makro vklopljen, izberite tipko za izklop, ali zaprite to okno za shranjevanje</value>
   </data>
   <data name="bnMacro.Text" xml:space="preserve">
-    <value>Zapiši "a macro"</value>
+    <value>Posnemi makro</value>
   </data>
   <data name="cBToggle.Location" type="System.Drawing.Point, System.Drawing">
     <value>731, 10</value>
@@ -191,7 +192,7 @@
     <value>Privzeto</value>
   </data>
   <data name="btnUNBOUND.Text" xml:space="preserve">
-    <value>Brez obvez</value>
+    <value>Ni povezano</value>
   </data>
   <data name="gBExtras.Text" xml:space="preserve">
     <value>Dodatki</value>
@@ -203,7 +204,7 @@
     <value>112, 21</value>
   </data>
   <data name="cBLightbar.Text" xml:space="preserve">
-    <value>Spremeni luč</value>
+    <value>Spremeni osvetlitev</value>
   </data>
   <data name="rBRegular.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 21</value>
@@ -215,10 +216,10 @@
     <value>130, 21</value>
   </data>
   <data name="rBShiftModifer.Text" xml:space="preserve">
-    <value>Shift modifikator</value>
+    <value>Modifikator Shift</value>
   </data>
   <data name="cBShiftButton.Items" xml:space="preserve">
-    <value>Izberi Shift gumb</value>
+    <value>Izberite prožilec Shift</value>
   </data>
   <data name="lbBlue.Text" xml:space="preserve">
     <value>B</value>
@@ -228,5 +229,71 @@
   </data>
   <data name="lbRed.Text" xml:space="preserve">
     <value>R</value>
+  </data>
+  <data name="button5.Text" xml:space="preserve">
+    <value>→Desno</value>
+  </data>
+  <data name="button7.Text" xml:space="preserve">
+    <value>↑Gor</value>
+  </data>
+  <data name="button4.Text" xml:space="preserve">
+    <value>←Levo</value>
+  </data>
+  <data name="button6.Text" xml:space="preserve">
+    <value>↓Dol</value>
+  </data>
+  <data name="cBShiftButton.Items1" xml:space="preserve">
+    <value>Križec</value>
+  </data>
+  <data name="cBShiftButton.Items2" xml:space="preserve">
+    <value>Krog</value>
+  </data>
+  <data name="cBShiftButton.Items3" xml:space="preserve">
+    <value>Kvadrat</value>
+  </data>
+  <data name="cBShiftButton.Items4" xml:space="preserve">
+    <value>Trikotnik</value>
+  </data>
+  <data name="cBShiftButton.Items7" xml:space="preserve">
+    <value>Gor</value>
+  </data>
+  <data name="cBShiftButton.Items8" xml:space="preserve">
+    <value>Dol</value>
+  </data>
+  <data name="cBShiftButton.Items9" xml:space="preserve">
+    <value>Levo</value>
+  </data>
+  <data name="cBShiftButton.Items10" xml:space="preserve">
+    <value>Desno</value>
+  </data>
+  <data name="cBShiftButton.Items18" xml:space="preserve">
+    <value>Levi dotik</value>
+  </data>
+  <data name="cBShiftButton.Items19" xml:space="preserve">
+    <value>Zgornji dotik</value>
+  </data>
+  <data name="cBShiftButton.Items20" xml:space="preserve">
+    <value>Dotik z večimi prsti</value>
+  </data>
+  <data name="cBShiftButton.Items21" xml:space="preserve">
+    <value>Desni dotik</value>
+  </data>
+  <data name="cBShiftButton.Items22" xml:space="preserve">
+    <value>Sixaxis gor</value>
+  </data>
+  <data name="cBShiftButton.Items23" xml:space="preserve">
+    <value>Sixaxis dol</value>
+  </data>
+  <data name="cBShiftButton.Items24" xml:space="preserve">
+    <value>Sixaxis levo</value>
+  </data>
+  <data name="cBShiftButton.Items25" xml:space="preserve">
+    <value>Sixaxis desno</value>
+  </data>
+  <data name="cBShiftButton.Items26" xml:space="preserve">
+    <value>Dotik drsne ploščice</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Tipkovnica</value>
   </data>
 </root>

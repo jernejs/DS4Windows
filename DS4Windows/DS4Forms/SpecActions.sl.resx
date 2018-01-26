@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,79 +118,79 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="btnBrowse.Text" xml:space="preserve">
-    <value>Brskanje...</value>
+    <value>Prebrskaj...</value>
   </data>
   <data name="btnCancel.Text" xml:space="preserve">
     <value>Prekliči</value>
   </data>
   <data name="btnRecordMacro.Text" xml:space="preserve">
-    <value>Zapiši " a macro"</value>
+    <value>Posnemi makro</value>
   </data>
   <data name="btnSave.Text" xml:space="preserve">
     <value>Shrani</value>
   </data>
   <data name="btnSelectKey.Text" xml:space="preserve">
-    <value>izberi ključ</value>
+    <value>Izberi tipko</value>
   </data>
   <data name="btnSetUTriggerKeys.Text" xml:space="preserve">
-    <value>Nastavi sprožilec za odnaložitev</value>
+    <value>Nastavi sprožilec za izklop</value>
   </data>
   <data name="btnSetUTriggerProfile.Text" xml:space="preserve">
-    <value>Nstavi sprožilec za odnaložitev</value>
+    <value>Nastavi sprožilec za izklop</value>
   </data>
   <data name="cBActions.Items" xml:space="preserve">
     <value>-Izberi dejanje-</value>
   </data>
   <data name="cBActions.Items1" xml:space="preserve">
-    <value>Zapiši " a macro"</value>
+    <value>Posnemi makro</value>
   </data>
   <data name="cBActions.Items2" xml:space="preserve">
     <value>Zaženi program</value>
   </data>
   <data name="cBActions.Items3" xml:space="preserve">
-    <value>Naloži račun</value>
+    <value>Naloži profil</value>
   </data>
   <data name="cBActions.Items4" xml:space="preserve">
-    <value>Pritisni tipko</value>
+    <value>Pritisni/preklopi tipko</value>
   </data>
   <data name="cBActions.Items5" xml:space="preserve">
-    <value>Odklopi od Bluetooth-a</value>
+    <value>Odklopi od Bluetootha</value>
   </data>
   <data name="cBActions.Items6" xml:space="preserve">
-    <value>Preveri življenje baterije</value>
+    <value>Preveri stanje baterije</value>
   </data>
   <data name="cbLightbarBatt.Text" xml:space="preserve">
-    <value>preko luči</value>
+    <value>preko osvetlitve</value>
   </data>
   <data name="cBMacroScanCode.Text" xml:space="preserve">
-    <value>Skeniraj kodo</value>
+    <value>Koda tipke</value>
   </data>
   <data name="cBNotificationBatt.Text" xml:space="preserve">
     <value>preko obvestila</value>
   </data>
   <data name="cBPressRelease.Items" xml:space="preserve">
-    <value>pritiskom sprožilca za odnaložitev</value>
+    <value>pritiskanje sprožilca za izklop</value>
   </data>
   <data name="cBPressRelease.Items1" xml:space="preserve">
-    <value>sprostitvijo sprožilca za odnaložitev</value>
+    <value>sproščanje sprožilca za izklop</value>
   </data>
   <data name="cHTrigger.Text" xml:space="preserve">
-    <value>Sprožilec</value>
+    <value>Petelin</value>
   </data>
   <data name="cHUnloadTrigger.Text" xml:space="preserve">
-    <value>Sprožilec za odnaložitev</value>
+    <value>Sprožilec za izklop</value>
   </data>
   <data name="lbArg.Text" xml:space="preserve">
-    <value>Argumenti</value>
+    <value>Parametri</value>
   </data>
   <data name="lbDTapDVR.Text" xml:space="preserve">
-    <value>Dvojni klik na sprožilec</value>
+    <value>Sprožilec ob dvotapu</value>
   </data>
   <data name="lbHoldDVR.Text" xml:space="preserve">
-    <value>Drži sprožilec</value>
+    <value>Sprožilec ob držanju</value>
   </data>
   <data name="lbHoldFor.Text" xml:space="preserve">
-    <value>Drži za</value>
+    <value>Drži</value>
   </data>
   <data name="lbName.Text" xml:space="preserve">
     <value>Ime</value>
@@ -199,9 +199,21 @@
     <value>sek.</value>
   </data>
   <data name="lbTapDVR.Text" xml:space="preserve">
-    <value>Pritisni sprožilec</value>
+    <value>Sprožilec ob tapu</value>
   </data>
   <data name="lbUnloadTipKey.Text" xml:space="preserve">
     <value>odklopi tipko od</value>
+  </data>
+  <data name="cBActions.Items7" xml:space="preserve">
+    <value>Gumb z večimi dejanji</value>
+  </data>
+  <data name="btnDTapT.Text" xml:space="preserve">
+    <value>Izberi makro</value>
+  </data>
+  <data name="btnHoldT.Text" xml:space="preserve">
+    <value>Izberi makro</value>
+  </data>
+  <data name="btnSTapT.Text" xml:space="preserve">
+    <value>Izberi makro</value>
   </data>
 </root>
