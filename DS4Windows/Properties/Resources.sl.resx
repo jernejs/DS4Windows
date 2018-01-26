@@ -292,7 +292,7 @@
     <value>Žiroskop Z, nagibanje navzgor in navzdol</value>
   </data>
   <data name="Hour" xml:space="preserve">
-    <value>ura</value>
+    <value>uro</value>
   </data>
   <data name="Hours" xml:space="preserve">
     <value>ure</value>
@@ -460,10 +460,10 @@
     <value>1. korak: namesti gonilnik za DS4</value>
   </data>
   <data name="StopHText" xml:space="preserve">
-    <value>Ustavi grobi motor</value>
+    <value>Ustavi grobo</value>
   </data>
   <data name="StopLText" xml:space="preserve">
-    <value>Ustavi nežni motor</value>
+    <value>Ustavi nežno</value>
   </data>
   <data name="StoppedDS4Windows" xml:space="preserve">
     <value>Ustavil DS4Windows</value>
@@ -496,10 +496,10 @@
     <value>Tapnite in pridržite za vlečenje</value>
   </data>
   <data name="TestHText" xml:space="preserve">
-    <value>Preizkusi grobi motor</value>
+    <value>Preizkusi grobo</value>
   </data>
   <data name="TestLText" xml:space="preserve">
-    <value>Preizkusi nežni motor</value>
+    <value>Preizkusi nežno</value>
   </data>
   <data name="TestText" xml:space="preserve">
     <value>Preizkusi</value>

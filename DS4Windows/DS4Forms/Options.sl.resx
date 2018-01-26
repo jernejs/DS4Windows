@@ -516,7 +516,7 @@ s profilom</value>
     <value>Žiroskop</value>
   </data>
   <data name="tPControls.Text" xml:space="preserve">
-    <value>Kontrolniki</value>
+    <value>Kontrolnik</value>
   </data>
   <data name="lbControlTip.Text" xml:space="preserve">
     <value>Klikni osvetlitev za izbiro barve</value>
@@ -1032,7 +1032,7 @@ s profilom</value>
     <value>Desno</value>
   </data>
   <data name="optionsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Možnosti</value>
+    <value>Options</value>
   </data>
   <data name="crossTouchInvStripMenuItem.Text" xml:space="preserve">
     <value>Križec</value>

@@ -334,7 +334,7 @@
     <value>ms</value>
   </data>
   <data name="cBFlashWhenLate.Text" xml:space="preserve">
-    <value>Pobliskuj z osvetlitvijo ob visoki zakasnitvi</value>
+    <value>Bliskaj ob visoki zakasnitvi</value>
   </data>
   <data name="cBUpdateTime.Items" xml:space="preserve">
     <value>ure</value>
@@ -395,5 +395,29 @@
   </data>
   <data name="useCustomColorToolStripMenuItem.Text" xml:space="preserve">
     <value>Uporabi barvo po meri</value>
+  </data>
+  <data name="bnEditC1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 22</value>
+  </data>
+  <data name="bnEditC2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 22</value>
+  </data>
+  <data name="bnEditC3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 22</value>
+  </data>
+  <data name="bnEditC4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 22</value>
+  </data>
+  <data name="lbBatt1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 15</value>
+  </data>
+  <data name="lbBatt2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 15</value>
+  </data>
+  <data name="lbBatt3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 15</value>
+  </data>
+  <data name="lbBatt4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 15</value>
   </data>
 </root>

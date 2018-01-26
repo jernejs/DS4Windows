@@ -231,16 +231,16 @@ da jo pritisnete</value>
     <value>R</value>
   </data>
   <data name="button5.Text" xml:space="preserve">
-    <value>→Desno</value>
+    <value>→</value>
   </data>
   <data name="button7.Text" xml:space="preserve">
-    <value>↑Gor</value>
+    <value>↑</value>
   </data>
   <data name="button4.Text" xml:space="preserve">
-    <value>←Levo</value>
+    <value>←</value>
   </data>
   <data name="button6.Text" xml:space="preserve">
-    <value>↓Dol</value>
+    <value>↓</value>
   </data>
   <data name="cBShiftButton.Items1" xml:space="preserve">
     <value>Križec</value>
@@ -295,5 +295,11 @@ da jo pritisnete</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Tipkovnica</value>
+  </data>
+  <data name="btnBACKSPACE.Text" xml:space="preserve">
+    <value>Vračalka</value>
+  </data>
+  <data name="btnSPACE.Text" xml:space="preserve">
+    <value>Preslednica</value>
   </data>
 </root>

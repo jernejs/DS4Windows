@@ -118,16 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="addDirectoryToolStripMenuItem.Text" xml:space="preserve">
-    <value>Dodaj imenik</value>
+    <value>Izberi mapo</value>
   </data>
   <data name="addOriginGamesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Dodaj igre iz Origina</value>
+    <value>Igre iz Origina</value>
   </data>
   <data name="addProgramsFromStartMenuToolStripMenuItem.Text" xml:space="preserve">
-    <value>Dodaj programe menija Start</value>
+    <value>Iz menija Start</value>
   </data>
   <data name="addSteamGamesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Dodaj igre iz Steama</value>
+    <value>Igre iz Steama</value>
   </data>
   <data name="bnAddPrograms.Text" xml:space="preserve">
     <value>Dodaj programe</value>
@@ -142,7 +142,7 @@
     <value>Shrani</value>
   </data>
   <data name="browseForOtherProgramsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Poišči druge programe</value>
+    <value>Izberi poljubni program</value>
   </data>
   <data name="lBController1.Text" xml:space="preserve">
     <value>Krmilnik 1</value>
