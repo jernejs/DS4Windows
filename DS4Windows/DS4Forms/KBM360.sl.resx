@@ -117,39 +117,159 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnINS.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6pt</value>
+  </data>
+  <data name="btnINS.Text" xml:space="preserve">
+    <value>Ins</value>
+  </data>
+  <data name="btnHOME.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6pt</value>
+  </data>
+  <data name="btnHOME.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="btnPGUP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6pt</value>
+  </data>
+  <data name="btnPGUP.Text" xml:space="preserve">
+    <value>PgUp</value>
+  </data>
+  <data name="btnBACKSPACE.Text" xml:space="preserve">
+    <value>Vračalka</value>
+  </data>
+  <data name="btnPGDN.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6pt</value>
+  </data>
+  <data name="btnPGDN.Text" xml:space="preserve">
+    <value>PgDn</value>
+  </data>
+  <data name="btnEND.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6pt</value>
+  </data>
+  <data name="btnEND.Text" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="btnDEL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6pt</value>
+  </data>
+  <data name="btnDEL.Text" xml:space="preserve">
+    <value>Del</value>
+  </data>
+  <data name="btnSCL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6pt</value>
+  </data>
+  <data name="btnSCL.Text" xml:space="preserve">
+    <value>Scroll Lock</value>
+  </data>
+  <data name="button34.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6pt</value>
+  </data>
+  <data name="button34.Text" xml:space="preserve">
+    <value>PrtSc</value>
+  </data>
+  <data name="btnVolUp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="btnVolUp.Text" xml:space="preserve">
+    <value>↑ 🔊</value>
+  </data>
+  <data name="button39.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="button39.Text" xml:space="preserve">
+    <value>↓ 🔈</value>
+  </data>
+  <data name="button35.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt</value>
+  </data>
+  <data name="button35.Text" xml:space="preserve">
+    <value>🔇</value>
+  </data>
+  <data name="btnSPACE.Text" xml:space="preserve">
+    <value>Preslednica</value>
+  </data>
+  <data name="btnBREAK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 6pt</value>
+  </data>
+  <data name="btnBREAK.Text" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="btnNUMLOCK.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 5pt</value>
+  </data>
+  <data name="lbFlashRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 477</value>
+  </data>
+  <data name="lbFlashRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 29</value>
+  </data>
   <data name="lbFlashRate.Text" xml:space="preserve">
     <value>Hitrost utripanja</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lbRumble.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 17</value>
+    <value>116, 29</value>
   </data>
   <data name="lbRumble.Text" xml:space="preserve">
     <value>Vibriranje</value>
   </data>
   <data name="lbHeavy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 17</value>
+    <value>81, 29</value>
   </data>
   <data name="lbHeavy.Text" xml:space="preserve">
     <value>Grobo</value>
   </data>
   <data name="lbLight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 17</value>
+    <value>83, 29</value>
   </data>
   <data name="lbLight.Text" xml:space="preserve">
     <value>Nežno</value>
   </data>
+  <data name="nUDLightFlash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 470</value>
+  </data>
+  <data name="button5.Text" xml:space="preserve">
+    <value>→</value>
+  </data>
+  <data name="lbBlue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 29</value>
+  </data>
+  <data name="lbBlue.Text" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="lbGreen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 29</value>
+  </data>
+  <data name="lbGreen.Text" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="button7.Text" xml:space="preserve">
+    <value>↑</value>
+  </data>
   <data name="bnTest.Text" xml:space="preserve">
     <value>Preizkusi</value>
   </data>
+  <data name="button4.Text" xml:space="preserve">
+    <value>←</value>
+  </data>
+  <data name="button6.Text" xml:space="preserve">
+    <value>↓</value>
+  </data>
   <data name="cBScanCode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>812, 10</value>
+    <value>1508, 16</value>
   </data>
   <data name="cBScanCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 21</value>
+    <value>164, 33</value>
   </data>
   <data name="cBScanCode.Text" xml:space="preserve">
     <value>Koda tipke</value>
+  </data>
+  <data name="lBTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 734</value>
+  </data>
+  <data name="lBTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 135</value>
   </data>
   <data name="lBTip.Text" xml:space="preserve">
     <value>Tipko lahko izberete tudi tako, 
@@ -159,19 +279,19 @@ da jo pritisnete</value>
     <value>Vodilo</value>
   </data>
   <data name="X360Label.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 17</value>
+    <value>146, 29</value>
   </data>
   <data name="X360Label.Text" xml:space="preserve">
     <value>Gumbi X360</value>
   </data>
   <data name="KBMlabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 17</value>
+    <value>224, 29</value>
   </data>
   <data name="KBMlabel.Text" xml:space="preserve">
     <value>Tipkovnica in miška</value>
   </data>
   <data name="lBMacroOn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>411, 17</value>
+    <value>802, 29</value>
   </data>
   <data name="lBMacroOn.Text" xml:space="preserve">
     <value>Makro vklopljen, izberite tipko za izklop, ali zaprite to okno za shranjevanje</value>
@@ -180,10 +300,10 @@ da jo pritisnete</value>
     <value>Posnemi makro</value>
   </data>
   <data name="cBToggle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>731, 10</value>
+    <value>1355, 16</value>
   </data>
   <data name="cBToggle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 21</value>
+    <value>139, 33</value>
   </data>
   <data name="cBToggle.Text" xml:space="preserve">
     <value>Preklopi</value>
@@ -194,53 +314,32 @@ da jo pritisnete</value>
   <data name="btnUNBOUND.Text" xml:space="preserve">
     <value>Ni povezano</value>
   </data>
-  <data name="gBExtras.Text" xml:space="preserve">
-    <value>Dodatki</value>
-  </data>
   <data name="cBMouse.Text" xml:space="preserve">
     <value>Spremeni občutljivost miške</value>
   </data>
   <data name="cBLightbar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 21</value>
+    <value>260, 33</value>
   </data>
   <data name="cBLightbar.Text" xml:space="preserve">
     <value>Spremeni osvetlitev</value>
   </data>
+  <data name="gBExtras.Text" xml:space="preserve">
+    <value>Dodatki</value>
+  </data>
   <data name="rBRegular.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 21</value>
+    <value>144, 33</value>
   </data>
   <data name="rBRegular.Text" xml:space="preserve">
     <value>Navadno</value>
   </data>
   <data name="rBShiftModifer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 21</value>
+    <value>220, 33</value>
   </data>
   <data name="rBShiftModifer.Text" xml:space="preserve">
     <value>Modifikator Shift</value>
   </data>
   <data name="cBShiftButton.Items" xml:space="preserve">
     <value>Izberite prožilec Shift</value>
-  </data>
-  <data name="lbBlue.Text" xml:space="preserve">
-    <value>B</value>
-  </data>
-  <data name="lbGreen.Text" xml:space="preserve">
-    <value>G</value>
-  </data>
-  <data name="lbRed.Text" xml:space="preserve">
-    <value>R</value>
-  </data>
-  <data name="button5.Text" xml:space="preserve">
-    <value>→</value>
-  </data>
-  <data name="button7.Text" xml:space="preserve">
-    <value>↑</value>
-  </data>
-  <data name="button4.Text" xml:space="preserve">
-    <value>←</value>
-  </data>
-  <data name="button6.Text" xml:space="preserve">
-    <value>↓</value>
   </data>
   <data name="cBShiftButton.Items1" xml:space="preserve">
     <value>Križec</value>
@@ -295,11 +394,5 @@ da jo pritisnete</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Tipkovnica</value>
-  </data>
-  <data name="btnBACKSPACE.Text" xml:space="preserve">
-    <value>Vračalka</value>
-  </data>
-  <data name="btnSPACE.Text" xml:space="preserve">
-    <value>Preslednica</value>
   </data>
 </root>

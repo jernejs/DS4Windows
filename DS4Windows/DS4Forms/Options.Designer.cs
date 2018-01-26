@@ -929,6 +929,8 @@
             this.gBTouchpad.Controls.Add(this.pnlTPMouse);
             this.gBTouchpad.Controls.Add(this.rBTPControls);
             this.gBTouchpad.Controls.Add(this.rBTPMouse);
+            this.gBTouchpad.Controls.Add(this.label25);
+            this.gBTouchpad.Controls.Add(this.touchpadDisInvertButton);
             this.gBTouchpad.Controls.Add(this.fLPTouchSwipe);
             this.gBTouchpad.ForeColor = System.Drawing.SystemColors.ControlText;
             this.gBTouchpad.Name = "gBTouchpad";
@@ -940,8 +942,6 @@
             this.pnlTPMouse.Controls.Add(this.trackFrictionLb);
             this.pnlTPMouse.Controls.Add(this.trackFrictionNUD);
             this.pnlTPMouse.Controls.Add(this.trackballCk);
-            this.pnlTPMouse.Controls.Add(this.touchpadDisInvertButton);
-            this.pnlTPMouse.Controls.Add(this.label25);
             this.pnlTPMouse.Controls.Add(this.label15);
             this.pnlTPMouse.Controls.Add(this.touchpadInvertComboBox);
             this.pnlTPMouse.Controls.Add(this.nUDScroll);
@@ -1725,12 +1725,12 @@
             // 
             resources.ApplyResources(this.pnlSixaxis, "pnlSixaxis");
             this.pnlSixaxis.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlSixaxis.Controls.Add(this.tBsixaxisAccelX);
-            this.pnlSixaxis.Controls.Add(this.lb6Accel);
             this.pnlSixaxis.Controls.Add(this.tBsixaxisGyroX);
             this.pnlSixaxis.Controls.Add(this.lb6Gryo);
             this.pnlSixaxis.Controls.Add(this.tBsixaxisGyroY);
             this.pnlSixaxis.Controls.Add(this.tBsixaxisGyroZ);
+            this.pnlSixaxis.Controls.Add(this.tBsixaxisAccelX);
+            this.pnlSixaxis.Controls.Add(this.lb6Accel);
             this.pnlSixaxis.Controls.Add(this.tBsixaxisAccelY);
             this.pnlSixaxis.Controls.Add(this.tBsixaxisAccelZ);
             this.pnlSixaxis.Name = "pnlSixaxis";
@@ -3362,10 +3362,10 @@
             // 
             resources.ApplyResources(this.gBGyro, "gBGyro");
             this.gBGyro.BackColor = System.Drawing.SystemColors.Control;
+            this.gBGyro.Controls.Add(this.pnlSAMouse);
             this.gBGyro.Controls.Add(this.rBSAControls);
             this.gBGyro.Controls.Add(this.rBSAMouse);
             this.gBGyro.Controls.Add(this.fLPTiltControls);
-            this.gBGyro.Controls.Add(this.pnlSAMouse);
             this.gBGyro.Name = "gBGyro";
             this.gBGyro.TabStop = false;
             // 
@@ -3952,6 +3952,7 @@
             // cMTouchDisableInvert
             // 
             resources.ApplyResources(this.cMTouchDisableInvert, "cMTouchDisableInvert");
+            this.cMTouchDisableInvert.ImageScalingSize = new System.Drawing.Size(36, 36);
             this.cMTouchDisableInvert.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.crossTouchInvStripMenuItem,
             this.circleTouchInvStripMenuItem,
