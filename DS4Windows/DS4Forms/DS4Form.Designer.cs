@@ -47,6 +47,7 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.startToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openProgramFolderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.openProfiles = new System.Windows.Forms.OpenFileDialog();
@@ -281,6 +282,7 @@
             this.toolStripSeparator1,
             this.startToolStripMenuItem,
             this.openToolStripMenuItem,
+            this.openProgramFolderToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.cMTaskbar.Name = "cMTaskbar";
             this.cMTaskbar.Tag = "25";
@@ -330,6 +332,12 @@
             resources.ApplyResources(this.openToolStripMenuItem, "openToolStripMenuItem");
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
+            // 
+            // openProgramFolderToolStripMenuItem
+            // 
+            resources.ApplyResources(this.openProgramFolderToolStripMenuItem, "openProgramFolderToolStripMenuItem");
+            this.openProgramFolderToolStripMenuItem.Name = "openProgramFolderToolStripMenuItem";
+            this.openProgramFolderToolStripMenuItem.Click += new System.EventHandler(this.OpenProgramFolderToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
@@ -1582,6 +1590,7 @@
         private System.Windows.Forms.LinkLabel clrHidGuardWlistLinkLabel;
         private System.Windows.Forms.LinkLabel hidGuardRegLinkLabel;
         private System.Windows.Forms.Label linkSplitLabel;
+        private System.Windows.Forms.ToolStripMenuItem openProgramFolderToolStripMenuItem;
         //private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
     }
 }
