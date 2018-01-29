@@ -79,13 +79,13 @@
             this.trackFrictionLb = new System.Windows.Forms.Label();
             this.trackFrictionNUD = new System.Windows.Forms.NumericUpDown();
             this.trackballCk = new System.Windows.Forms.CheckBox();
-            this.touchpadDisInvertButton = new System.Windows.Forms.Button();
-            this.label25 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.touchpadInvertComboBox = new System.Windows.Forms.ComboBox();
             this.cbStartTouchpadOff = new System.Windows.Forms.CheckBox();
             this.rBTPControls = new System.Windows.Forms.RadioButton();
             this.rBTPMouse = new System.Windows.Forms.RadioButton();
+            this.label25 = new System.Windows.Forms.Label();
+            this.touchpadDisInvertButton = new System.Windows.Forms.Button();
             this.fLPTouchSwipe = new System.Windows.Forms.FlowLayoutPanel();
             this.bnSwipeUp = new System.Windows.Forms.Button();
             this.cMSPresets = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -165,12 +165,12 @@
             this.tBR2 = new System.Windows.Forms.TrackBar();
             this.tBL2 = new System.Windows.Forms.TrackBar();
             this.pnlSixaxis = new System.Windows.Forms.Panel();
-            this.tBsixaxisAccelX = new System.Windows.Forms.TrackBar();
-            this.lb6Accel = new System.Windows.Forms.Label();
             this.tBsixaxisGyroX = new System.Windows.Forms.TrackBar();
             this.lb6Gryo = new System.Windows.Forms.Label();
             this.tBsixaxisGyroY = new System.Windows.Forms.TrackBar();
             this.tBsixaxisGyroZ = new System.Windows.Forms.TrackBar();
+            this.tBsixaxisAccelX = new System.Windows.Forms.TrackBar();
+            this.lb6Accel = new System.Windows.Forms.Label();
             this.tBsixaxisAccelY = new System.Windows.Forms.TrackBar();
             this.tBsixaxisAccelZ = new System.Windows.Forms.TrackBar();
             this.pnlLSTrack = new System.Windows.Forms.Panel();
@@ -312,8 +312,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.fLPSettings = new System.Windows.Forms.FlowLayoutPanel();
             this.gBGyro = new System.Windows.Forms.GroupBox();
-            this.rBSAControls = new System.Windows.Forms.RadioButton();
-            this.rBSAMouse = new System.Windows.Forms.RadioButton();
             this.pnlSAMouse = new System.Windows.Forms.Panel();
             this.cBGyroMouseXAxis = new System.Windows.Forms.ComboBox();
             this.label16 = new System.Windows.Forms.Label();
@@ -332,6 +330,8 @@
             this.btnGyroTriggers = new System.Windows.Forms.Button();
             this.nUDGyroSensitivity = new System.Windows.Forms.NumericUpDown();
             this.lbGyroSens = new System.Windows.Forms.Label();
+            this.rBSAControls = new System.Windows.Forms.RadioButton();
+            this.rBSAMouse = new System.Windows.Forms.RadioButton();
             this.gBSensitivity = new System.Windows.Forms.GroupBox();
             this.lbL2S = new System.Windows.Forms.Label();
             this.nUDL2S = new System.Windows.Forms.NumericUpDown();
@@ -425,10 +425,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.tBR2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tBL2)).BeginInit();
             this.pnlSixaxis.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tBsixaxisAccelX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tBsixaxisGyroX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tBsixaxisGyroY)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tBsixaxisGyroZ)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tBsixaxisAccelX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tBsixaxisAccelY)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tBsixaxisAccelZ)).BeginInit();
             this.pnlLSTrack.SuspendLayout();
@@ -926,11 +926,9 @@
             // 
             resources.ApplyResources(this.gBTouchpad, "gBTouchpad");
             this.gBTouchpad.BackColor = System.Drawing.SystemColors.Control;
-            this.gBTouchpad.Controls.Add(this.pnlTPMouse);
             this.gBTouchpad.Controls.Add(this.rBTPControls);
             this.gBTouchpad.Controls.Add(this.rBTPMouse);
-            this.gBTouchpad.Controls.Add(this.label25);
-            this.gBTouchpad.Controls.Add(this.touchpadDisInvertButton);
+            this.gBTouchpad.Controls.Add(this.pnlTPMouse);
             this.gBTouchpad.Controls.Add(this.fLPTouchSwipe);
             this.gBTouchpad.ForeColor = System.Drawing.SystemColors.ControlText;
             this.gBTouchpad.Name = "gBTouchpad";
@@ -942,7 +940,9 @@
             this.pnlTPMouse.Controls.Add(this.trackFrictionLb);
             this.pnlTPMouse.Controls.Add(this.trackFrictionNUD);
             this.pnlTPMouse.Controls.Add(this.trackballCk);
+            this.pnlTPMouse.Controls.Add(this.label25);
             this.pnlTPMouse.Controls.Add(this.label15);
+            this.pnlTPMouse.Controls.Add(this.touchpadDisInvertButton);
             this.pnlTPMouse.Controls.Add(this.touchpadInvertComboBox);
             this.pnlTPMouse.Controls.Add(this.nUDScroll);
             this.pnlTPMouse.Controls.Add(this.cBDoubleTap);
@@ -979,20 +979,6 @@
             this.trackballCk.Name = "trackballCk";
             this.trackballCk.UseVisualStyleBackColor = true;
             this.trackballCk.CheckedChanged += new System.EventHandler(this.trackballCk_CheckedChanged);
-            // 
-            // touchpadDisInvertButton
-            // 
-            resources.ApplyResources(this.touchpadDisInvertButton, "touchpadDisInvertButton");
-            this.touchpadDisInvertButton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.touchpadDisInvertButton.Name = "touchpadDisInvertButton";
-            this.touchpadDisInvertButton.UseVisualStyleBackColor = true;
-            this.touchpadDisInvertButton.Click += new System.EventHandler(this.touchpadDisInvertButton_Click);
-            // 
-            // label25
-            // 
-            resources.ApplyResources(this.label25, "label25");
-            this.label25.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label25.Name = "label25";
             // 
             // label15
             // 
@@ -1038,6 +1024,20 @@
             this.rBTPMouse.TabStop = true;
             this.rBTPMouse.UseVisualStyleBackColor = true;
             this.rBTPMouse.CheckedChanged += new System.EventHandler(this.cBTPforControls_CheckedChanged);
+            // 
+            // label25
+            // 
+            resources.ApplyResources(this.label25, "label25");
+            this.label25.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label25.Name = "label25";
+            // 
+            // touchpadDisInvertButton
+            // 
+            resources.ApplyResources(this.touchpadDisInvertButton, "touchpadDisInvertButton");
+            this.touchpadDisInvertButton.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.touchpadDisInvertButton.Name = "touchpadDisInvertButton";
+            this.touchpadDisInvertButton.UseVisualStyleBackColor = true;
+            this.touchpadDisInvertButton.Click += new System.EventHandler(this.touchpadDisInvertButton_Click);
             // 
             // fLPTouchSwipe
             // 
@@ -1736,20 +1736,6 @@
             this.pnlSixaxis.Name = "pnlSixaxis";
             this.pnlSixaxis.Click += new System.EventHandler(this.SixaxisPanel_Click);
             // 
-            // tBsixaxisAccelX
-            // 
-            resources.ApplyResources(this.tBsixaxisAccelX, "tBsixaxisAccelX");
-            this.tBsixaxisAccelX.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.tBsixaxisAccelX.Maximum = 100;
-            this.tBsixaxisAccelX.Minimum = -100;
-            this.tBsixaxisAccelX.Name = "tBsixaxisAccelX";
-            this.tBsixaxisAccelX.TickFrequency = 4750;
-            // 
-            // lb6Accel
-            // 
-            resources.ApplyResources(this.lb6Accel, "lb6Accel");
-            this.lb6Accel.Name = "lb6Accel";
-            // 
             // tBsixaxisGyroX
             // 
             resources.ApplyResources(this.tBsixaxisGyroX, "tBsixaxisGyroX");
@@ -1781,6 +1767,20 @@
             this.tBsixaxisGyroZ.Minimum = -127;
             this.tBsixaxisGyroZ.Name = "tBsixaxisGyroZ";
             this.tBsixaxisGyroZ.TickFrequency = 4750;
+            // 
+            // tBsixaxisAccelX
+            // 
+            resources.ApplyResources(this.tBsixaxisAccelX, "tBsixaxisAccelX");
+            this.tBsixaxisAccelX.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.tBsixaxisAccelX.Maximum = 100;
+            this.tBsixaxisAccelX.Minimum = -100;
+            this.tBsixaxisAccelX.Name = "tBsixaxisAccelX";
+            this.tBsixaxisAccelX.TickFrequency = 4750;
+            // 
+            // lb6Accel
+            // 
+            resources.ApplyResources(this.lb6Accel, "lb6Accel");
+            this.lb6Accel.Name = "lb6Accel";
             // 
             // tBsixaxisAccelY
             // 
@@ -3362,28 +3362,12 @@
             // 
             resources.ApplyResources(this.gBGyro, "gBGyro");
             this.gBGyro.BackColor = System.Drawing.SystemColors.Control;
-            this.gBGyro.Controls.Add(this.pnlSAMouse);
             this.gBGyro.Controls.Add(this.rBSAControls);
             this.gBGyro.Controls.Add(this.rBSAMouse);
+            this.gBGyro.Controls.Add(this.pnlSAMouse);
             this.gBGyro.Controls.Add(this.fLPTiltControls);
             this.gBGyro.Name = "gBGyro";
             this.gBGyro.TabStop = false;
-            // 
-            // rBSAControls
-            // 
-            resources.ApplyResources(this.rBSAControls, "rBSAControls");
-            this.rBSAControls.Name = "rBSAControls";
-            this.rBSAControls.TabStop = true;
-            this.rBSAControls.UseVisualStyleBackColor = true;
-            this.rBSAControls.CheckedChanged += new System.EventHandler(this.useSAforMouse_CheckedChanged);
-            // 
-            // rBSAMouse
-            // 
-            resources.ApplyResources(this.rBSAMouse, "rBSAMouse");
-            this.rBSAMouse.Name = "rBSAMouse";
-            this.rBSAMouse.TabStop = true;
-            this.rBSAMouse.UseVisualStyleBackColor = true;
-            this.rBSAMouse.CheckedChanged += new System.EventHandler(this.useSAforMouse_CheckedChanged);
             // 
             // pnlSAMouse
             // 
@@ -3548,6 +3532,22 @@
             // 
             resources.ApplyResources(this.lbGyroSens, "lbGyroSens");
             this.lbGyroSens.Name = "lbGyroSens";
+            // 
+            // rBSAControls
+            // 
+            resources.ApplyResources(this.rBSAControls, "rBSAControls");
+            this.rBSAControls.Name = "rBSAControls";
+            this.rBSAControls.TabStop = true;
+            this.rBSAControls.UseVisualStyleBackColor = true;
+            this.rBSAControls.CheckedChanged += new System.EventHandler(this.useSAforMouse_CheckedChanged);
+            // 
+            // rBSAMouse
+            // 
+            resources.ApplyResources(this.rBSAMouse, "rBSAMouse");
+            this.rBSAMouse.Name = "rBSAMouse";
+            this.rBSAMouse.TabStop = true;
+            this.rBSAMouse.UseVisualStyleBackColor = true;
+            this.rBSAMouse.CheckedChanged += new System.EventHandler(this.useSAforMouse_CheckedChanged);
             // 
             // gBSensitivity
             // 
@@ -4169,10 +4169,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.tBL2)).EndInit();
             this.pnlSixaxis.ResumeLayout(false);
             this.pnlSixaxis.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tBsixaxisAccelX)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tBsixaxisGyroX)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tBsixaxisGyroY)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tBsixaxisGyroZ)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tBsixaxisAccelX)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tBsixaxisAccelY)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tBsixaxisAccelZ)).EndInit();
             this.pnlLSTrack.ResumeLayout(false);

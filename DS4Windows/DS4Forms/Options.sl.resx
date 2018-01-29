@@ -118,17 +118,32 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tBBlueBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 166</value>
+  </data>
   <data name="cBLightbyBattery.Size" type="System.Drawing.Size, System.Drawing">
     <value>470, 33</value>
   </data>
   <data name="cBLightbyBattery.Text" xml:space="preserve">
     <value>Barva odvisna od napolnjenosti baterije</value>
   </data>
+  <data name="lbBlue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 173</value>
+  </data>
   <data name="lbBlue.Size" type="System.Drawing.Size, System.Drawing">
     <value>33, 29</value>
   </data>
   <data name="lbBlue.Text" xml:space="preserve">
     <value>M</value>
+  </data>
+  <data name="lbGreen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 29</value>
+  </data>
+  <data name="lbGreen.Text" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="lbspc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 486</value>
   </data>
   <data name="lbspc.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 29</value>
@@ -137,7 +152,7 @@
     <value>sekund/obrat</value>
   </data>
   <data name="cBDoubleTap.Location" type="System.Drawing.Point, System.Drawing">
-    <value>325, 68</value>
+    <value>325, 69</value>
   </data>
   <data name="cBDoubleTap.Size" type="System.Drawing.Size, System.Drawing">
     <value>155, 33</value>
@@ -146,7 +161,7 @@
     <value>Dvojni tap</value>
   </data>
   <data name="cBTap.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 68</value>
+    <value>114, 69</value>
   </data>
   <data name="nUDTap.Location" type="System.Drawing.Point, System.Drawing">
     <value>218, 68</value>
@@ -161,7 +176,7 @@
     <value>Drsenje</value>
   </data>
   <data name="cBSlide.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 20</value>
+    <value>74, 18</value>
   </data>
   <data name="cBSlide.Size" type="System.Drawing.Size, System.Drawing">
     <value>132, 33</value>
@@ -170,7 +185,7 @@
     <value>Drsanje</value>
   </data>
   <data name="nUDScroll.Location" type="System.Drawing.Point, System.Drawing">
-    <value>463, 16</value>
+    <value>463, 17</value>
   </data>
   <data name="nUDTouch.Location" type="System.Drawing.Point, System.Drawing">
     <value>218, 17</value>
@@ -199,6 +214,12 @@
   <data name="cBTouchpadJitterCompensation.Text" xml:space="preserve">
     <value>Izravnava trepetanja</value>
   </data>
+  <data name="lbL2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 67</value>
+  </data>
+  <data name="lbR2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 67</value>
+  </data>
   <data name="lbIdleMinutes.Location" type="System.Drawing.Point, System.Drawing">
     <value>431, 138</value>
   </data>
@@ -211,6 +232,9 @@
   <data name="nUDIdleDisconnect.Location" type="System.Drawing.Point, System.Drawing">
     <value>307, 137</value>
   </data>
+  <data name="nUDR2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
   <data name="cBFlushHIDQueue.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 376</value>
   </data>
@@ -220,11 +244,14 @@
   <data name="cBFlushHIDQueue.Text" xml:space="preserve">
     <value>Izprazni HID</value>
   </data>
+  <data name="nUDRumbleBoost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 40</value>
+  </data>
   <data name="btnRumbleHeavyTest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>171, 31</value>
+    <value>171, 29</value>
   </data>
   <data name="btnRumbleHeavyTest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 59</value>
+    <value>202, 61</value>
   </data>
   <data name="btnRumbleHeavyTest.Text" xml:space="preserve">
     <value>Preizkusi grobo</value>
@@ -235,11 +262,17 @@
   <data name="lbFull.Text" xml:space="preserve">
     <value>Polno:</value>
   </data>
+  <data name="lbLowRed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 61</value>
+  </data>
   <data name="lbLowGreen.Size" type="System.Drawing.Size, System.Drawing">
     <value>27, 29</value>
   </data>
   <data name="lbLowGreen.Text" xml:space="preserve">
     <value>Z</value>
+  </data>
+  <data name="lbLowBlue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 173</value>
   </data>
   <data name="lbLowBlue.Size" type="System.Drawing.Size, System.Drawing">
     <value>33, 29</value>
@@ -247,17 +280,50 @@
   <data name="lbLowBlue.Text" xml:space="preserve">
     <value>M</value>
   </data>
+  <data name="tBLowRedBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 54</value>
+  </data>
+  <data name="tBLowGreenBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 112</value>
+  </data>
+  <data name="tBLowBlueBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 166</value>
+  </data>
   <data name="lbEmpty.Size" type="System.Drawing.Size, System.Drawing">
     <value>94, 29</value>
   </data>
   <data name="lbEmpty.Text" xml:space="preserve">
     <value>Prazno:</value>
   </data>
-  <data name="gBTouchpad.Size" type="System.Drawing.Size, System.Drawing">
-    <value>608, 484</value>
+  <data name="pnlLowBattery.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 43</value>
   </data>
-  <data name="gBTouchpad.Text" xml:space="preserve">
-    <value>Drsna ploščica</value>
+  <data name="lbRS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 9</value>
+  </data>
+  <data name="lbLS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 9</value>
+  </data>
+  <data name="nUDRS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
+  <data name="nUDLS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
+  <data name="nUDL2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
+  <data name="rBTPControls.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 33</value>
+  </data>
+  <data name="rBTPControls.Text" xml:space="preserve">
+    <value>Uporabi za nadzor</value>
+  </data>
+  <data name="rBTPMouse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 33</value>
+  </data>
+  <data name="rBTPMouse.Text" xml:space="preserve">
+    <value>Uporabi kot miško</value>
   </data>
   <data name="trackFrictionLb.Location" type="System.Drawing.Point, System.Drawing">
     <value>256, 248</value>
@@ -271,6 +337,15 @@
   <data name="trackFrictionNUD.Location" type="System.Drawing.Point, System.Drawing">
     <value>352, 245</value>
   </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 345</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>273, 29</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Onemogoči preobrnitev:</value>
+  </data>
   <data name="trackballCk.Location" type="System.Drawing.Point, System.Drawing">
     <value>14, 247</value>
   </data>
@@ -281,22 +356,13 @@
     <value>Sledilna kroglica</value>
   </data>
   <data name="touchpadDisInvertButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>297, 418</value>
+    <value>298, 333</value>
   </data>
   <data name="touchpadDisInvertButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>293, 52</value>
   </data>
   <data name="touchpadDisInvertButton.Text" xml:space="preserve">
     <value>Brez</value>
-  </data>
-  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 430</value>
-  </data>
-  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
-    <value>273, 29</value>
-  </data>
-  <data name="label25.Text" xml:space="preserve">
-    <value>Onemogoči preobrnitev:</value>
   </data>
   <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 296</value>
@@ -334,23 +400,11 @@
   <data name="cbStartTouchpadOff.Text" xml:space="preserve">
     <value>Začni z izklopljenim drsenjem</value>
   </data>
-  <data name="rBTPControls.Size" type="System.Drawing.Size, System.Drawing">
-    <value>243, 33</value>
+  <data name="pnlTPMouse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 81</value>
   </data>
-  <data name="rBTPControls.Text" xml:space="preserve">
-    <value>Uporabi za nadzor</value>
-  </data>
-  <data name="rBTPMouse.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 33</value>
-  </data>
-  <data name="rBTPMouse.Text" xml:space="preserve">
-    <value>Uporabi kot miško</value>
-  </data>
-  <data name="cMSPresets.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 388</value>
-  </data>
-  <data name="bnSwipeUp.Text" xml:space="preserve">
-    <value>Podrsni navzgor</value>
+  <data name="pnlTPMouse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>598, 392</value>
   </data>
   <data name="controlToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 42</value>
@@ -366,12 +420,6 @@
   </data>
   <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
     <value>Privzeto</value>
-  </data>
-  <data name="DpadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>236, 42</value>
-  </data>
-  <data name="DpadToolStripMenuItem.Text" xml:space="preserve">
-    <value>Smerni križec</value>
   </data>
   <data name="tSMIDPadInverted.Size" type="System.Drawing.Size, System.Drawing">
     <value>270, 42</value>
@@ -391,11 +439,11 @@
   <data name="tSMIDPadInvertedY.Text" xml:space="preserve">
     <value>Preobrni Y</value>
   </data>
-  <data name="LSToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="DpadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 42</value>
   </data>
-  <data name="LSToolStripMenuItem.Text" xml:space="preserve">
-    <value>Leva gobica</value>
+  <data name="DpadToolStripMenuItem.Text" xml:space="preserve">
+    <value>Smerni križec</value>
   </data>
   <data name="tSMILSInverted.Size" type="System.Drawing.Size, System.Drawing">
     <value>270, 42</value>
@@ -415,11 +463,11 @@
   <data name="tSMILSInvertedY.Text" xml:space="preserve">
     <value>Preobrni Y</value>
   </data>
-  <data name="RSToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="LSToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 42</value>
   </data>
-  <data name="RSToolStripMenuItem.Text" xml:space="preserve">
-    <value>Desna gobica</value>
+  <data name="LSToolStripMenuItem.Text" xml:space="preserve">
+    <value>Leva gobica</value>
   </data>
   <data name="tSMIRSInverted.Size" type="System.Drawing.Size, System.Drawing">
     <value>270, 42</value>
@@ -439,14 +487,17 @@
   <data name="tSMIRSInvertedY.Text" xml:space="preserve">
     <value>Preobrni Y</value>
   </data>
+  <data name="RSToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 42</value>
+  </data>
+  <data name="RSToolStripMenuItem.Text" xml:space="preserve">
+    <value>Desna gobica</value>
+  </data>
   <data name="ABXYToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 42</value>
   </data>
   <data name="ABXYToolStripMenuItem.Text" xml:space="preserve">
     <value>Prednji gumbi</value>
-  </data>
-  <data name="WASDToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>236, 42</value>
   </data>
   <data name="wScanCodeWASDToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>251, 42</value>
@@ -454,11 +505,8 @@
   <data name="wScanCodeWASDToolStripMenuItem.Text" xml:space="preserve">
     <value>Koda tipke</value>
   </data>
-  <data name="ArrowKeysToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="WASDToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 42</value>
-  </data>
-  <data name="ArrowKeysToolStripMenuItem.Text" xml:space="preserve">
-    <value>Smerne tipke</value>
   </data>
   <data name="wScanCodeArrowKeysToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>251, 42</value>
@@ -466,11 +514,11 @@
   <data name="wScanCodeArrowKeysToolStripMenuItem.Text" xml:space="preserve">
     <value>Koda tipke</value>
   </data>
-  <data name="MouseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="ArrowKeysToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 42</value>
   </data>
-  <data name="MouseToolStripMenuItem.Text" xml:space="preserve">
-    <value>Miška</value>
+  <data name="ArrowKeysToolStripMenuItem.Text" xml:space="preserve">
+    <value>Smerne tipke</value>
   </data>
   <data name="tSMIMouseInverted.Size" type="System.Drawing.Size, System.Drawing">
     <value>270, 42</value>
@@ -490,29 +538,83 @@
   <data name="tSMIMouseInvertedY.Text" xml:space="preserve">
     <value>Preobrni Y</value>
   </data>
+  <data name="MouseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 42</value>
+  </data>
+  <data name="MouseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Miška</value>
+  </data>
+  <data name="cMSPresets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 388</value>
+  </data>
+  <data name="bnSwipeUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 52</value>
+  </data>
+  <data name="bnSwipeUp.Text" xml:space="preserve">
+    <value>Podrsni navzgor</value>
+  </data>
+  <data name="lbSwipeUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 0</value>
+  </data>
+  <data name="lbSwipeUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 52</value>
+  </data>
   <data name="lbSwipeUp.Text" xml:space="preserve">
     <value>Možnosti</value>
+  </data>
+  <data name="bnSwipeDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 52</value>
   </data>
   <data name="bnSwipeDown.Text" xml:space="preserve">
     <value>Podrsni navzdol</value>
   </data>
+  <data name="lbSwipeDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 66</value>
+  </data>
+  <data name="lbSwipeDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 52</value>
+  </data>
   <data name="lbSwipeDown.Text" xml:space="preserve">
     <value>Možnosti</value>
+  </data>
+  <data name="bnSwipeLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 52</value>
   </data>
   <data name="bnSwipeLeft.Text" xml:space="preserve">
     <value>Podrsni v levo</value>
   </data>
+  <data name="lbSwipeLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 132</value>
+  </data>
+  <data name="lbSwipeLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 52</value>
+  </data>
   <data name="lbSwipeLeft.Text" xml:space="preserve">
     <value>Možnosti</value>
+  </data>
+  <data name="bnSwipeRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 52</value>
   </data>
   <data name="bnSwipeRight.Text" xml:space="preserve">
     <value>Podrsni v desno</value>
   </data>
+  <data name="lbSwipeRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 198</value>
+  </data>
+  <data name="lbSwipeRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 52</value>
+  </data>
   <data name="lbSwipeRight.Text" xml:space="preserve">
     <value>Možnosti</value>
   </data>
-  <data name="gBOther.Text" xml:space="preserve">
-    <value>Ostalo</value>
+  <data name="fLPTouchSwipe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>585, 383</value>
+  </data>
+  <data name="gBTouchpad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>608, 484</value>
+  </data>
+  <data name="gBTouchpad.Text" xml:space="preserve">
+    <value>Drsna ploščica</value>
   </data>
   <data name="btPollRateLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 486</value>
@@ -548,7 +650,7 @@
     <value>Uporabi samo Dinput</value>
   </data>
   <data name="pBProgram.Location" type="System.Drawing.Point, System.Drawing">
-    <value>394, 260</value>
+    <value>399, 260</value>
   </data>
   <data name="cBLaunchProgram.Location" type="System.Drawing.Point, System.Drawing">
     <value>11, 242</value>
@@ -605,14 +707,23 @@ s profilom</value>
   <data name="cBIdleDisconnect.Text" xml:space="preserve">
     <value>Odklop ob mirovanju</value>
   </data>
-  <data name="gBLightbar.Text" xml:space="preserve">
-    <value>Osvetlitev</value>
+  <data name="gBOther.Text" xml:space="preserve">
+    <value>Ostalo</value>
+  </data>
+  <data name="lbRainbowB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 486</value>
+  </data>
+  <data name="nUDRainbowB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 484</value>
   </data>
   <data name="cBFlashType.Items" xml:space="preserve">
     <value>Bliskaj ob</value>
   </data>
   <data name="cBFlashType.Items1" xml:space="preserve">
     <value>Utripaj ob</value>
+  </data>
+  <data name="cBFlashType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 299</value>
   </data>
   <data name="cBWhileCharging.Items" xml:space="preserve">
     <value>Običajno</value>
@@ -626,23 +737,47 @@ s profilom</value>
   <data name="cBWhileCharging.Items3" xml:space="preserve">
     <value>Barva</value>
   </data>
+  <data name="btnFlashColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 303</value>
+  </data>
   <data name="lbWhileCharging.Size" type="System.Drawing.Size, System.Drawing">
     <value>187, 29</value>
   </data>
   <data name="lbWhileCharging.Text" xml:space="preserve">
-    <value>med polnjenjem</value>
+    <value>Med polnjenjem</value>
+  </data>
+  <data name="nUDflashLED.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 300</value>
+  </data>
+  <data name="gBLightbar.Text" xml:space="preserve">
+    <value>Osvetlitev</value>
+  </data>
+  <data name="btnRumbleLightTest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 29</value>
+  </data>
+  <data name="btnRumbleLightTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 61</value>
+  </data>
+  <data name="btnRumbleLightTest.Text" xml:space="preserve">
+    <value>Preizkusi nežno</value>
   </data>
   <data name="gBRumble.Text" xml:space="preserve">
     <value>Vibriranje</value>
   </data>
-  <data name="btnRumbleLightTest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>383, 30</value>
+  <data name="lbSixaxisZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>353, 67</value>
   </data>
-  <data name="btnRumbleLightTest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 61</value>
+  <data name="nUDSZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 65</value>
   </data>
-  <data name="btnRumbleLightTest.Text" xml:space="preserve">
-    <value>Preizkusi nežno</value>
+  <data name="nUDSZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
+  <data name="nUDSX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 7</value>
+  </data>
+  <data name="nUDSX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
   </data>
   <data name="lbRSTip.Text" xml:space="preserve">
     <value>Desna gobica</value>
@@ -698,11 +833,47 @@ s profilom</value>
   <data name="lbL2TrackS.Text" xml:space="preserve">
     <value>Stanje krmilnika</value>
   </data>
-  <data name="tPControls.Text" xml:space="preserve">
-    <value>Kontrolnik</value>
+  <data name="bnGyroZN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 52</value>
   </data>
-  <data name="tPSpecial.Text" xml:space="preserve">
-    <value>Posebna dejanja</value>
+  <data name="lbGyroZN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 0</value>
+  </data>
+  <data name="lbGyroZN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>355, 52</value>
+  </data>
+  <data name="bnGyroZP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 52</value>
+  </data>
+  <data name="lbGyroZP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 66</value>
+  </data>
+  <data name="lbGyroZP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>355, 52</value>
+  </data>
+  <data name="bnGyroXP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 52</value>
+  </data>
+  <data name="lbGyroXP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 132</value>
+  </data>
+  <data name="lbGyroXP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>355, 52</value>
+  </data>
+  <data name="bnGyroXN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 52</value>
+  </data>
+  <data name="lbGyroXN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 198</value>
+  </data>
+  <data name="lbGyroXN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>355, 52</value>
+  </data>
+  <data name="fLPTiltControls.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 115</value>
+  </data>
+  <data name="fLPTiltControls.Size" type="System.Drawing.Size, System.Drawing">
+    <value>593, 376</value>
   </data>
   <data name="lBControls.Items" xml:space="preserve">
     <value>Križec :</value>
@@ -780,7 +951,7 @@ s profilom</value>
     <value>Sixaxis desno :</value>
   </data>
   <data name="lBControls.Size" type="System.Drawing.Size, System.Drawing">
-    <value>348, 468</value>
+    <value>348, 729</value>
   </data>
   <data name="lbControlTip.Text" xml:space="preserve">
     <value>Klikni osvetlitev za izbiro barve</value>
@@ -869,6 +1040,13 @@ s profilom</value>
   <data name="lbControlName.Text" xml:space="preserve">
     <value>Križec: A</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pnlController.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tPControls.Text" xml:space="preserve">
+    <value>Kontrolnik</value>
+  </data>
   <data name="cHName.Text" xml:space="preserve">
     <value>Ime</value>
   </data>
@@ -890,17 +1068,125 @@ s profilom</value>
   <data name="lbActionsTip.Text" xml:space="preserve">
     <value>Pritisni izbrane gumbe za izvedbo dejanja; potrdi potrditveno polje za omogočanje dejanja v izbranem profilu</value>
   </data>
+  <data name="tPSpecial.Text" xml:space="preserve">
+    <value>Posebna dejanja</value>
+  </data>
   <data name="tPDeadzone.Text" xml:space="preserve">
     <value>Mrtvo območje</value>
+  </data>
+  <data name="nUDSixaxisZAntiDead.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 65</value>
+  </data>
+  <data name="nUDSixaxisZAntiDead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
+  <data name="nUDSixaxisXAntiDead.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 7</value>
+  </data>
+  <data name="nUDSixaxisXAntiDead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>353, 67</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>353, 9</value>
+  </data>
+  <data name="nUDR2AntiDead.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 65</value>
+  </data>
+  <data name="nUDR2AntiDead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 67</value>
+  </data>
+  <data name="nUDL2AntiDead.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 65</value>
+  </data>
+  <data name="nUDL2AntiDead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 67</value>
+  </data>
+  <data name="nUDRSAntiDead.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 7</value>
+  </data>
+  <data name="nUDRSAntiDead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 9</value>
+  </data>
+  <data name="nUDLSAntiDead.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 7</value>
+  </data>
+  <data name="nUDLSAntiDead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 9</value>
   </data>
   <data name="antiDeadzoneTabPage.Text" xml:space="preserve">
     <value>Nemrtvo območje</value>
   </data>
+  <data name="nUDSixAxisZMaxZone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 65</value>
+  </data>
+  <data name="nUDSixAxisZMaxZone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
+  <data name="nUDSixAxisXMaxZone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 7</value>
+  </data>
+  <data name="nUDSixAxisXMaxZone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>353, 67</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>353, 9</value>
+  </data>
+  <data name="nUDR2Maxzone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 65</value>
+  </data>
+  <data name="nUDR2Maxzone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
+  <data name="nUDL2Maxzone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 65</value>
+  </data>
+  <data name="nUDL2Maxzone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 67</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 67</value>
+  </data>
+  <data name="nUDRSMaxZone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 7</value>
+  </data>
+  <data name="nUDRSMaxZone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 9</value>
+  </data>
+  <data name="nUDLSMaxZone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 7</value>
+  </data>
+  <data name="nUDLSMaxZone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 9</value>
+  </data>
   <data name="maxZoneTabPage.Text" xml:space="preserve">
     <value>Maksimalno območje</value>
-  </data>
-  <data name="tPOutCurve.Text" xml:space="preserve">
-    <value>Izhodna krivulja</value>
   </data>
   <data name="cBSixaxisZOutputCurve.Items" xml:space="preserve">
     <value>Linearno</value>
@@ -911,6 +1197,12 @@ s profilom</value>
   <data name="cBSixaxisZOutputCurve.Items2" xml:space="preserve">
     <value>Kubično</value>
   </data>
+  <data name="cBSixaxisZOutputCurve.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 64</value>
+  </data>
+  <data name="cBSixaxisZOutputCurve.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 37</value>
+  </data>
   <data name="cBSixaxisXOutputCurve.Items" xml:space="preserve">
     <value>Linearno</value>
   </data>
@@ -919,6 +1211,18 @@ s profilom</value>
   </data>
   <data name="cBSixaxisXOutputCurve.Items2" xml:space="preserve">
     <value>Kubično</value>
+  </data>
+  <data name="cBSixaxisXOutputCurve.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 6</value>
+  </data>
+  <data name="cBSixaxisXOutputCurve.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 37</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>353, 67</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>353, 9</value>
   </data>
   <data name="cBR2OutputCurve.Items" xml:space="preserve">
     <value>Linearno</value>
@@ -929,6 +1233,9 @@ s profilom</value>
   <data name="cBR2OutputCurve.Items2" xml:space="preserve">
     <value>Kubično</value>
   </data>
+  <data name="cBR2OutputCurve.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 64</value>
+  </data>
   <data name="cBL2OutputCurve.Items" xml:space="preserve">
     <value>Linearno</value>
   </data>
@@ -937,6 +1244,18 @@ s profilom</value>
   </data>
   <data name="cBL2OutputCurve.Items2" xml:space="preserve">
     <value>Kubično</value>
+  </data>
+  <data name="cBL2OutputCurve.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 64</value>
+  </data>
+  <data name="cBL2OutputCurve.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 37</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 67</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 67</value>
   </data>
   <data name="rsOutCurveComboBox.Items" xml:space="preserve">
     <value>Linearno</value>
@@ -950,6 +1269,9 @@ s profilom</value>
   <data name="rsOutCurveComboBox.Items3" xml:space="preserve">
     <value>Kubično</value>
   </data>
+  <data name="rsOutCurveComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 6</value>
+  </data>
   <data name="lsOutCurveComboBox.Items" xml:space="preserve">
     <value>Linearno</value>
   </data>
@@ -962,29 +1284,44 @@ s profilom</value>
   <data name="lsOutCurveComboBox.Items3" xml:space="preserve">
     <value>Kubično</value>
   </data>
+  <data name="lsOutCurveComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 6</value>
+  </data>
+  <data name="lsOutCurveComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 37</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 9</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 9</value>
+  </data>
+  <data name="tPOutCurve.Text" xml:space="preserve">
+    <value>Izhodna krivulja</value>
+  </data>
+  <data name="nUDLSCurve.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 38</value>
+  </data>
+  <data name="nUDRSCurve.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 38</value>
+  </data>
   <data name="tPCurve.Text" xml:space="preserve">
     <value>Vhodna krivulja</value>
   </data>
+  <data name="nUDRSRotation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 38</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 40</value>
+  </data>
+  <data name="nUDLSRotation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 38</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 40</value>
+  </data>
   <data name="tpRotation.Text" xml:space="preserve">
     <value>Vrtenje</value>
-  </data>
-  <data name="gBGyro.Text" xml:space="preserve">
-    <value>Žiroskop</value>
-  </data>
-  <data name="rBSAControls.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 33</value>
-  </data>
-  <data name="rBSAControls.Text" xml:space="preserve">
-    <value>Uporaba za nadzor</value>
-  </data>
-  <data name="rBSAMouse.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 33</value>
-  </data>
-  <data name="rBSAMouse.Text" xml:space="preserve">
-    <value>Uporabi kot miško</value>
-  </data>
-  <data name="pnlSAMouse.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 105</value>
   </data>
   <data name="cBGyroMouseXAxis.Items" xml:space="preserve">
     <value>Zasuk</value>
@@ -1004,6 +1341,9 @@ s profilom</value>
   <data name="label16.Text" xml:space="preserve">
     <value>Os X:</value>
   </data>
+  <data name="lbGyroSmooth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 326</value>
+  </data>
   <data name="lbGyroSmooth.Size" type="System.Drawing.Size, System.Drawing">
     <value>109, 29</value>
   </data>
@@ -1016,11 +1356,17 @@ s profilom</value>
   <data name="lbSmoothWeight.Text" xml:space="preserve">
     <value>Jakost glajenja:</value>
   </data>
+  <data name="nUDGyroSmoothWeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 324</value>
+  </data>
   <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>381, 219</value>
+    <value>375, 210</value>
   </data>
   <data name="nUDGyroMouseVertScale.Location" type="System.Drawing.Point, System.Drawing">
     <value>257, 208</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 210</value>
   </data>
   <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
     <value>205, 29</value>
@@ -1029,7 +1375,7 @@ s profilom</value>
     <value>Navpična lestvica:</value>
   </data>
   <data name="gyroTriggerBehavior.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 97</value>
+    <value>14, 97</value>
   </data>
   <data name="gyroTriggerBehavior.Size" type="System.Drawing.Size, System.Drawing">
     <value>379, 33</value>
@@ -1042,6 +1388,9 @@ s profilom</value>
   </data>
   <data name="cBGyroInvertX.Location" type="System.Drawing.Point, System.Drawing">
     <value>135, 268</value>
+  </data>
+  <data name="lbGyroInvert.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 268</value>
   </data>
   <data name="lbGyroInvert.Size" type="System.Drawing.Size, System.Drawing">
     <value>106, 29</value>
@@ -1061,17 +1410,72 @@ s profilom</value>
   <data name="nUDGyroSensitivity.Location" type="System.Drawing.Point, System.Drawing">
     <value>280, 148</value>
   </data>
+  <data name="lbGyroSens.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 150</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbGyroSens.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
   <data name="lbGyroSens.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 29</value>
   </data>
   <data name="lbGyroSens.Text" xml:space="preserve">
     <value>Občutljivost žiroskopa</value>
   </data>
+  <data name="pnlSAMouse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 105</value>
+  </data>
+  <data name="rBSAControls.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 33</value>
+  </data>
+  <data name="rBSAControls.Text" xml:space="preserve">
+    <value>Uporabi za nadzor</value>
+  </data>
+  <data name="rBSAMouse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 33</value>
+  </data>
+  <data name="rBSAMouse.Text" xml:space="preserve">
+    <value>Uporabi kot miško</value>
+  </data>
+  <data name="gBGyro.Text" xml:space="preserve">
+    <value>Žiroskop</value>
+  </data>
+  <data name="nUDL2S.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 110</value>
+  </data>
+  <data name="nUDL2S.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
+  <data name="nUDLSS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
+  <data name="nUDR2S.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 110</value>
+  </data>
+  <data name="nUDR2S.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
+  <data name="lbSixaxisZS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 112</value>
+  </data>
+  <data name="nUDRSS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
+  <data name="lbR2LS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 112</value>
+  </data>
+  <data name="nUDSXS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
+  <data name="nUDSZS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>486, 110</value>
+  </data>
+  <data name="nUDSZS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 35</value>
+  </data>
   <data name="gBSensitivity.Text" xml:space="preserve">
     <value>Občutljivost</value>
-  </data>
-  <data name="cMGyroTriggers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>307, 844</value>
   </data>
   <data name="crossToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>306, 42</value>
@@ -1166,8 +1570,8 @@ s profilom</value>
   <data name="alwaysOnToolStripMenuItem.Text" xml:space="preserve">
     <value>Vedno vklopljeno</value>
   </data>
-  <data name="cMTouchDisableInvert.Size" type="System.Drawing.Size, System.Drawing">
-    <value>307, 802</value>
+  <data name="cMGyroTriggers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 844</value>
   </data>
   <data name="crossTouchInvStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>306, 42</value>
@@ -1258,6 +1662,9 @@ s profilom</value>
   </data>
   <data name="psTouchInvStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>306, 42</value>
+  </data>
+  <data name="cMTouchDisableInvert.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 802</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Možnosti profila</value>

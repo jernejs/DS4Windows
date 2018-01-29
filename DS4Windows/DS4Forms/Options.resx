@@ -176,10 +176,6 @@
   <data name="lbLTouchRight.Location" type="System.Drawing.Point, System.Drawing">
     <value>324, 101</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnSATrack.TabIndex" type="System.Int32, mscorlib">
-    <value>237</value>
-  </data>
   <data name="&gt;&gt;nUDL2Maxzone.Parent" xml:space="preserve">
     <value>maxZoneTabPage</value>
   </data>
@@ -192,6 +188,7 @@
   <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="fLPActionButtons.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
@@ -213,11 +210,14 @@
   <data name="lbLR1.Size" type="System.Drawing.Size, System.Drawing">
     <value>4, 4</value>
   </data>
+  <data name="btPollRateComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 504</value>
+  </data>
   <data name="&gt;&gt;tBsixaxisGyroX.Type" xml:space="preserve">
     <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="nUDLSAntiDead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 35</value>
   </data>
   <data name="lbL2Track.TabIndex" type="System.Int32, mscorlib">
     <value>216</value>
@@ -248,6 +248,9 @@
   </data>
   <data name="cBWhileCharging.Location" type="System.Drawing.Point, System.Drawing">
     <value>205, 374</value>
+  </data>
+  <data name="&gt;&gt;nUDTap.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
   <data name="&gt;&gt;tBsixaxisAccelY.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -287,9 +290,6 @@
   </data>
   <data name="fLPTouchSwipe.Location" type="System.Drawing.Point, System.Drawing">
     <value>14, 90</value>
-  </data>
-  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="&gt;&gt;pnlLSTrack.Parent" xml:space="preserve">
     <value>lbL2TrackS</value>
@@ -339,9 +339,6 @@
   <data name="lbBlue.Location" type="System.Drawing.Point, System.Drawing">
     <value>20, 171</value>
   </data>
-  <data name="btnRSTrackS.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
   <data name="&gt;&gt;tPControls.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
@@ -384,8 +381,8 @@
   <data name="lsOutCurveComboBox.Items3" xml:space="preserve">
     <value>Cubic</value>
   </data>
-  <data name="bnTouchRight.Text" xml:space="preserve">
-    <value>Left Mouse Button</value>
+  <data name="lsOutCurveComboBox.Items2" xml:space="preserve">
+    <value>Quadratic</value>
   </data>
   <data name="lsOutCurveComboBox.Items1" xml:space="preserve">
     <value>Enhanced Precision</value>
@@ -435,17 +432,14 @@
   <data name="pnlLSTrack.Size" type="System.Drawing.Size, System.Drawing">
     <value>279, 279</value>
   </data>
+  <data name="pnlSATrack.TabIndex" type="System.Int32, mscorlib">
+    <value>252</value>
+  </data>
   <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="&gt;&gt;cBDinput.Parent" xml:space="preserve">
     <value>gBOther</value>
-  </data>
-  <data name="&gt;&gt;tBsixaxisAccelZ.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnRSTrack.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="bnRSRight.Size" type="System.Drawing.Size, System.Drawing">
     <value>22, 43</value>
@@ -465,8 +459,8 @@
   <data name="&gt;&gt;cBFlashType.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="lbFull.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 29</value>
+  <data name="&gt;&gt;fLPSettings.Name" xml:space="preserve">
+    <value>fLPSettings</value>
   </data>
   <data name="&gt;&gt;lbGyroInvert.Name" xml:space="preserve">
     <value>lbGyroInvert</value>
@@ -482,9 +476,6 @@
   </data>
   <data name="rightTouchInvStripMenuItem.Text" xml:space="preserve">
     <value>Right</value>
-  </data>
-  <data name="&gt;&gt;lowColorChooserButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -531,14 +522,14 @@
   <data name="&gt;&gt;lsOutCurveComboBox.Parent" xml:space="preserve">
     <value>tPOutCurve</value>
   </data>
-  <data name="&gt;&gt;tBLowRedBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="triangleToolStripMenuItem.Text" xml:space="preserve">
     <value>Triangle</value>
   </data>
   <data name="lbGyroXN.TabIndex" type="System.Int32, mscorlib">
     <value>289</value>
+  </data>
+  <data name="lVActions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 148</value>
   </data>
   <data name="lbSixaxisZ.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -561,8 +552,8 @@
   <data name="&gt;&gt;nUDLSCurve.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label23.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="nUDLSRotation.TabIndex" type="System.Int32, mscorlib">
     <value>217</value>
@@ -572,6 +563,9 @@
   </data>
   <data name="tSMIMouseInvertedY.Size" type="System.Drawing.Size, System.Drawing">
     <value>244, 42</value>
+  </data>
+  <data name="&gt;&gt;nUDSZS.Parent" xml:space="preserve">
+    <value>gBSensitivity</value>
   </data>
   <data name="&gt;&gt;label14.Parent" xml:space="preserve">
     <value>tpRotation</value>
@@ -585,14 +579,14 @@
   <data name="&gt;&gt;btnRSTrackS.Parent" xml:space="preserve">
     <value>pnlRSTrack</value>
   </data>
+  <data name="lbR2.TabIndex" type="System.Int32, mscorlib">
+    <value>197</value>
+  </data>
   <data name="&gt;&gt;btnFlashColor.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="bnLSRight.Size" type="System.Drawing.Size, System.Drawing">
     <value>25, 47</value>
-  </data>
-  <data name="tBLowBlueBar.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="lbSwipeUp.Location" type="System.Drawing.Point, System.Drawing">
     <value>198, 0</value>
@@ -615,6 +609,9 @@
   <data name="&gt;&gt;maxZoneTabPage.Name" xml:space="preserve">
     <value>maxZoneTabPage</value>
   </data>
+  <data name="bnRSLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>169</value>
+  </data>
   <data name="&gt;&gt;label15.Parent" xml:space="preserve">
     <value>pnlTPMouse</value>
   </data>
@@ -630,8 +627,8 @@
   <data name="nUDGyroMouseVertScale.Location" type="System.Drawing.Point, System.Drawing">
     <value>216, 209</value>
   </data>
-  <data name="rightToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>361, 42</value>
+  <data name="&gt;&gt;nUDScroll.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="&gt;&gt;nUDGyroMouseVertScale.Name" xml:space="preserve">
     <value>nUDGyroMouseVertScale</value>
@@ -687,8 +684,8 @@
   <data name="trackFrictionNUD.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
-  <data name="&gt;&gt;cBIdleDisconnect.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;bnRSUp.Parent" xml:space="preserve">
+    <value>pnlController</value>
   </data>
   <data name="&gt;&gt;bnL2.Parent" xml:space="preserve">
     <value>pnlController</value>
@@ -702,7 +699,7 @@
   <data name="nUDRSAntiDead.Size" type="System.Drawing.Size, System.Drawing">
     <value>97, 35</value>
   </data>
-  <data name="bnRSUp.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="bnR3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
   <data name="pnlRSTrack.Location" type="System.Drawing.Point, System.Drawing">
@@ -710,6 +707,9 @@
   </data>
   <data name="nUDGyroSensitivity.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 35</value>
+  </data>
+  <data name="&gt;&gt;lbLowBlue.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;btnLSTrack.Parent" xml:space="preserve">
     <value>pnlLSTrack</value>
@@ -726,6 +726,9 @@
   <data name="&gt;&gt;nUDTap.Name" xml:space="preserve">
     <value>nUDTap</value>
   </data>
+  <data name="downTouchInvStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>361, 42</value>
+  </data>
   <data name="&gt;&gt;shareToolStripMenuItem.Name" xml:space="preserve">
     <value>shareToolStripMenuItem</value>
   </data>
@@ -741,8 +744,8 @@
   <data name="&gt;&gt;bnGyroZN.Name" xml:space="preserve">
     <value>bnGyroZN</value>
   </data>
-  <data name="lbIdleMinutes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;cBLaunchProgram.Parent" xml:space="preserve">
+    <value>gBOther</value>
   </data>
   <data name="&gt;&gt;tSMILSInverted.Name" xml:space="preserve">
     <value>tSMILSInverted</value>
@@ -792,14 +795,17 @@
   <data name="&gt;&gt;lbLSTip.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Sixaxis X:</value>
+  </data>
   <data name="nUDLSS.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 35</value>
   </data>
   <data name="&gt;&gt;rBSAMouse.Name" xml:space="preserve">
     <value>rBSAMouse</value>
   </data>
-  <data name="&gt;&gt;cBLaunchProgram.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 70</value>
   </data>
   <data name="tBL2.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 281</value>
@@ -827,9 +833,6 @@
   </data>
   <data name="&gt;&gt;bnGyroXN.ZOrder" xml:space="preserve">
     <value>6</value>
-  </data>
-  <data name="lbLright.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
   </data>
   <data name="tBL2.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -939,8 +942,8 @@
   <data name="&gt;&gt;bnL3.Parent" xml:space="preserve">
     <value>pnlController</value>
   </data>
-  <data name="lbGyroXN.Location" type="System.Drawing.Point, System.Drawing">
-    <value>198, 198</value>
+  <data name="cBLaunchProgram.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 62</value>
   </data>
   <data name="&gt;&gt;label12.Parent" xml:space="preserve">
     <value>pnlSAMouse</value>
@@ -948,8 +951,8 @@
   <data name="lbSwipeLeft.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="&gt;&gt;lbLR1.Parent" xml:space="preserve">
-    <value>pnlController</value>
+  <data name="&gt;&gt;bnGyroXN.Name" xml:space="preserve">
+    <value>bnGyroXN</value>
   </data>
   <data name="bnLSUp.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
@@ -981,8 +984,8 @@
   <data name="lbLCircle.TabIndex" type="System.Int32, mscorlib">
     <value>286</value>
   </data>
-  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>360, 14</value>
+  <data name="lbLright.TabIndex" type="System.Int32, mscorlib">
+    <value>293</value>
   </data>
   <data name="&gt;&gt;btnLSTrack.Name" xml:space="preserve">
     <value>btnLSTrack</value>
@@ -1001,9 +1004,6 @@
   </data>
   <data name="&gt;&gt;lbSwipeLeft.ZOrder" xml:space="preserve">
     <value>5</value>
-  </data>
-  <data name="RSToolStripMenuItem.Text" xml:space="preserve">
-    <value>Right Stick</value>
   </data>
   <data name="lbLSTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1025,9 +1025,6 @@
   </data>
   <data name="trackballCk.Size" type="System.Drawing.Size, System.Drawing">
     <value>149, 33</value>
-  </data>
-  <data name="bnGyroZN.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;nUDRSRotation.Name" xml:space="preserve">
     <value>nUDRSRotation</value>
@@ -1083,8 +1080,8 @@
   <data name="lbButtonMouseSens.Text" xml:space="preserve">
     <value>Mouse Sensitivity:</value>
   </data>
-  <data name="&gt;&gt;btnChargingColor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tBsixaxisAccelX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
   </data>
   <data name="&gt;&gt;lbRSCurvePercent.Name" xml:space="preserve">
     <value>lbRSCurvePercent</value>
@@ -1116,6 +1113,12 @@
   <data name="&gt;&gt;nUDTouch.Parent" xml:space="preserve">
     <value>pnlTPMouse</value>
   </data>
+  <data name="lbGyroSmooth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 29</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 9, 9, 9</value>
+  </data>
   <data name="label23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1143,9 +1146,6 @@
   <data name="&gt;&gt;tBRedBar.Name" xml:space="preserve">
     <value>tBRedBar</value>
   </data>
-  <data name="lVActions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
   <data name="lbActionsTip.Text" xml:space="preserve">
     <value>Hold selected controls to perform an action, check the Action to use it while profile is loaded</value>
   </data>
@@ -1160,9 +1160,6 @@
   </data>
   <data name="&gt;&gt;lbRainbowB.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbFull.TabIndex" type="System.Int32, mscorlib">
-    <value>225</value>
   </data>
   <data name="&gt;&gt;btnRemAction.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1208,6 +1205,9 @@
   </data>
   <data name="nUDSixAxisZMaxZone.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
+  </data>
+  <data name="lbRS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 29</value>
   </data>
   <data name="tBLowGreenBar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
@@ -1275,9 +1275,6 @@
   <data name="cBTap.Size" type="System.Drawing.Size, System.Drawing">
     <value>92, 33</value>
   </data>
-  <data name="&gt;&gt;lbLSTip.Name" xml:space="preserve">
-    <value>lbLSTip</value>
-  </data>
   <data name="lbR2LS.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1290,9 +1287,6 @@
   <data name="&gt;&gt;pBHoveredButton.Parent" xml:space="preserve">
     <value>pnlController</value>
   </data>
-  <data name="gyroTriggerBehavior.Size" type="System.Drawing.Size, System.Drawing">
-    <value>369, 33</value>
-  </data>
   <data name="btPollRateComboBox.Items14" xml:space="preserve">
     <value>71 Hz (14 ms)</value>
   </data>
@@ -1302,8 +1296,8 @@
   <data name="&gt;&gt;nUDGyroSensitivity.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="&gt;&gt;cBFlushHIDQueue.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="bnR1.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
   </data>
   <data name="&gt;&gt;fLPSettings.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -1320,8 +1314,8 @@
   <data name="tBGreenBar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
-  <data name="lbR2.TabIndex" type="System.Int32, mscorlib">
-    <value>197</value>
+  <data name="&gt;&gt;nUDSixaxisXAntiDead.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="btnRSTrack.Size" type="System.Drawing.Size, System.Drawing">
     <value>7, 7</value>
@@ -1353,9 +1347,6 @@
   <data name="&gt;&gt;tpRotation.Name" xml:space="preserve">
     <value>tpRotation</value>
   </data>
-  <data name="touchpadInvertComboBox.Items2" xml:space="preserve">
-    <value>Y Axis</value>
-  </data>
   <data name="btnEditAction.Location" type="System.Drawing.Point, System.Drawing">
     <value>327, 7</value>
   </data>
@@ -1371,14 +1362,17 @@
   <data name="&gt;&gt;nUDRSAntiDead.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
+  <data name="bnL3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
   <data name="cBControllerInput.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
   <data name="crossTouchInvStripMenuItem.Text" xml:space="preserve">
     <value>Cross</value>
   </data>
-  <data name="&gt;&gt;tSMIDPadInvertedY.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="bnR1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="bnShare.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1404,9 +1398,6 @@
   <data name="&gt;&gt;label16.Name" xml:space="preserve">
     <value>label16</value>
   </data>
-  <data name="&gt;&gt;bnTouchLeft.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="lBControls.Items12" xml:space="preserve">
     <value>R1 :</value>
   </data>
@@ -1422,11 +1413,8 @@
   <data name="&gt;&gt;nUDTap.Parent" xml:space="preserve">
     <value>pnlTPMouse</value>
   </data>
-  <data name="controlToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;pnlFull.Name" xml:space="preserve">
-    <value>pnlFull</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Options</value>
   </data>
   <data name="&gt;&gt;lbLLeft.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1557,9 +1545,6 @@
   <data name="&gt;&gt;bnL2.ZOrder" xml:space="preserve">
     <value>39</value>
   </data>
-  <data name="bnR1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
   <data name="&gt;&gt;label12.Name" xml:space="preserve">
     <value>label12</value>
   </data>
@@ -1580,6 +1565,9 @@
   </data>
   <data name="lbL2Track.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;rightToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lbGyroXN.Size" type="System.Drawing.Size, System.Drawing">
     <value>374, 52</value>
@@ -1620,6 +1608,9 @@
   <data name="&gt;&gt;btnLSTrack.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;bnCross.Name" xml:space="preserve">
+    <value>bnCross</value>
+  </data>
   <data name="cBL2OutputCurve.Items2" xml:space="preserve">
     <value>Cubic</value>
   </data>
@@ -1632,9 +1623,6 @@
   <data name="&gt;&gt;label18.Name" xml:space="preserve">
     <value>label18</value>
   </data>
-  <data name="&gt;&gt;nUDSixaxisXAntiDead.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="&gt;&gt;nUDLSRotation.Parent" xml:space="preserve">
     <value>tpRotation</value>
   </data>
@@ -1644,8 +1632,11 @@
   <data name="nUDLSS.TabIndex" type="System.Int32, mscorlib">
     <value>213</value>
   </data>
-  <data name="&gt;&gt;advColorDialog.Name" xml:space="preserve">
-    <value>advColorDialog</value>
+  <data name="&gt;&gt;nUDR2Maxzone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cBlowerRCOn.TabIndex" type="System.Int32, mscorlib">
+    <value>223</value>
   </data>
   <data name="lbRainbowB.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1653,8 +1644,8 @@
   <data name="label2.Text" xml:space="preserve">
     <value>RS:</value>
   </data>
-  <data name="bnCross.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="lbLowBlue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 29</value>
   </data>
   <data name="lbLCross.Location" type="System.Drawing.Point, System.Drawing">
     <value>729, 292</value>
@@ -1671,17 +1662,14 @@
   <data name="tPControls.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;nUDL2S.Parent" xml:space="preserve">
-    <value>gBSensitivity</value>
+  <data name="btnSATrack.TabIndex" type="System.Int32, mscorlib">
+    <value>237</value>
   </data>
   <data name="&gt;&gt;btnBrowse.Name" xml:space="preserve">
     <value>btnBrowse</value>
   </data>
   <data name="btnSATrack.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
-  </data>
-  <data name="lbPercentFlashBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>281, 308</value>
   </data>
   <data name="&gt;&gt;btnLSTrackS.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -1694,6 +1682,9 @@
   </data>
   <data name="&gt;&gt;bnGyroXN.Parent" xml:space="preserve">
     <value>fLPTiltControls</value>
+  </data>
+  <data name="&gt;&gt;bnCross.Parent" xml:space="preserve">
+    <value>pnlController</value>
   </data>
   <data name="pBHoveredButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>886, -4</value>
@@ -1785,9 +1776,6 @@
   <data name="&gt;&gt;btPollRateLabel.Parent" xml:space="preserve">
     <value>gBOther</value>
   </data>
-  <data name="btnLSTrackS.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="&gt;&gt;triangleToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -1806,11 +1794,17 @@
   <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
     <value>117, 29</value>
   </data>
+  <data name="bnTriangle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
   <data name="lbLRS.Location" type="System.Drawing.Point, System.Drawing">
     <value>560, 322</value>
   </data>
   <data name="rBSAControls.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="&gt;&gt;lbSixaxisX.Parent" xml:space="preserve">
+    <value>tPDeadzone</value>
   </data>
   <data name="&gt;&gt;lb6Gryo.Name" xml:space="preserve">
     <value>lb6Gryo</value>
@@ -1872,8 +1866,8 @@
   <data name="&gt;&gt;tPCurve.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;pnlLSTrack.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lbL2S.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
   </data>
   <data name="tBLowGreenBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1905,6 +1899,9 @@
   <data name="bnLeft.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
+  <data name="&gt;&gt;lbLright.Parent" xml:space="preserve">
+    <value>pnlController</value>
+  </data>
   <data name="&gt;&gt;trackFrictionNUD.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -1920,8 +1917,8 @@
   <data name="&gt;&gt;lbLright.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tCControls.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="nUDLSAntiDead.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 7</value>
   </data>
   <data name="btnSATrack.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
@@ -1943,6 +1940,9 @@
   </data>
   <data name="&gt;&gt;lbRed.Name" xml:space="preserve">
     <value>lbRed</value>
+  </data>
+  <data name="btPollRateComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 37</value>
   </data>
   <data name="tBLowRedBar.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -2010,11 +2010,8 @@
   <data name="bnRSRight.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="lbEmpty.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;lbGyroInvert.Parent" xml:space="preserve">
-    <value>pnlSAMouse</value>
+  <data name="nUDL2S.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
   </data>
   <data name="lbSwipeDown.Text" xml:space="preserve">
     <value>Options</value>
@@ -2034,8 +2031,8 @@
   <data name="bnTouchLeft.Text" xml:space="preserve">
     <value>Left Mouse Button</value>
   </data>
-  <data name="bnDown.Text" xml:space="preserve">
-    <value>Down Button</value>
+  <data name="nUDGyroSmoothWeight.TabIndex" type="System.Int32, mscorlib">
+    <value>266</value>
   </data>
   <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
     <value>320, 140</value>
@@ -2043,8 +2040,8 @@
   <data name="&gt;&gt;lbRSCurve.Parent" xml:space="preserve">
     <value>tPCurve</value>
   </data>
-  <data name="&gt;&gt;nUDLSS.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="label5.Text" xml:space="preserve">
+    <value>LS:</value>
   </data>
   <data name="tBsixaxisAccelZ.TabIndex" type="System.Int32, mscorlib">
     <value>217</value>
@@ -2076,8 +2073,8 @@
   <data name="tpRotation.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
-  <data name="&gt;&gt;tSMIDPadInvertedX.Name" xml:space="preserve">
-    <value>tSMIDPadInvertedX</value>
+  <data name="nUDSixaxisZAntiDead.Location" type="System.Drawing.Point, System.Drawing">
+    <value>482, 65</value>
   </data>
   <data name="&gt;&gt;alwaysOnToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2091,29 +2088,23 @@
   <data name="&gt;&gt;fLPActionButtons.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="bnRSLeft.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 43</value>
-  </data>
   <data name="lbspc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 0, 7, 0</value>
   </data>
   <data name="label18.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;cBL2OutputCurve.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="nUDIdleDisconnect.TabIndex" type="System.Int32, mscorlib">
+    <value>201</value>
   </data>
   <data name="cBDoubleTap.Location" type="System.Drawing.Point, System.Drawing">
     <value>245, 88</value>
   </data>
-  <data name="tBRedBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 45</value>
+  <data name="nUDL2AntiDead.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
   </data>
   <data name="bnLSLeft.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
-  </data>
-  <data name="&gt;&gt;bnL3.Name" xml:space="preserve">
-    <value>bnL3</value>
   </data>
   <data name="tBGreenBar.Size" type="System.Drawing.Size, System.Drawing">
     <value>225, 45</value>
@@ -2135,6 +2126,9 @@
   </data>
   <data name="&gt;&gt;nUDL2AntiDead.ZOrder" xml:space="preserve">
     <value>6</value>
+  </data>
+  <data name="r1TouchInvStripMenuItem.Text" xml:space="preserve">
+    <value>R1</value>
   </data>
   <data name="nUDLSCurve.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 35</value>
@@ -2184,6 +2178,9 @@
   <data name="btnRainbow.Location" type="System.Drawing.Point, System.Drawing">
     <value>14, 482</value>
   </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
   <data name="nUDGyroMouseVertScale.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
@@ -2202,14 +2199,8 @@
   <data name="cBSixaxisXOutputCurve.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
-  <data name="btnFlashColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="bnPS.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>LS:</value>
   </data>
   <data name="lbR2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 0, 7, 0</value>
@@ -2247,6 +2238,9 @@
   <data name="lBControls.Items8" xml:space="preserve">
     <value>Left :</value>
   </data>
+  <data name="pSToolStripMenuItem.Text" xml:space="preserve">
+    <value>PS</value>
+  </data>
   <data name="&gt;&gt;cBDoubleTap.Name" xml:space="preserve">
     <value>cBDoubleTap</value>
   </data>
@@ -2262,8 +2256,8 @@
   <data name="&gt;&gt;lbSixaxisX.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;nUDRumbleBoost.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="bnTouchRight.Text" xml:space="preserve">
+    <value>Left Mouse Button</value>
   </data>
   <data name="maxZoneTabPage.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 47</value>
@@ -2283,11 +2277,11 @@
   <data name="&gt;&gt;gyroTriggerBehavior.Name" xml:space="preserve">
     <value>gyroTriggerBehavior</value>
   </data>
+  <data name="bnCircle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
   <data name="btnSATrack.Text" xml:space="preserve">
     <value>button1</value>
-  </data>
-  <data name="nUDR2AntiDead.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
   </data>
   <data name="&gt;&gt;r1TouchInvStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2310,8 +2304,8 @@
   <data name="bnTouchMulti.TabIndex" type="System.Int32, mscorlib">
     <value>192</value>
   </data>
-  <data name="bnSwipeDown.TabIndex" type="System.Int32, mscorlib">
-    <value>250</value>
+  <data name="lbFull.TabIndex" type="System.Int32, mscorlib">
+    <value>225</value>
   </data>
   <data name="&gt;&gt;pnlRSTrack.Name" xml:space="preserve">
     <value>pnlRSTrack</value>
@@ -2322,6 +2316,9 @@
   <data name="&gt;&gt;lbInputDelay.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="bnR1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 50</value>
+  </data>
   <data name="&gt;&gt;gBRumble.Name" xml:space="preserve">
     <value>gBRumble</value>
   </data>
@@ -2331,11 +2328,8 @@
   <data name="tBR2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
-  <data name="bnRSUp.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="nUDL2AntiDead.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 35</value>
+  <data name="cBTouchpadJitterCompensation.Text" xml:space="preserve">
+    <value>Jitter Compensation</value>
   </data>
   <data name="tBsixaxisGyroX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2364,11 +2358,11 @@
   <data name="&gt;&gt;lbPercentFlashBar.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="btPollRateLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
-  </data>
   <data name="&gt;&gt;nUDRSMaxZone.Name" xml:space="preserve">
     <value>nUDRSMaxZone</value>
+  </data>
+  <data name="&gt;&gt;tBBlueBar.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;lbSATip.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -2384,6 +2378,9 @@
   </data>
   <data name="lbInputDelay.Text" xml:space="preserve">
     <value>Input Delay: N/Ams</value>
+  </data>
+  <data name="&gt;&gt;cBlowerRCOn.Name" xml:space="preserve">
+    <value>cBlowerRCOn</value>
   </data>
   <data name="&gt;&gt;tBBlueBar.Name" xml:space="preserve">
     <value>tBBlueBar</value>
@@ -2424,8 +2421,11 @@
   <data name="cBTouchpadJitterCompensation.Size" type="System.Drawing.Size, System.Drawing">
     <value>263, 33</value>
   </data>
-  <data name="&gt;&gt;lbSixaxisZ.Name" xml:space="preserve">
-    <value>lbSixaxisZ</value>
+  <data name="tBsixaxisGyroZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 43</value>
+  </data>
+  <data name="trackballCk.TabIndex" type="System.Int32, mscorlib">
+    <value>238</value>
   </data>
   <data name="&gt;&gt;btnLSTrackS.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2438,6 +2438,9 @@
   </data>
   <data name="bnLSDown.Location" type="System.Drawing.Point, System.Drawing">
     <value>302, 416</value>
+  </data>
+  <data name="pnlActions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
   <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 29</value>
@@ -2463,8 +2466,8 @@
   <data name="lbRSCurvePercent.Location" type="System.Drawing.Point, System.Drawing">
     <value>468, 40</value>
   </data>
-  <data name="&gt;&gt;bnL2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;lbL2TrackS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="gBLightbar.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 7</value>
@@ -2498,6 +2501,9 @@
   </data>
   <data name="pnlSATrack.Location" type="System.Drawing.Point, System.Drawing">
     <value>675, 198</value>
+  </data>
+  <data name="pnlFull.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 43</value>
   </data>
   <data name="&gt;&gt;gBLightbar.Parent" xml:space="preserve">
     <value>fLPSettings</value>
@@ -2580,9 +2586,6 @@
   <data name="&gt;&gt;bnSwipeRight.Parent" xml:space="preserve">
     <value>fLPTouchSwipe</value>
   </data>
-  <data name="lbLowBlue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 29</value>
-  </data>
   <data name="lbLLS.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -2622,11 +2625,8 @@
   <data name="&gt;&gt;pnlController.Parent" xml:space="preserve">
     <value>tPControls</value>
   </data>
-  <data name="label16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
-  </data>
   <data name="&gt;&gt;cBSlide.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>14</value>
   </data>
   <data name="nUDL2Maxzone.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
@@ -2648,9 +2648,6 @@
   </data>
   <data name="trackFrictionNUD.TabIndex" type="System.Int32, mscorlib">
     <value>239</value>
-  </data>
-  <data name="&gt;&gt;label23.Name" xml:space="preserve">
-    <value>label23</value>
   </data>
   <data name="label13.TabIndex" type="System.Int32, mscorlib">
     <value>216</value>
@@ -2763,6 +2760,9 @@
   <data name="&gt;&gt;lbRSCurvePercent.Parent" xml:space="preserve">
     <value>tPCurve</value>
   </data>
+  <data name="cBTap.TabIndex" type="System.Int32, mscorlib">
+    <value>230</value>
+  </data>
   <data name="bnGyroZN.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
@@ -2847,11 +2847,17 @@
   <data name="nUDScroll.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
+  <data name="&gt;&gt;optionsTouchInvStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;cHAction.Type" xml:space="preserve">
     <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;bnLeft.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tBsixaxisAccelZ.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="&gt;&gt;oneFingerTouchInvStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2870,9 +2876,6 @@
   </data>
   <data name="lbLLS.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
-  </data>
-  <data name="lbL2Track.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
   </data>
   <data name="&gt;&gt;label7.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -2925,6 +2928,12 @@
   <data name="touchpadDisInvertButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="&gt;&gt;tBLowGreenBar.Name" xml:space="preserve">
+    <value>tBLowGreenBar</value>
+  </data>
+  <data name="bnRSLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>569, 367</value>
+  </data>
   <data name="btnRSTrack.Text" xml:space="preserve">
     <value>button1</value>
   </data>
@@ -2934,20 +2943,17 @@
   <data name="&gt;&gt;nUDIdleDisconnect.Parent" xml:space="preserve">
     <value>gBOther</value>
   </data>
-  <data name="lbBlue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="btnLSTrack.TabIndex" type="System.Int32, mscorlib">
+    <value>237</value>
   </data>
   <data name="cBFlashType.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 299</value>
   </data>
-  <data name="&gt;&gt;lbSixaxisX.Parent" xml:space="preserve">
-    <value>tPDeadzone</value>
+  <data name="lbSmoothWeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 326</value>
   </data>
   <data name="&gt;&gt;bnCross.ZOrder" xml:space="preserve">
     <value>49</value>
-  </data>
-  <data name="&gt;&gt;bnCircle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;bnL3.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -3002,9 +3008,6 @@
   </data>
   <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
     <value>14, 11</value>
-  </data>
-  <data name="&gt;&gt;btnNewAction.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="nUDRSS.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
@@ -3111,9 +3114,6 @@
   <data name="&gt;&gt;bnRSLeft.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="&gt;&gt;cBControllerInput.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;pnlLSTrack.Name" xml:space="preserve">
     <value>pnlLSTrack</value>
   </data>
@@ -3156,6 +3156,9 @@
   <data name="&gt;&gt;cBDinput.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="cBGyroInvertY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
   <data name="bnSwipeDown.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 73</value>
   </data>
@@ -3192,6 +3195,9 @@
   <data name="cBScroll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="&gt;&gt;bnL2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;l3ToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -3206,9 +3212,6 @@
   </data>
   <data name="label18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
-  </data>
-  <data name="bnL1.TabIndex" type="System.Int32, mscorlib">
-    <value>88</value>
   </data>
   <data name="bnTouchRight.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -3294,8 +3297,8 @@
   <data name="&gt;&gt;bnLSRight.ZOrder" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="tBsixaxisGyroY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+  <data name="rBTPControls.Text" xml:space="preserve">
+    <value>Use for Controls</value>
   </data>
   <data name="&gt;&gt;lbLTouchLM.Name" xml:space="preserve">
     <value>lbLTouchLM</value>
@@ -3372,9 +3375,6 @@
   <data name="nUDLSS.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
-  <data name="trackballCk.TabIndex" type="System.Int32, mscorlib">
-    <value>238</value>
-  </data>
   <data name="&gt;&gt;bnTouchRight.Name" xml:space="preserve">
     <value>bnTouchRight</value>
   </data>
@@ -3404,6 +3404,9 @@
   </data>
   <data name="&gt;&gt;twoFingerTouchInvStripMenuItem.Name" xml:space="preserve">
     <value>twoFingerTouchInvStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;gyroTriggerBehavior.Parent" xml:space="preserve">
+    <value>pnlSAMouse</value>
   </data>
   <data name="bnSquare.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -3441,8 +3444,8 @@
   <data name="&gt;&gt;lbRSCurve.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="label12.Text" xml:space="preserve">
-    <value>%</value>
+  <data name="tBLowBlueBar.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;nUDRSS.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3450,8 +3453,8 @@
   <data name="label17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 0, 7, 0</value>
   </data>
-  <data name="nUDR2S.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 35</value>
+  <data name="bnL1.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
   </data>
   <data name="&gt;&gt;psTouchInvStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3471,8 +3474,14 @@
   <data name="nUDSZ.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 35</value>
   </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 29</value>
+  </data>
   <data name="&gt;&gt;lbLOptions.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbRSCurvePercent.TabIndex" type="System.Int32, mscorlib">
+    <value>204</value>
   </data>
   <data name="lbR2Track.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
@@ -3525,14 +3534,20 @@
   <data name="bnSquare.Size" type="System.Drawing.Size, System.Drawing">
     <value>58, 58</value>
   </data>
+  <data name="cBWhileCharging.Items2" xml:space="preserve">
+    <value>Rainbow</value>
+  </data>
   <data name="lBControls.Items9" xml:space="preserve">
     <value>Right :</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;gyroTriggerBehavior.Parent" xml:space="preserve">
-    <value>pnlSAMouse</value>
+  <data name="&gt;&gt;tBGreenBar.Name" xml:space="preserve">
+    <value>tBGreenBar</value>
+  </data>
+  <data name="lbL2Track.Text" xml:space="preserve">
+    <value>L2</value>
   </data>
   <data name="nUDLS.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 35</value>
@@ -3549,8 +3564,8 @@
   <data name="lBControls.Items5" xml:space="preserve">
     <value>Share :</value>
   </data>
-  <data name="oneFingerTouchInvStripMenuItem.Text" xml:space="preserve">
-    <value>Finger on Touchpad</value>
+  <data name="&gt;&gt;pnlLowBattery.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
   <data name="gBGyro.Size" type="System.Drawing.Size, System.Drawing">
     <value>612, 504</value>
@@ -3558,17 +3573,11 @@
   <data name="lBControls.Items6" xml:space="preserve">
     <value>Up :</value>
   </data>
-  <data name="nUDRumbleBoost.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
-  </data>
   <data name="&gt;&gt;cBSixaxisZOutputCurve.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="bnLSRight.TabIndex" type="System.Int32, mscorlib">
     <value>165</value>
-  </data>
-  <data name="lbLShare.Size" type="System.Drawing.Size, System.Drawing">
-    <value>4, 4</value>
   </data>
   <data name="enableTouchToggleCheckbox.Size" type="System.Drawing.Size, System.Drawing">
     <value>324, 33</value>
@@ -3603,6 +3612,9 @@
   <data name="lbLDown.Location" type="System.Drawing.Point, System.Drawing">
     <value>164, 272</value>
   </data>
+  <data name="&gt;&gt;btnRemAction.Name" xml:space="preserve">
+    <value>btnRemAction</value>
+  </data>
   <data name="alwaysOnToolStripMenuItem.Text" xml:space="preserve">
     <value>Always on</value>
   </data>
@@ -3630,8 +3642,8 @@
   <data name="&gt;&gt;pnlSATrack.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;bnTouchMulti.Parent" xml:space="preserve">
-    <value>pnlController</value>
+  <data name="bnSwipeRight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;nUDSixaxisXAntiDead.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3648,6 +3660,9 @@
   <data name="&gt;&gt;lbUseController.Name" xml:space="preserve">
     <value>lbUseController</value>
   </data>
+  <data name="lbLSCurve.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 40</value>
+  </data>
   <data name="lBControls.Items4" xml:space="preserve">
     <value>Options :</value>
   </data>
@@ -3661,7 +3676,7 @@
     <value>NoControl</value>
   </data>
   <data name="&gt;&gt;touchpadDisInvertButton.Parent" xml:space="preserve">
-    <value>gBTouchpad</value>
+    <value>pnlTPMouse</value>
   </data>
   <data name="tSMIRSInverted.Size" type="System.Drawing.Size, System.Drawing">
     <value>244, 42</value>
@@ -3669,8 +3684,8 @@
   <data name="&gt;&gt;tBRedBar.Type" xml:space="preserve">
     <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="bnTouchRight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>526, 140</value>
+  <data name="bnSquare.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
   </data>
   <data name="pBProgram.TabIndex" type="System.Int32, mscorlib">
     <value>255</value>
@@ -3680,6 +3695,9 @@
   </data>
   <data name="&gt;&gt;cbStartTouchpadOff.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bnR1.Text" xml:space="preserve">
+    <value>Right Bumper</value>
   </data>
   <data name="cBlowerRCOn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
@@ -3705,14 +3723,14 @@
   <data name="&gt;&gt;nUDRainbow.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnFlashColor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+  <data name="&gt;&gt;lbSwipeLeft.Name" xml:space="preserve">
+    <value>lbSwipeLeft</value>
   </data>
   <data name="&gt;&gt;lbSATip.Parent" xml:space="preserve">
     <value>lbL2TrackS</value>
   </data>
-  <data name="bnRSRight.Text" xml:space="preserve">
-    <value>Right X-Axis+</value>
+  <data name="btnRSTrack.TabIndex" type="System.Int32, mscorlib">
+    <value>237</value>
   </data>
   <data name="trackFrictionNUD.Location" type="System.Drawing.Point, System.Drawing">
     <value>364, 281</value>
@@ -3724,7 +3742,7 @@
     <value>13</value>
   </data>
   <data name="&gt;&gt;cBTap.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>13</value>
   </data>
   <data name="&gt;&gt;lbControlName.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3732,8 +3750,8 @@
   <data name="cBFlashType.TabIndex" type="System.Int32, mscorlib">
     <value>240</value>
   </data>
-  <data name="pnlActions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="lbEmpty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 29</value>
   </data>
   <data name="&gt;&gt;cBSixaxisXOutputCurve.Name" xml:space="preserve">
     <value>cBSixaxisXOutputCurve</value>
@@ -3839,9 +3857,6 @@
   </data>
   <data name="bnL3.Location" type="System.Drawing.Point, System.Drawing">
     <value>302, 369</value>
-  </data>
-  <data name="lbControlTip.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
   </data>
   <data name="cBIdleDisconnect.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -3951,6 +3966,9 @@
   <data name="&gt;&gt;nUDRSMaxZone.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
+  <data name="&gt;&gt;nUDRumbleBoost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;numUDMouseSens.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -4017,6 +4035,9 @@
   <data name="&gt;&gt;bnPS.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="lbFull.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 29</value>
+  </data>
   <data name="&gt;&gt;lbLLeft.ZOrder" xml:space="preserve">
     <value>19</value>
   </data>
@@ -4037,6 +4058,12 @@
   </data>
   <data name="&gt;&gt;btnRainbow.Parent" xml:space="preserve">
     <value>gBLightbar</value>
+  </data>
+  <data name="bnRSDown.Text" xml:space="preserve">
+    <value>Right Y-Axis+</value>
+  </data>
+  <data name="nUDSixAxisZMaxZone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>495, 65</value>
   </data>
   <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
     <value>360, 70</value>
@@ -4067,6 +4094,9 @@
   </data>
   <data name="&gt;&gt;LSToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fLPSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="bnLSUp.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 25</value>
@@ -4134,9 +4164,6 @@
   <data name="label22.Text" xml:space="preserve">
     <value>R2:</value>
   </data>
-  <data name="btnChargingColor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
-  </data>
   <data name="lbUseController.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -4164,17 +4191,14 @@
   <data name="bnTriangle.Location" type="System.Drawing.Point, System.Drawing">
     <value>727, 169</value>
   </data>
-  <data name="&gt;&gt;label10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnRSTrackS.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 0, 7, 0</value>
   </data>
   <data name="lbLTouchRight.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="bnLSRight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;bnLSDown.Parent" xml:space="preserve">
     <value>pnlController</value>
@@ -4185,9 +4209,6 @@
   <data name="tPSpecial.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 47</value>
   </data>
-  <data name="rsOutCurveComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>250, 7</value>
-  </data>
   <data name="&gt;&gt;bnRight.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -4197,20 +4218,17 @@
   <data name="gBGyro.Location" type="System.Drawing.Point, System.Drawing">
     <value>633, 7</value>
   </data>
-  <data name="bnR1.TabIndex" type="System.Int32, mscorlib">
-    <value>87</value>
-  </data>
   <data name="&gt;&gt;squareToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="touchpadInvertComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
-  <data name="lbGyroSens.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 155</value>
-  </data>
   <data name="&gt;&gt;cBFlushHIDQueue.ZOrder" xml:space="preserve">
     <value>15</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lbRSCurve.Name" xml:space="preserve">
     <value>lbRSCurve</value>
@@ -4267,7 +4285,7 @@
     <value>MiddleLeft</value>
   </data>
   <data name="&gt;&gt;cBScroll.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="&gt;&gt;bnGyroXN.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -4284,14 +4302,14 @@
   <data name="&gt;&gt;lbLL1.Name" xml:space="preserve">
     <value>lbLL1</value>
   </data>
-  <data name="lbLS.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 14</value>
-  </data>
   <data name="lbButtonMouseSens.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label16.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="bnSwipeDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 52</value>
   </data>
   <data name="tPControls.Text" xml:space="preserve">
     <value>Controls</value>
@@ -4314,17 +4332,14 @@
   <data name="btnSATrackS.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
-  <data name="btPollRateComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>191, 504</value>
+  <data name="&gt;&gt;tCControls.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="lbRSCurvePercent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="lbLTouchLM.TabIndex" type="System.Int32, mscorlib">
     <value>300</value>
-  </data>
-  <data name="&gt;&gt;bnL1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="nUDTap.TabIndex" type="System.Int32, mscorlib">
     <value>227</value>
@@ -4401,8 +4416,8 @@
   <data name="&gt;&gt;bnLSRight.Parent" xml:space="preserve">
     <value>pnlController</value>
   </data>
-  <data name="&gt;&gt;lbControlName.ZOrder" xml:space="preserve">
-    <value>51</value>
+  <data name="optionsTouchInvStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>361, 42</value>
   </data>
   <data name="lbControlName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -4464,6 +4479,9 @@
   <data name="btnRumbleHeavyTest.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 52</value>
   </data>
+  <data name="bnTriangle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="nUDR2.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 35</value>
   </data>
@@ -4476,13 +4494,10 @@
   <data name="cBGyroInvertY.Text" xml:space="preserve">
     <value>Y</value>
   </data>
-  <data name="tBLowBlueBar.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
   <data name="bnDown.Size" type="System.Drawing.Size, System.Drawing">
     <value>45, 61</value>
   </data>
-  <data name="&gt;&gt;nUDScroll.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;cBLaunchProgram.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="bnL3.TabIndex" type="System.Int32, mscorlib">
@@ -4491,8 +4506,11 @@
   <data name="&gt;&gt;btnRainbow.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="lbSixaxisXS.Text" xml:space="preserve">
-    <value>Sixaxis X</value>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ArrowKeysToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 42</value>
   </data>
   <data name="pnlActions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
@@ -4536,9 +4554,6 @@
   <data name="bnCross.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 65</value>
   </data>
-  <data name="&gt;&gt;fLPTouchSwipe.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
   <data name="&gt;&gt;btnFlashColor.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -4555,6 +4570,9 @@
     <value>729, 173</value>
   </data>
   <data name="tBsixaxisAccelY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 43</value>
+  </data>
+  <data name="tBsixaxisAccelX.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 43</value>
   </data>
   <data name="gBRumble.TabIndex" type="System.Int32, mscorlib">
@@ -4596,20 +4614,14 @@
   <data name="tBR2.TabIndex" type="System.Int32, mscorlib">
     <value>244</value>
   </data>
-  <data name="gyroTriggerBehavior.Text" xml:space="preserve">
-    <value>Trigger Behavior - Turns Gyro</value>
-  </data>
   <data name="lbLUp.TabIndex" type="System.Int32, mscorlib">
     <value>291</value>
   </data>
   <data name="cBTap.Text" xml:space="preserve">
     <value>Tap</value>
   </data>
-  <data name="&gt;&gt;bnCross.Parent" xml:space="preserve">
-    <value>pnlController</value>
-  </data>
-  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="tBLowRedBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 58</value>
   </data>
   <data name="&gt;&gt;bnR3.Parent" xml:space="preserve">
     <value>pnlController</value>
@@ -4617,8 +4629,8 @@
   <data name="nUDGyroSmoothWeight.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="bnR1.Text" xml:space="preserve">
-    <value>Right Bumper</value>
+  <data name="tBsixaxisGyroY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
   </data>
   <data name="&gt;&gt;lbLR2.ZOrder" xml:space="preserve">
     <value>9</value>
@@ -4638,8 +4650,14 @@
   <data name="touchpadDisInvertButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>367, 223</value>
   </data>
+  <data name="bnGyroZP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
   <data name="lbSixaxisZS.Location" type="System.Drawing.Point, System.Drawing">
     <value>362, 110</value>
+  </data>
+  <data name="&gt;&gt;tSMIDPadInvertedX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="nUDLSMaxZone.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -4650,11 +4668,20 @@
   <data name="label3.Text" xml:space="preserve">
     <value>R2:</value>
   </data>
+  <data name="bnTouchUpper.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="lbLR2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="bnSquare.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
   <data name="&gt;&gt;cBDoubleTap.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
+  </data>
+  <data name="nUDL2Maxzone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 35</value>
   </data>
   <data name="&gt;&gt;nUDIdleDisconnect.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -4671,6 +4698,9 @@
   <data name="&gt;&gt;nUDTouch.Name" xml:space="preserve">
     <value>nUDTouch</value>
   </data>
+  <data name="cBSixaxisXOutputCurve.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 37</value>
+  </data>
   <data name="btnLSTrack.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -4680,14 +4710,8 @@
   <data name="cBGyroSmooth.Location" type="System.Drawing.Point, System.Drawing">
     <value>169, 326</value>
   </data>
-  <data name="nUDLSAntiDead.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 35</value>
-  </data>
   <data name="tBR2.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="lbSwipeDown.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="cBFlushHIDQueue.Location" type="System.Drawing.Point, System.Drawing">
     <value>18, 400</value>
@@ -4710,8 +4734,8 @@
   <data name="bnRSUp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
-  <data name="&gt;&gt;lbSixaxisZS.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="bnGyroZN.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="lbLL1.Location" type="System.Drawing.Point, System.Drawing">
     <value>133, 50</value>
@@ -4725,20 +4749,23 @@
   <data name="nUDTouch.Location" type="System.Drawing.Point, System.Drawing">
     <value>142, 20</value>
   </data>
-  <data name="bnLSRight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="lbLright.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="&gt;&gt;lbSwipeUp.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="lbIdleMinutes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 29</value>
+  </data>
   <data name="tCSens.Location" type="System.Drawing.Point, System.Drawing">
     <value>633, 643</value>
   </data>
+  <data name="bnRSDown.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
   <data name="&gt;&gt;panel2.Name" xml:space="preserve">
     <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="tBLowGreenBar.Location" type="System.Drawing.Point, System.Drawing">
     <value>50, 110</value>
@@ -4746,8 +4773,8 @@
   <data name="lbGreen.Location" type="System.Drawing.Point, System.Drawing">
     <value>22, 119</value>
   </data>
-  <data name="&gt;&gt;bnRSUp.Parent" xml:space="preserve">
-    <value>pnlController</value>
+  <data name="&gt;&gt;lbLSCurve.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lbR2.Text" xml:space="preserve">
     <value>R2</value>
@@ -4755,17 +4782,11 @@
   <data name="&gt;&gt;bnR2.ZOrder" xml:space="preserve">
     <value>24</value>
   </data>
-  <data name="cBLaunchProgram.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 62</value>
-  </data>
   <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="&gt;&gt;lbActionsTip.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="lbLTouchUpper.TabIndex" type="System.Int32, mscorlib">
-    <value>302</value>
   </data>
   <data name="&gt;&gt;btnRumbleLightTest.Parent" xml:space="preserve">
     <value>gBRumble</value>
@@ -4803,6 +4824,9 @@
   <data name="bnTouchMulti.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="bnGyroXN.TabIndex" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
@@ -4827,6 +4851,12 @@
   <data name="lbButtonMouseSens.TabIndex" type="System.Int32, mscorlib">
     <value>206</value>
   </data>
+  <data name="&gt;&gt;bnTriangle.Parent" xml:space="preserve">
+    <value>pnlController</value>
+  </data>
+  <data name="r1ToolStripMenuItem.Text" xml:space="preserve">
+    <value>R1</value>
+  </data>
   <data name="cBIdleDisconnect.TabIndex" type="System.Int32, mscorlib">
     <value>232</value>
   </data>
@@ -4835,9 +4865,6 @@
   </data>
   <data name="&gt;&gt;WASDToolStripMenuItem.Name" xml:space="preserve">
     <value>WASDToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;nUDL2Maxzone.ZOrder" xml:space="preserve">
-    <value>5</value>
   </data>
   <data name="bnDown.Location" type="System.Drawing.Point, System.Drawing">
     <value>166, 272</value>
@@ -4868,12 +4895,6 @@
   </data>
   <data name="&gt;&gt;pnlSixaxis.Parent" xml:space="preserve">
     <value>lbL2TrackS</value>
-  </data>
-  <data name="rBTPControls.Text" xml:space="preserve">
-    <value>Use for Controls</value>
-  </data>
-  <data name="&gt;&gt;lbGyroTriggers.Parent" xml:space="preserve">
-    <value>pnlSAMouse</value>
   </data>
   <data name="bnSwipeUp.TabIndex" type="System.Int32, mscorlib">
     <value>250</value>
@@ -4908,6 +4929,12 @@
   <data name="bnSwipeLeft.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 52</value>
   </data>
+  <data name="btPollRateComboBox.Items" xml:space="preserve">
+    <value>Max (1 ms)</value>
+  </data>
+  <data name="gBTouchpad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 583</value>
+  </data>
   <data name="&gt;&gt;btnChargingColor.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
@@ -4923,8 +4950,8 @@
   <data name="l1TouchInvStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>361, 42</value>
   </data>
-  <data name="&gt;&gt;nUDflashLED.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="label16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
   </data>
   <data name="bnCross.Text" xml:space="preserve">
     <value>A Button</value>
@@ -4956,26 +4983,17 @@
   <data name="&gt;&gt;btnRumbleHeavyTest.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="nUDIdleDisconnect.TabIndex" type="System.Int32, mscorlib">
-    <value>201</value>
-  </data>
-  <data name="bnSquare.TabIndex" type="System.Int32, mscorlib">
-    <value>72</value>
+  <data name="&gt;&gt;cBL2OutputCurve.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lbSixaxisXS.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 0, 7, 0</value>
-  </data>
-  <data name="&gt;&gt;pnlLowBattery.ZOrder" xml:space="preserve">
-    <value>13</value>
   </data>
   <data name="lbSwipeLeft.Text" xml:space="preserve">
     <value>Options</value>
   </data>
   <data name="bnShare.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;fLPSettings.Name" xml:space="preserve">
-    <value>fLPSettings</value>
   </data>
   <data name="bnGyroXN.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 52</value>
@@ -5016,14 +5034,11 @@
   <data name="&gt;&gt;btnSATrack.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="lbBlue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="&gt;&gt;label6.Name" xml:space="preserve">
     <value>label6</value>
-  </data>
-  <data name="cBGyroSmooth.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
-  </data>
-  <data name="LSToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 42</value>
   </data>
   <data name="lbGyroSens.TabIndex" type="System.Int32, mscorlib">
     <value>255</value>
@@ -5046,6 +5061,9 @@
   <data name="antiDeadzoneTabPage.Text" xml:space="preserve">
     <value>Anti-Deadzone</value>
   </data>
+  <data name="nUDSixaxisXAntiDead.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
   <data name="&gt;&gt;lbSixaxisXS.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -5057,9 +5075,6 @@
   </data>
   <data name="nUDSX.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 35</value>
-  </data>
-  <data name="bnSwipeUp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
   </data>
   <data name="bnRSUp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -5073,9 +5088,6 @@
   <data name="lowColorChooserButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="lbEmpty.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 29</value>
-  </data>
   <data name="&gt;&gt;bnRSRight.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -5084,6 +5096,9 @@
   </data>
   <data name="lbGyroZN.TabIndex" type="System.Int32, mscorlib">
     <value>286</value>
+  </data>
+  <data name="lsOutCurveComboBox.Items" xml:space="preserve">
+    <value>Linear</value>
   </data>
   <data name="lbLSquare.Size" type="System.Drawing.Size, System.Drawing">
     <value>4, 4</value>
@@ -5118,9 +5133,6 @@
   <data name="bnR3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="btPollRateComboBox.Items1" xml:space="preserve">
-    <value>1000 Hz (1 ms)</value>
-  </data>
   <data name="lbLPS.Size" type="System.Drawing.Size, System.Drawing">
     <value>4, 4</value>
   </data>
@@ -5150,9 +5162,6 @@
   </data>
   <data name="bnLSUp.TabIndex" type="System.Int32, mscorlib">
     <value>167</value>
-  </data>
-  <data name="&gt;&gt;btnRemAction.Parent" xml:space="preserve">
-    <value>fLPActionButtons</value>
   </data>
   <data name="btnNewAction.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
@@ -5187,9 +5196,6 @@
   <data name="lbRainbowB.TabIndex" type="System.Int32, mscorlib">
     <value>241</value>
   </data>
-  <data name="bnR2.TabIndex" type="System.Int32, mscorlib">
-    <value>89</value>
-  </data>
   <data name="btnRainbow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
@@ -5210,6 +5216,12 @@
   </data>
   <data name="&gt;&gt;lbLS.Parent" xml:space="preserve">
     <value>tPDeadzone</value>
+  </data>
+  <data name="&gt;&gt;l3TouchInvStripMenuItem.Name" xml:space="preserve">
+    <value>l3TouchInvStripMenuItem</value>
+  </data>
+  <data name="lbIdleMinutes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="btnRSTrack.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -5286,12 +5298,6 @@
   <data name="&gt;&gt;tCControls.Name" xml:space="preserve">
     <value>tCControls</value>
   </data>
-  <data name="nUDRSAntiDead.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
-  </data>
-  <data name="nUDflashLED.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 35</value>
-  </data>
   <data name="&gt;&gt;l1ToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -5300,9 +5306,6 @@
   </data>
   <data name="&gt;&gt;l2TouchInvStripMenuItem.Name" xml:space="preserve">
     <value>l2TouchInvStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>8</value>
   </data>
   <data name="&gt;&gt;label24.Parent" xml:space="preserve">
     <value>tPOutCurve</value>
@@ -5349,26 +5352,20 @@
   <data name="&gt;&gt;lbRS.Name" xml:space="preserve">
     <value>lbRS</value>
   </data>
-  <data name="cBlowerRCOn.TabIndex" type="System.Int32, mscorlib">
-    <value>223</value>
+  <data name="&gt;&gt;lbLowBlue.Name" xml:space="preserve">
+    <value>lbLowBlue</value>
   </data>
   <data name="tBLowGreenBar.Size" type="System.Drawing.Size, System.Drawing">
     <value>225, 45</value>
   </data>
   <data name="&gt;&gt;label25.Parent" xml:space="preserve">
-    <value>gBTouchpad</value>
-  </data>
-  <data name="cBTouchpadJitterCompensation.Text" xml:space="preserve">
-    <value>Jitter Compensation</value>
+    <value>pnlTPMouse</value>
   </data>
   <data name="btnLightbar.TabIndex" type="System.Int32, mscorlib">
     <value>91</value>
   </data>
   <data name="&gt;&gt;lbButtonMouseSens.Parent" xml:space="preserve">
     <value>gBOther</value>
-  </data>
-  <data name="&gt;&gt;lbLUp.ZOrder" xml:space="preserve">
-    <value>31</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
     <value>11</value>
@@ -5415,9 +5412,6 @@
   <data name="lbLSCurvePercent.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;cBGyroSmooth.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
     <value>label3</value>
   </data>
@@ -5432,6 +5426,9 @@
   </data>
   <data name="lbIdleMinutes.Text" xml:space="preserve">
     <value>mins</value>
+  </data>
+  <data name="&gt;&gt;pnlSAMouse.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;cBMouseAccel.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -5523,8 +5520,8 @@
   <data name="&gt;&gt;cBR2OutputCurve.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="r1TouchInvStripMenuItem.Text" xml:space="preserve">
-    <value>R1</value>
+  <data name="cBGyroInvertY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;cBFlashType.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -5553,9 +5550,6 @@
   <data name="&gt;&gt;bnTouchMulti.Name" xml:space="preserve">
     <value>bnTouchMulti</value>
   </data>
-  <data name="lbGyroXP.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
   <data name="bnR2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
@@ -5567,12 +5561,6 @@
   </data>
   <data name="&gt;&gt;gBOther.Parent" xml:space="preserve">
     <value>fLPSettings</value>
-  </data>
-  <data name="bnRSDown.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 18</value>
-  </data>
-  <data name="&gt;&gt;lbEmpty.ZOrder" xml:space="preserve">
-    <value>7</value>
   </data>
   <data name="tBLowBlueBar.Size" type="System.Drawing.Size, System.Drawing">
     <value>225, 45</value>
@@ -5619,9 +5607,6 @@
   <data name="nUDLS.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
-  <data name="&gt;&gt;DpadToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;cBGyroInvertX.Name" xml:space="preserve">
     <value>cBGyroInvertX</value>
   </data>
@@ -5634,11 +5619,11 @@
   <data name="&gt;&gt;lbLSCurvePercent.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="cBL2OutputCurve.Items1" xml:space="preserve">
-    <value>Quadratic</value>
-  </data>
   <data name="nUDRSMaxZone.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 35</value>
+  </data>
+  <data name="&gt;&gt;lbGyroInvert.Parent" xml:space="preserve">
+    <value>pnlSAMouse</value>
   </data>
   <data name="&gt;&gt;lVActions.Name" xml:space="preserve">
     <value>lVActions</value>
@@ -5652,8 +5637,8 @@
   <data name="&gt;&gt;gBSensitivity.Parent" xml:space="preserve">
     <value>fLPSettings</value>
   </data>
-  <data name="btnSATrack.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
+  <data name="lbControlTip.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;bnGyroZP.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -5661,8 +5646,11 @@
   <data name="&gt;&gt;fLPSettings.Type" xml:space="preserve">
     <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lbRS.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 29</value>
+  <data name="&gt;&gt;lbIdleMinutes.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cBGyroMouseXAxis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 37</value>
   </data>
   <data name="btnLSTrack.Text" xml:space="preserve">
     <value>button1</value>
@@ -5676,8 +5664,8 @@
   <data name="pnlRSTrack.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="bnR3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
+  <data name="&gt;&gt;bnTouchLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>216, 216</value>
@@ -5694,6 +5682,9 @@ with profile</value>
   </data>
   <data name="bnUp.Location" type="System.Drawing.Point, System.Drawing">
     <value>166, 173</value>
+  </data>
+  <data name="&gt;&gt;nUDRainbow.Parent" xml:space="preserve">
+    <value>gBLightbar</value>
   </data>
   <data name="lbLCircle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -5779,14 +5770,20 @@ with profile</value>
   <data name="cbStartTouchpadOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="tBRedBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 45</value>
+  </data>
   <data name="lbL2Track.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 29</value>
   </data>
-  <data name="&gt;&gt;bnOptions.ZOrder" xml:space="preserve">
-    <value>34</value>
+  <data name="&gt;&gt;cMTouchDisableInvert.Name" xml:space="preserve">
+    <value>cMTouchDisableInvert</value>
   </data>
   <data name="&gt;&gt;lbGyroZP.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="circleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Circle</value>
   </data>
   <data name="&gt;&gt;lbActionsTip.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -5836,6 +5833,9 @@ with profile</value>
   <data name="btnLSTrackS.Location" type="System.Drawing.Point, System.Drawing">
     <value>151, 112</value>
   </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="&gt;&gt;cBTouchpadJitterCompensation.Name" xml:space="preserve">
     <value>cBTouchpadJitterCompensation</value>
   </data>
@@ -5860,9 +5860,6 @@ with profile</value>
   <data name="lbSixaxisX.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 29</value>
   </data>
-  <data name="gBRumble.Location" type="System.Drawing.Point, System.Drawing">
-    <value>633, 525</value>
-  </data>
   <data name="&gt;&gt;r2TouchInvStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -5871,6 +5868,9 @@ with profile</value>
   </data>
   <data name="lbL2Track.Location" type="System.Drawing.Point, System.Drawing">
     <value>212, 760</value>
+  </data>
+  <data name="&gt;&gt;cBDoubleTap.Parent" xml:space="preserve">
+    <value>pnlTPMouse</value>
   </data>
   <data name="cBIdleDisconnect.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -5947,6 +5947,9 @@ with profile</value>
   <data name="&gt;&gt;twoFingerTouchInvStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;nUDLS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="lbControlName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopCenter</value>
   </data>
@@ -5962,11 +5965,17 @@ with profile</value>
   <data name="&gt;&gt;lsOutCurveComboBox.Name" xml:space="preserve">
     <value>lsOutCurveComboBox</value>
   </data>
-  <data name="&gt;&gt;btnChargingColor.Name" xml:space="preserve">
-    <value>btnChargingColor</value>
+  <data name="&gt;&gt;nUDGyroSmoothWeight.Name" xml:space="preserve">
+    <value>nUDGyroSmoothWeight</value>
   </data>
   <data name="&gt;&gt;lbGyroZN.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="&gt;&gt;tBsixaxisGyroX.Name" xml:space="preserve">
+    <value>tBsixaxisGyroX</value>
+  </data>
+  <data name="btnLightbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 29</value>
   </data>
   <data name="tSMIMouseInverted.Size" type="System.Drawing.Size, System.Drawing">
     <value>244, 42</value>
@@ -5986,8 +5995,8 @@ with profile</value>
   <data name="&gt;&gt;cBFlushHIDQueue.Parent" xml:space="preserve">
     <value>gBOther</value>
   </data>
-  <data name="cBSixaxisXOutputCurve.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 37</value>
+  <data name="lbL2TrackS.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;cBIdleDisconnect.Name" xml:space="preserve">
     <value>cBIdleDisconnect</value>
@@ -5998,8 +6007,8 @@ with profile</value>
   <data name="lbSixaxisZ.Text" xml:space="preserve">
     <value>Sixaxis Z</value>
   </data>
-  <data name="&gt;&gt;lbLowBlue.Name" xml:space="preserve">
-    <value>lbLowBlue</value>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 70</value>
   </data>
   <data name="btnBrowse.Location" type="System.Drawing.Point, System.Drawing">
     <value>297, 274</value>
@@ -6046,14 +6055,20 @@ with profile</value>
   <data name="&gt;&gt;lbGreen.Parent" xml:space="preserve">
     <value>pnlFull</value>
   </data>
-  <data name="bnRSLeft.TabIndex" type="System.Int32, mscorlib">
-    <value>169</value>
+  <data name="fLPSettings.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>TopDown</value>
+  </data>
+  <data name="&gt;&gt;touchpadInvertComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btPollRateComboBox.Parent" xml:space="preserve">
     <value>gBOther</value>
   </data>
   <data name="gBGyro.Text" xml:space="preserve">
     <value>Gyro</value>
+  </data>
+  <data name="pnlSAMouse.TabIndex" type="System.Int32, mscorlib">
+    <value>259</value>
   </data>
   <data name="&gt;&gt;nUDSXS.ZOrder" xml:space="preserve">
     <value>8</value>
@@ -6103,8 +6118,8 @@ with profile</value>
   <data name="lbL2S.TabIndex" type="System.Int32, mscorlib">
     <value>204</value>
   </data>
-  <data name="lVActions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 148</value>
+  <data name="&gt;&gt;lbLTouchUpper.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="cBScroll.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 33</value>
@@ -6135,9 +6150,6 @@ with profile</value>
   </data>
   <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
     <value>166, 29</value>
-  </data>
-  <data name="&gt;&gt;label18.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pBHoveredButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -6172,14 +6184,14 @@ with profile</value>
   <data name="tPOutCurve.Size" type="System.Drawing.Size, System.Drawing">
     <value>592, 119</value>
   </data>
+  <data name="&gt;&gt;bnL1.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
   <data name="btnSATrack.Size" type="System.Drawing.Size, System.Drawing">
     <value>7, 7</value>
   </data>
   <data name="bnTouchRight.TabIndex" type="System.Int32, mscorlib">
     <value>190</value>
-  </data>
-  <data name="lbL2Track.Text" xml:space="preserve">
-    <value>L2</value>
   </data>
   <data name="&gt;&gt;trackFrictionLb.Name" xml:space="preserve">
     <value>trackFrictionLb</value>
@@ -6217,8 +6229,8 @@ with profile</value>
   <data name="&gt;&gt;cBDoubleTap.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="bnSwipeDown.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 52</value>
+  <data name="&gt;&gt;tBLowRedBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lbL2TrackS.Size" type="System.Drawing.Size, System.Drawing">
     <value>984, 960</value>
@@ -6241,8 +6253,11 @@ with profile</value>
   <data name="&gt;&gt;nUDSX.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnRSTrackS.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 76</value>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 14</value>
+  </data>
+  <data name="cBFlushHIDQueue.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
   </data>
   <data name="&gt;&gt;lbPercentFlashBar.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -6264,9 +6279,6 @@ with profile</value>
   </data>
   <data name="pBProgram.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 23</value>
-  </data>
-  <data name="lbLowGreen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 119</value>
   </data>
   <data name="nUDRumbleBoost.TabIndex" type="System.Int32, mscorlib">
     <value>211</value>
@@ -6298,17 +6310,11 @@ with profile</value>
   <data name="lbSwipeRight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="tBsixaxisGyroY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="label11.Text" xml:space="preserve">
     <value>Vertical Scale:</value>
   </data>
   <data name="&gt;&gt;nUDSixAxisXMaxZone.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="nUDL2AntiDead.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
   </data>
   <data name="lbControlTip.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
@@ -6337,8 +6343,8 @@ with profile</value>
   <data name="lbLRS.Size" type="System.Drawing.Size, System.Drawing">
     <value>4, 4</value>
   </data>
-  <data name="&gt;&gt;enableTouchToggleCheckbox.Parent" xml:space="preserve">
-    <value>gBOther</value>
+  <data name="controlToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="label21.Text" xml:space="preserve">
     <value>L2:</value>
@@ -6365,19 +6371,22 @@ with profile</value>
     <value>NoControl</value>
   </data>
   <data name="&gt;&gt;rBTPMouse.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="bnRSUp.Size" type="System.Drawing.Size, System.Drawing">
     <value>65, 32</value>
   </data>
-  <data name="&gt;&gt;tSMIDPadInvertedX.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lbGyroSens.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 155</value>
   </data>
   <data name="tBR2.Location" type="System.Drawing.Point, System.Drawing">
     <value>320, 524</value>
   </data>
-  <data name="lsOutCurveComboBox.Items" xml:space="preserve">
-    <value>Linear</value>
+  <data name="bnRSRight.Text" xml:space="preserve">
+    <value>Right X-Axis+</value>
+  </data>
+  <data name="&gt;&gt;btnChargingColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lbUseController.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -6422,7 +6431,7 @@ with profile</value>
     <value>675, 524</value>
   </data>
   <data name="&gt;&gt;rBTPControls.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="&gt;&gt;pnlTPMouse.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -6439,6 +6448,9 @@ with profile</value>
   <data name="&gt;&gt;r1ToolStripMenuItem.Name" xml:space="preserve">
     <value>r1ToolStripMenuItem</value>
   </data>
+  <data name="&gt;&gt;lbSixaxisZ.Name" xml:space="preserve">
+    <value>lbSixaxisZ</value>
+  </data>
   <data name="&gt;&gt;nUDSXS.Parent" xml:space="preserve">
     <value>gBSensitivity</value>
   </data>
@@ -6451,14 +6463,8 @@ with profile</value>
   <data name="cBGyroInvertY.Size" type="System.Drawing.Size, System.Drawing">
     <value>65, 33</value>
   </data>
-  <data name="lsOutCurveComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>70, 4</value>
-  </data>
   <data name="alwaysOnToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>361, 42</value>
-  </data>
-  <data name="lBControls.ItemHeight" type="System.Int32, mscorlib">
-    <value>29</value>
   </data>
   <data name="nUDL2.Location" type="System.Drawing.Point, System.Drawing">
     <value>68, 65</value>
@@ -6500,7 +6506,7 @@ with profile</value>
     <value>4, 0, 4, 0</value>
   </data>
   <data name="&gt;&gt;rBSAMouse.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="btnLSTrack.Size" type="System.Drawing.Size, System.Drawing">
     <value>7, 7</value>
@@ -6511,8 +6517,8 @@ with profile</value>
   <data name="maxZoneTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
-  <data name="pnlFull.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 43</value>
+  <data name="nUDL2AntiDead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 35</value>
   </data>
   <data name="&gt;&gt;bnSwipeDown.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -6525,9 +6531,6 @@ with profile</value>
   </data>
   <data name="triangleTouchInvStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>361, 42</value>
-  </data>
-  <data name="nUDflashLED.TabIndex" type="System.Int32, mscorlib">
-    <value>167</value>
   </data>
   <data name="lbGreen.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 0, 7, 0</value>
@@ -6547,8 +6550,8 @@ with profile</value>
   <data name="lbPercentRumble.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="lbLright.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="lbSixaxisXS.Text" xml:space="preserve">
+    <value>Sixaxis X</value>
   </data>
   <data name="&gt;&gt;lb6Accel.Parent" xml:space="preserve">
     <value>pnlSixaxis</value>
@@ -6559,8 +6562,8 @@ with profile</value>
   <data name="lbLowBlue.Text" xml:space="preserve">
     <value>B</value>
   </data>
-  <data name="&gt;&gt;lbLSquare.ZOrder" xml:space="preserve">
-    <value>42</value>
+  <data name="tBsixaxisAccelY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 117</value>
   </data>
   <data name="btnNewAction.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -6583,8 +6586,8 @@ with profile</value>
   <data name="btnNewAction.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
-  <data name="lbIdleMinutes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 29</value>
+  <data name="&gt;&gt;tBsixaxisAccelZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;rightToolStripMenuItem.Name" xml:space="preserve">
     <value>rightToolStripMenuItem</value>
@@ -6619,11 +6622,11 @@ with profile</value>
   <data name="&gt;&gt;RSToolStripMenuItem.Name" xml:space="preserve">
     <value>RSToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;label19.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;rBSAControls.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlSixaxis.Name" xml:space="preserve">
+    <value>pnlSixaxis</value>
   </data>
   <data name="cBL2OutputCurve.Size" type="System.Drawing.Size, System.Drawing">
     <value>98, 37</value>
@@ -6682,8 +6685,8 @@ with profile</value>
   <data name="&gt;&gt;lbRSTip.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="tBsixaxisAccelY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 117</value>
+  <data name="&gt;&gt;bnTouchMulti.Parent" xml:space="preserve">
+    <value>pnlController</value>
   </data>
   <data name="&gt;&gt;pBProgram.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -6721,9 +6724,6 @@ with profile</value>
   <data name="lbLSS.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 0, 7, 0</value>
   </data>
-  <data name="ArrowKeysToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 42</value>
-  </data>
   <data name="bnShare.Location" type="System.Drawing.Point, System.Drawing">
     <value>270, 128</value>
   </data>
@@ -6736,17 +6736,14 @@ with profile</value>
   <data name="lbSATip.TabIndex" type="System.Int32, mscorlib">
     <value>216</value>
   </data>
-  <data name="&gt;&gt;label13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbSmoothWeight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>216, 326</value>
-  </data>
   <data name="cBSixaxisXOutputCurve.Location" type="System.Drawing.Point, System.Drawing">
     <value>497, 2</value>
   </data>
   <data name="bnGyroZP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="btnFlashColor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
   </data>
   <data name="lbButtonMouseSens.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 0, 7, 0</value>
@@ -6778,9 +6775,6 @@ with profile</value>
   <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;trackballCk.Name" xml:space="preserve">
-    <value>trackballCk</value>
-  </data>
   <data name="&gt;&gt;r2ToolStripMenuItem.Name" xml:space="preserve">
     <value>r2ToolStripMenuItem</value>
   </data>
@@ -6803,7 +6797,7 @@ with profile</value>
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;nUDTouch.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>15</value>
   </data>
   <data name="&gt;&gt;tSMIDPadInverted.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -6813,9 +6807,6 @@ with profile</value>
   </data>
   <data name="&gt;&gt;lbLLS.Parent" xml:space="preserve">
     <value>pnlController</value>
-  </data>
-  <data name="btnRSTrack.TabIndex" type="System.Int32, mscorlib">
-    <value>237</value>
   </data>
   <data name="lbSwipeDown.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -6850,9 +6841,6 @@ with profile</value>
   <data name="&gt;&gt;nUDRSS.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;bnGyroXN.Name" xml:space="preserve">
-    <value>bnGyroXN</value>
-  </data>
   <data name="&gt;&gt;tBLowBlueBar.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
@@ -6877,17 +6865,14 @@ with profile</value>
   <data name="tSMIDPadInvertedY.Text" xml:space="preserve">
     <value>Inverted Y</value>
   </data>
-  <data name="cBFlushHIDQueue.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
-  </data>
   <data name="nUDL2S.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 35</value>
   </data>
-  <data name="nUDSixaxisZAntiDead.Location" type="System.Drawing.Point, System.Drawing">
-    <value>482, 65</value>
+  <data name="&gt;&gt;nUDSXS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 70</value>
+  <data name="bnTouchRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>526, 140</value>
   </data>
   <data name="btnSATrackS.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -6919,9 +6904,6 @@ with profile</value>
   <data name="lbLCross.Size" type="System.Drawing.Size, System.Drawing">
     <value>4, 4</value>
   </data>
-  <data name="&gt;&gt;lbSixaxisXS.Parent" xml:space="preserve">
-    <value>gBSensitivity</value>
-  </data>
   <data name="oneFingerTouchInvStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>361, 42</value>
   </data>
@@ -6932,16 +6914,13 @@ with profile</value>
     <value>gBTouchpad</value>
   </data>
   <data name="&gt;&gt;cBlowerRCOn.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>12</value>
   </data>
   <data name="&gt;&gt;lbSwipeDown.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="wScanCodeWASDToolStripMenuItem.Text" xml:space="preserve">
     <value>w/ Scan Code</value>
-  </data>
-  <data name="&gt;&gt;nUDflashLED.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnSATrackS.Parent" xml:space="preserve">
     <value>pnlSATrack</value>
@@ -6955,11 +6934,11 @@ with profile</value>
   <data name="&gt;&gt;cBLightbyBattery.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lbLright.TabIndex" type="System.Int32, mscorlib">
-    <value>293</value>
+  <data name="&gt;&gt;trackballCk.Name" xml:space="preserve">
+    <value>trackballCk</value>
   </data>
-  <data name="&gt;&gt;optionsTouchInvStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="rightToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>361, 42</value>
   </data>
   <data name="&gt;&gt;pnlSATrack.Parent" xml:space="preserve">
     <value>lbL2TrackS</value>
@@ -6988,8 +6967,8 @@ with profile</value>
   <data name="btPollRateComboBox.Items2" xml:space="preserve">
     <value>500 Hz (2 ms)</value>
   </data>
-  <data name="cBGyroMouseXAxis.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 37</value>
+  <data name="btPollRateComboBox.Items1" xml:space="preserve">
+    <value>1000 Hz (1 ms)</value>
   </data>
   <data name="&gt;&gt;bnR3.Name" xml:space="preserve">
     <value>bnR3</value>
@@ -7042,8 +7021,8 @@ with profile</value>
   <data name="lbSmoothWeight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 0, 7, 0</value>
   </data>
-  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="lbLCross.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="btnRSTrackS.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
@@ -7062,9 +7041,6 @@ with profile</value>
   </data>
   <data name="cBTouchpadJitterCompensation.TabIndex" type="System.Int32, mscorlib">
     <value>224</value>
-  </data>
-  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>281, 52</value>
   </data>
   <data name="enableTouchToggleCheckbox.TabIndex" type="System.Int32, mscorlib">
     <value>257</value>
@@ -7098,9 +7074,6 @@ with profile</value>
   </data>
   <data name="controlToolStripMenuItem.Text" xml:space="preserve">
     <value>Control</value>
-  </data>
-  <data name="&gt;&gt;touchpadInvertComboBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="gBTouchpad.Size" type="System.Drawing.Size, System.Drawing">
     <value>608, 428</value>
@@ -7153,8 +7126,17 @@ with profile</value>
   <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="lbGreen.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tSMILSInvertedY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="tSMIDPadInvertedX.Text" xml:space="preserve">
     <value>Inverted X</value>
+  </data>
+  <data name="tBsixaxisGyroX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
   </data>
   <data name="bnRight.TabIndex" type="System.Int32, mscorlib">
     <value>82</value>
@@ -7231,6 +7213,9 @@ with profile</value>
   <data name="&gt;&gt;nUDRainbowB.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;cBFlushHIDQueue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="label15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 0, 7, 0</value>
   </data>
@@ -7282,14 +7267,17 @@ with profile</value>
   <data name="&gt;&gt;lbPercentRumble.Name" xml:space="preserve">
     <value>lbPercentRumble</value>
   </data>
+  <data name="tBLowBlueBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 162</value>
+  </data>
   <data name="&gt;&gt;cBL2OutputCurve.Parent" xml:space="preserve">
     <value>tPOutCurve</value>
   </data>
   <data name="&gt;&gt;bnPS.Name" xml:space="preserve">
     <value>bnPS</value>
   </data>
-  <data name="cBLightbyBattery.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 33</value>
+  <data name="&gt;&gt;lbLright.ZOrder" xml:space="preserve">
+    <value>21</value>
   </data>
   <data name="bnLeft.Text" xml:space="preserve">
     <value>Left Button</value>
@@ -7318,14 +7306,14 @@ with profile</value>
   <data name="&gt;&gt;lbSmoothWeight.Parent" xml:space="preserve">
     <value>pnlSAMouse</value>
   </data>
-  <data name="tBLowRedBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 58</value>
+  <data name="pnlSixaxis.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
   </data>
   <data name="&gt;&gt;pBProgram.Parent" xml:space="preserve">
     <value>gBOther</value>
   </data>
-  <data name="&gt;&gt;rightToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="bnRSDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>596, 421</value>
   </data>
   <data name="nUDRainbow.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 35</value>
@@ -7378,6 +7366,12 @@ with profile</value>
   <data name="lbL2S.Location" type="System.Drawing.Point, System.Drawing">
     <value>25, 112</value>
   </data>
+  <data name="lbLSquare.Location" type="System.Drawing.Point, System.Drawing">
+    <value>662, 232</value>
+  </data>
+  <data name="touchpadDisInvertButton.Text" xml:space="preserve">
+    <value>None</value>
+  </data>
   <data name="lbRed.TabIndex" type="System.Int32, mscorlib">
     <value>158</value>
   </data>
@@ -7390,14 +7384,8 @@ with profile</value>
   <data name="btnChargingColor.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 29</value>
-  </data>
-  <data name="&gt;&gt;lbL2TrackS.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;antiDeadzoneTabPage.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;nUDLSS.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="nUDR2Maxzone.Location" type="System.Drawing.Point, System.Drawing">
     <value>256, 65</value>
@@ -7411,14 +7399,14 @@ with profile</value>
   <data name="&gt;&gt;r2ToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="oneFingerTouchInvStripMenuItem.Text" xml:space="preserve">
+    <value>Finger on Touchpad</value>
+  </data>
   <data name="lbPercentRumble.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 29</value>
   </data>
   <data name="cBGyroSmooth.TabIndex" type="System.Int32, mscorlib">
     <value>268</value>
-  </data>
-  <data name="rBSAControls.TabIndex" type="System.Int32, mscorlib">
-    <value>258</value>
   </data>
   <data name="&gt;&gt;bnLeft.Parent" xml:space="preserve">
     <value>pnlController</value>
@@ -7444,8 +7432,8 @@ with profile</value>
   <data name="cBDoubleTap.Text" xml:space="preserve">
     <value>Double Tap</value>
   </data>
-  <data name="bnR1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 50</value>
+  <data name="gyroTriggerBehavior.Text" xml:space="preserve">
+    <value>Trigger Behavior - Turns Gyro</value>
   </data>
   <data name="bnLSRight.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
@@ -7467,6 +7455,9 @@ with profile</value>
   </data>
   <data name="bnOptions.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
+  </data>
+  <data name="&gt;&gt;bnSwipeLeft.Name" xml:space="preserve">
+    <value>bnSwipeLeft</value>
   </data>
   <data name="bnR3.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 50</value>
@@ -7495,6 +7486,9 @@ with profile</value>
   <data name="&gt;&gt;nUDGyroMouseVertScale.Parent" xml:space="preserve">
     <value>pnlSAMouse</value>
   </data>
+  <data name="bnOptions.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="&gt;&gt;rBSAMouse.Parent" xml:space="preserve">
     <value>gBGyro</value>
   </data>
@@ -7510,9 +7504,6 @@ with profile</value>
   <data name="&gt;&gt;nUDSixaxisXAntiDead.Parent" xml:space="preserve">
     <value>antiDeadzoneTabPage</value>
   </data>
-  <data name="&gt;&gt;lbLUp.Parent" xml:space="preserve">
-    <value>pnlController</value>
-  </data>
   <data name="&gt;&gt;bnRSUp.Name" xml:space="preserve">
     <value>bnRSUp</value>
   </data>
@@ -7522,14 +7513,11 @@ with profile</value>
   <data name="lbSmoothWeight.TabIndex" type="System.Int32, mscorlib">
     <value>267</value>
   </data>
-  <data name="&gt;&gt;tBsixaxisAccelZ.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="bnRSRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>655, 367</value>
   </data>
   <data name="lbRSS.TabIndex" type="System.Int32, mscorlib">
     <value>209</value>
-  </data>
-  <data name="bnRSDown.Location" type="System.Drawing.Point, System.Drawing">
-    <value>596, 421</value>
   </data>
   <data name="nUDRSS.Location" type="System.Drawing.Point, System.Drawing">
     <value>243, 43</value>
@@ -7545,6 +7533,9 @@ with profile</value>
   </data>
   <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="lBControls.Items23" xml:space="preserve">
+    <value>Left Stick Left :</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
     <value>Invert:</value>
@@ -7569,6 +7560,9 @@ with profile</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
+  </data>
+  <data name="&gt;&gt;lbSixaxisZS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lbLSS.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -7618,8 +7612,8 @@ with profile</value>
   <data name="cBGyroSmooth.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="btPollRateComboBox.Items" xml:space="preserve">
-    <value>Max (1 ms)</value>
+  <data name="&gt;&gt;lbLSTip.Name" xml:space="preserve">
+    <value>lbLSTip</value>
   </data>
   <data name="&gt;&gt;wScanCodeArrowKeysToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -7643,7 +7637,7 @@ with profile</value>
     <value>None</value>
   </data>
   <data name="&gt;&gt;touchpadDisInvertButton.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="tPSpecial.Size" type="System.Drawing.Size, System.Drawing">
     <value>984, 960</value>
@@ -7651,8 +7645,8 @@ with profile</value>
   <data name="&gt;&gt;lbLDown.ZOrder" xml:space="preserve">
     <value>23</value>
   </data>
-  <data name="&gt;&gt;nUDSZS.Parent" xml:space="preserve">
-    <value>gBSensitivity</value>
+  <data name="&gt;&gt;nUDflashLED.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lbGyroZP.Name" xml:space="preserve">
     <value>lbGyroZP</value>
@@ -7668,9 +7662,6 @@ with profile</value>
   </data>
   <data name="nUDL2.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 35</value>
-  </data>
-  <data name="bnTouchUpper.Size" type="System.Drawing.Size, System.Drawing">
-    <value>310, 43</value>
   </data>
   <data name="btnFlashColor.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -7696,8 +7687,11 @@ with profile</value>
   <data name="lbLSquare.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
-  <data name="tBsixaxisAccelX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+  <data name="LSToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 42</value>
+  </data>
+  <data name="tPDeadzone.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="l1ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>361, 42</value>
@@ -7795,6 +7789,9 @@ with profile</value>
   <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 0, 7, 0</value>
   </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>984, 148</value>
+  </data>
   <data name="bnRSLeft.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
@@ -7825,8 +7822,8 @@ with profile</value>
   <data name="cBSlide.TabIndex" type="System.Int32, mscorlib">
     <value>232</value>
   </data>
-  <data name="nUDSixaxisXAntiDead.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+  <data name="nUDRumbleBoost.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
   </data>
   <data name="&gt;&gt;cBGyroInvertX.ZOrder" xml:space="preserve">
     <value>11</value>
@@ -7864,8 +7861,8 @@ with profile</value>
   <data name="&gt;&gt;bnGyroXP.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lbSwipeLeft.Name" xml:space="preserve">
-    <value>lbSwipeLeft</value>
+  <data name="lbGyroXN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 198</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
     <value>191, 11</value>
@@ -7876,8 +7873,8 @@ with profile</value>
   <data name="&gt;&gt;lbGyroXP.Name" xml:space="preserve">
     <value>lbGyroXP</value>
   </data>
-  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="lVActions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
   <data name="lbLSTip.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 0, 7, 0</value>
@@ -7927,11 +7924,11 @@ with profile</value>
   <data name="&gt;&gt;lbspc.Name" xml:space="preserve">
     <value>lbspc</value>
   </data>
+  <data name="btnSATrack.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
   <data name="lbGyroSmooth.TabIndex" type="System.Int32, mscorlib">
     <value>269</value>
-  </data>
-  <data name="lBControls.Items13" xml:space="preserve">
-    <value>L2 :</value>
   </data>
   <data name="label24.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 0, 7, 0</value>
@@ -7944,9 +7941,6 @@ with profile</value>
   </data>
   <data name="bnGyroXN.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
-  </data>
-  <data name="lb6Gryo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 29</value>
   </data>
   <data name="&gt;&gt;lbFull.Parent" xml:space="preserve">
     <value>pnlFull</value>
@@ -8002,14 +7996,14 @@ with profile</value>
   <data name="tBsixaxisAccelY.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;cMTouchDisableInvert.Name" xml:space="preserve">
-    <value>cMTouchDisableInvert</value>
+  <data name="nUDflashLED.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 35</value>
   </data>
   <data name="&gt;&gt;advColorDialog.Type" xml:space="preserve">
     <value>DS4Windows.AdvancedColorDialog, DS4Windows, Version=1.4.109.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="lbL2S.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 0, 7, 0</value>
+  <data name="&gt;&gt;cBL2OutputCurve.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;pSToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -8056,10 +8050,10 @@ with profile</value>
   <data name="label8.Text" xml:space="preserve">
     <value>R2:</value>
   </data>
-  <data name="&gt;&gt;lbIdleMinutes.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
   <data name="lbR2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbFull.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="fLPTouchSwipe.TabIndex" type="System.Int32, mscorlib">
@@ -8095,6 +8089,9 @@ with profile</value>
   <data name="bnGyroZP.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 52</value>
   </data>
+  <data name="downToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>361, 42</value>
+  </data>
   <data name="cBGyroMouseXAxis.TabIndex" type="System.Int32, mscorlib">
     <value>271</value>
   </data>
@@ -8113,8 +8110,14 @@ with profile</value>
   <data name="&gt;&gt;btnRainbow.Name" xml:space="preserve">
     <value>btnRainbow</value>
   </data>
+  <data name="bnCross.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="tBBlueBar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
+  </data>
+  <data name="&gt;&gt;tSMIDPadInvertedY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="tBGreenBar.Location" type="System.Drawing.Point, System.Drawing">
     <value>58, 112</value>
@@ -8170,9 +8173,6 @@ with profile</value>
   <data name="&gt;&gt;fLPActionButtons.Type" xml:space="preserve">
     <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="bnTouchUpper.Text" xml:space="preserve">
-    <value>Middle Mouse Button</value>
-  </data>
   <data name="lbIdleMinutes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 0, 7, 0</value>
   </data>
@@ -8197,17 +8197,26 @@ with profile</value>
   <data name="pnlLSTrack.Location" type="System.Drawing.Point, System.Drawing">
     <value>11, 198</value>
   </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Sixaxis Z:</value>
+  </data>
   <data name="bnGyroXP.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 139</value>
   </data>
   <data name="&gt;&gt;lbSwipeDown.Name" xml:space="preserve">
     <value>lbSwipeDown</value>
   </data>
+  <data name="&gt;&gt;nUDSixAxisXMaxZone.Parent" xml:space="preserve">
+    <value>maxZoneTabPage</value>
+  </data>
   <data name="bnRSRight.TabIndex" type="System.Int32, mscorlib">
     <value>170</value>
   </data>
   <data name="lbL2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 0, 7, 0</value>
+  </data>
+  <data name="&gt;&gt;pnlSixaxis.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;nUDSXS.Name" xml:space="preserve">
     <value>nUDSXS</value>
@@ -8221,6 +8230,9 @@ with profile</value>
   <data name="&gt;&gt;bnLSRight.Name" xml:space="preserve">
     <value>bnLSRight</value>
   </data>
+  <data name="&gt;&gt;nUDflashLED.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
   <data name="&gt;&gt;tpRotation.Parent" xml:space="preserve">
     <value>tCSens</value>
   </data>
@@ -8229,6 +8241,9 @@ with profile</value>
   </data>
   <data name="&gt;&gt;bnTouchMulti.ZOrder" xml:space="preserve">
     <value>43</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="bnTouchLeft.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
@@ -8266,9 +8281,6 @@ with profile</value>
   <data name="&gt;&gt;label24.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tCControls.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="lBControls.Items14" xml:space="preserve">
     <value>R2 :</value>
   </data>
@@ -8293,11 +8305,8 @@ with profile</value>
   <data name="bnTriangle.Text" xml:space="preserve">
     <value>Y Button</value>
   </data>
-  <data name="btnLightbar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>310, 29</value>
-  </data>
-  <data name="cBGyroInvertY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="nUDflashLED.TabIndex" type="System.Int32, mscorlib">
+    <value>167</value>
   </data>
   <data name="label14.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -8311,14 +8320,14 @@ with profile</value>
   <data name="&gt;&gt;lbButtonMouseSens.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;nUDR2Maxzone.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="lbLRS.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="nUDRSAntiDead.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
+  </data>
+  <data name="rBTPControls.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="tBGreenBar.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -8331,9 +8340,6 @@ with profile</value>
   </data>
   <data name="tPCurve.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
-  </data>
-  <data name="&gt;&gt;nUDSXS.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lbLOptions.ZOrder" xml:space="preserve">
     <value>36</value>
@@ -8369,10 +8375,10 @@ with profile</value>
     <value>btnNewAction</value>
   </data>
   <data name="&gt;&gt;pnlTPMouse.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Options</value>
+  <data name="&gt;&gt;lbControlName.ZOrder" xml:space="preserve">
+    <value>51</value>
   </data>
   <data name="cBLaunchProgram.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
@@ -8381,7 +8387,7 @@ with profile</value>
     <value>290</value>
   </data>
   <data name="&gt;&gt;cBTouchpadJitterCompensation.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="&gt;&gt;lbLSCurvePercent.Name" xml:space="preserve">
     <value>lbLSCurvePercent</value>
@@ -8416,9 +8422,6 @@ with profile</value>
   <data name="&gt;&gt;pnlController.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="lbLShare.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="&gt;&gt;panel2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -8428,8 +8431,8 @@ with profile</value>
   <data name="&gt;&gt;lbSmoothWeight.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="lbGyroSmooth.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 29</value>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lbPercentRumble.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 0, 7, 0</value>
@@ -8446,14 +8449,17 @@ with profile</value>
   <data name="&gt;&gt;lbL2TrackS.Name" xml:space="preserve">
     <value>lbL2TrackS</value>
   </data>
+  <data name="circleTouchInvStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>361, 42</value>
+  </data>
   <data name="&gt;&gt;l3TouchInvStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tSMIRSInvertedX.Name" xml:space="preserve">
     <value>tSMIRSInvertedX</value>
   </data>
-  <data name="bnCircle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+  <data name="bnSwipeDown.TabIndex" type="System.Int32, mscorlib">
+    <value>250</value>
   </data>
   <data name="cBSixaxisXOutputCurve.Items" xml:space="preserve">
     <value>Linear</value>
@@ -8504,7 +8510,7 @@ with profile</value>
     <value>306, 52</value>
   </data>
   <data name="&gt;&gt;touchpadInvertComboBox.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="pnlLowBattery.Location" type="System.Drawing.Point, System.Drawing">
     <value>320, 40</value>
@@ -8536,14 +8542,14 @@ with profile</value>
   <data name="tBsixaxisGyroX.TabIndex" type="System.Int32, mscorlib">
     <value>222</value>
   </data>
+  <data name="lbGyroSens.Text" xml:space="preserve">
+    <value>Gyro Sensitivity:</value>
+  </data>
   <data name="lbLTouchUpper.Location" type="System.Drawing.Point, System.Drawing">
     <value>324, 4</value>
   </data>
   <data name="cBlowerRCOn.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="bnRSRight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>655, 367</value>
   </data>
   <data name="bnTouchUpper.Location" type="System.Drawing.Point, System.Drawing">
     <value>322, 94</value>
@@ -8557,9 +8563,6 @@ with profile</value>
   <data name="&gt;&gt;crossToolStripMenuItem.Name" xml:space="preserve">
     <value>crossToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;lbGyroInvert.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
   <data name="btnLSTrack.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
@@ -8571,6 +8574,9 @@ with profile</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>11</value>
+  </data>
+  <data name="&gt;&gt;advColorDialog.Name" xml:space="preserve">
+    <value>advColorDialog</value>
   </data>
   <data name="nUDLS.TabIndex" type="System.Int32, mscorlib">
     <value>203</value>
@@ -8602,6 +8608,9 @@ with profile</value>
   <data name="lbSixaxisZ.Location" type="System.Drawing.Point, System.Drawing">
     <value>353, 74</value>
   </data>
+  <data name="&gt;&gt;tSMIDPadInvertedX.Name" xml:space="preserve">
+    <value>tSMIDPadInvertedX</value>
+  </data>
   <data name="label21.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -8619,6 +8628,9 @@ with profile</value>
   </data>
   <data name="fingerOnTouchpadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>361, 42</value>
+  </data>
+  <data name="tBLowRedBar.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="bnLSDown.TabIndex" type="System.Int32, mscorlib">
     <value>166</value>
@@ -8653,14 +8665,11 @@ with profile</value>
   <data name="&gt;&gt;lbL2.Name" xml:space="preserve">
     <value>lbL2</value>
   </data>
-  <data name="lbLCross.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+  <data name="lBControls.ItemHeight" type="System.Int32, mscorlib">
+    <value>29</value>
   </data>
   <data name="cBDinput.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
-  </data>
-  <data name="&gt;&gt;cBLaunchProgram.Parent" xml:space="preserve">
-    <value>gBOther</value>
   </data>
   <data name="nUDSixAxisXMaxZone.Location" type="System.Drawing.Point, System.Drawing">
     <value>495, 7</value>
@@ -8668,8 +8677,8 @@ with profile</value>
   <data name="&gt;&gt;label22.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
-    <value>194, 70</value>
+  <data name="bnRSLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 43</value>
   </data>
   <data name="&gt;&gt;nUDIdleDisconnect.ZOrder" xml:space="preserve">
     <value>11</value>
@@ -8677,17 +8686,11 @@ with profile</value>
   <data name="&gt;&gt;lbBlue.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;squareToolStripMenuItem.Name" xml:space="preserve">
-    <value>squareToolStripMenuItem</value>
-  </data>
   <data name="lbActionsTip.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 0, 7, 0</value>
   </data>
   <data name="bnR3.Text" xml:space="preserve">
     <value>Right Stick</value>
-  </data>
-  <data name="lsOutCurveComboBox.Items2" xml:space="preserve">
-    <value>Quadratic</value>
   </data>
   <data name="&gt;&gt;lbSixaxisZ.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -8752,9 +8755,6 @@ with profile</value>
   <data name="&gt;&gt;cBGyroMouseXAxis.Parent" xml:space="preserve">
     <value>pnlSAMouse</value>
   </data>
-  <data name="nUDL2S.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
-  </data>
   <data name="&gt;&gt;cBL2OutputCurve.Name" xml:space="preserve">
     <value>cBL2OutputCurve</value>
   </data>
@@ -8773,6 +8773,9 @@ with profile</value>
   <data name="touchpadDisInvertButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
+  <data name="&gt;&gt;lbLR1.Parent" xml:space="preserve">
+    <value>pnlController</value>
+  </data>
   <data name="&gt;&gt;btPollRateLabel.Name" xml:space="preserve">
     <value>btPollRateLabel</value>
   </data>
@@ -8788,9 +8791,6 @@ with profile</value>
   <data name="lbLTriangle.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;lbLTouchUpper.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="&gt;&gt;lbLSCurve.Parent" xml:space="preserve">
     <value>tPCurve</value>
   </data>
@@ -8800,8 +8800,8 @@ with profile</value>
   <data name="&gt;&gt;nUDRSRotation.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="btPollRateComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>267, 37</value>
+  <data name="&gt;&gt;lbLUp.ZOrder" xml:space="preserve">
+    <value>31</value>
   </data>
   <data name="gyroTriggerBehavior.TabIndex" type="System.Int32, mscorlib">
     <value>262</value>
@@ -8818,8 +8818,8 @@ with profile</value>
   <data name="lbActionsTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="cBTap.TabIndex" type="System.Int32, mscorlib">
-    <value>230</value>
+  <data name="btnFlashColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="nUDflashLED.Location" type="System.Drawing.Point, System.Drawing">
     <value>176, 302</value>
@@ -8836,11 +8836,11 @@ with profile</value>
   <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;bnSwipeLeft.Name" xml:space="preserve">
-    <value>bnSwipeLeft</value>
+  <data name="cBLightbyBattery.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 33</value>
   </data>
-  <data name="lbL2TrackS.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="label23.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="lbspc.Location" type="System.Drawing.Point, System.Drawing">
     <value>162, 490</value>
@@ -8854,17 +8854,11 @@ with profile</value>
   <data name="&gt;&gt;lb6Accel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="pnlSixaxis.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
-  </data>
   <data name="&gt;&gt;lbLShare.Name" xml:space="preserve">
     <value>lbLShare</value>
   </data>
   <data name="lbLR1.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="btnLSTrack.TabIndex" type="System.Int32, mscorlib">
-    <value>237</value>
   </data>
   <data name="&gt;&gt;label25.Name" xml:space="preserve">
     <value>label25</value>
@@ -8872,8 +8866,8 @@ with profile</value>
   <data name="nUDRainbow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
-  <data name="bnSwipeRight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 52</value>
   </data>
   <data name="btPollRateComboBox.Items15" xml:space="preserve">
     <value>66 Hz (15 ms)</value>
@@ -8890,14 +8884,14 @@ with profile</value>
   <data name="cBIdleDisconnect.Size" type="System.Drawing.Size, System.Drawing">
     <value>214, 33</value>
   </data>
-  <data name="bnRSLeft.Location" type="System.Drawing.Point, System.Drawing">
-    <value>569, 367</value>
+  <data name="bnTouchUpper.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 43</value>
   </data>
   <data name="lbWhileCharging.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;nUDTap.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="lbLS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 14</value>
   </data>
   <data name="&gt;&gt;tSMIRSInvertedX.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -8907,9 +8901,6 @@ with profile</value>
   </data>
   <data name="bnGyroZN.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 52</value>
-  </data>
-  <data name="lbInputDelay.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 7</value>
   </data>
   <data name="lbLShare.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -8926,17 +8917,17 @@ with profile</value>
   <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
     <value>openFileDialog1</value>
   </data>
-  <data name="&gt;&gt;cBDoubleTap.Parent" xml:space="preserve">
-    <value>pnlTPMouse</value>
+  <data name="tBLowBlueBar.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
-  <data name="label17.Text" xml:space="preserve">
-    <value>Sixaxis X:</value>
+  <data name="lbLShare.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="pnlFull.Size" type="System.Drawing.Size, System.Drawing">
     <value>302, 216</value>
   </data>
-  <data name="nUDRS.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 35</value>
+  <data name="&gt;&gt;squareToolStripMenuItem.Name" xml:space="preserve">
+    <value>squareToolStripMenuItem</value>
   </data>
   <data name="touchpadInvertComboBox.TabIndex" type="System.Int32, mscorlib">
     <value>234</value>
@@ -9001,17 +8992,14 @@ with profile</value>
   <data name="&gt;&gt;label20.Name" xml:space="preserve">
     <value>label20</value>
   </data>
-  <data name="cBSlide.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
-  </data>
   <data name="&gt;&gt;nUDLSCurve.Name" xml:space="preserve">
     <value>nUDLSCurve</value>
   </data>
   <data name="&gt;&gt;pnlSAMouse.Name" xml:space="preserve">
     <value>pnlSAMouse</value>
   </data>
-  <data name="&gt;&gt;lbLowBlue.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="bnR2.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
   </data>
   <data name="&gt;&gt;nUDSixaxisXAntiDead.Name" xml:space="preserve">
     <value>nUDSixaxisXAntiDead</value>
@@ -9019,38 +9007,35 @@ with profile</value>
   <data name="label13.Text" xml:space="preserve">
     <value>LS:</value>
   </data>
-  <data name="bnRSDown.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
+  <data name="RSToolStripMenuItem.Text" xml:space="preserve">
+    <value>Right Stick</value>
   </data>
-  <data name="lbLSquare.Location" type="System.Drawing.Point, System.Drawing">
-    <value>662, 232</value>
+  <data name="&gt;&gt;nUDL2S.Parent" xml:space="preserve">
+    <value>gBSensitivity</value>
   </data>
-  <data name="cBGyroInvertY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+  <data name="&gt;&gt;btnNewAction.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;lbBlue.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;cBL2OutputCurve.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;bnR2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="optionsTouchInvStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>361, 42</value>
+  <data name="btPollRateLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
   </data>
   <data name="tBsixaxisAccelZ.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
-  <data name="&gt;&gt;nUDRainbow.Parent" xml:space="preserve">
-    <value>gBLightbar</value>
+  <data name="&gt;&gt;lbSixaxisXS.Parent" xml:space="preserve">
+    <value>gBSensitivity</value>
   </data>
-  <data name="downToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>361, 42</value>
+  <data name="tBsixaxisGyroY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;tBsixaxisGyroX.Name" xml:space="preserve">
-    <value>tBsixaxisGyroX</value>
+  <data name="&gt;&gt;lbLSquare.ZOrder" xml:space="preserve">
+    <value>42</value>
   </data>
   <data name="lbLL2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -9064,7 +9049,7 @@ with profile</value>
   <data name="&gt;&gt;label8.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="bnGyroZP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="nUDRSAntiDead.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
   <data name="&gt;&gt;bnRSDown.Name" xml:space="preserve">
@@ -9088,8 +9073,8 @@ with profile</value>
   <data name="&gt;&gt;lbSixaxisZ.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="tBsixaxisGyroX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+  <data name="lbLright.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="r1TouchInvStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>361, 42</value>
@@ -9118,6 +9103,9 @@ with profile</value>
   <data name="tBsixaxisAccelX.Location" type="System.Drawing.Point, System.Drawing">
     <value>160, 56</value>
   </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>tPOutCurve</value>
+  </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
     <value>187, 70</value>
   </data>
@@ -9139,8 +9127,8 @@ with profile</value>
   <data name="triangleTouchInvStripMenuItem.Text" xml:space="preserve">
     <value>Triangle</value>
   </data>
-  <data name="rBTPControls.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="gBRumble.Location" type="System.Drawing.Point, System.Drawing">
+    <value>633, 525</value>
   </data>
   <data name="nUDRainbowB.Size" type="System.Drawing.Size, System.Drawing">
     <value>97, 35</value>
@@ -9160,14 +9148,11 @@ with profile</value>
   <data name="tCControls.Size" type="System.Drawing.Size, System.Drawing">
     <value>1004, 1017</value>
   </data>
-  <data name="&gt;&gt;lbLTriangle.Name" xml:space="preserve">
-    <value>lbLTriangle</value>
+  <data name="lBControls.Items13" xml:space="preserve">
+    <value>L2 :</value>
   </data>
-  <data name="&gt;&gt;bnTriangle.Parent" xml:space="preserve">
-    <value>pnlController</value>
-  </data>
-  <data name="lBControls.Items23" xml:space="preserve">
-    <value>Left Stick Left :</value>
+  <data name="rBSAControls.TabIndex" type="System.Int32, mscorlib">
+    <value>258</value>
   </data>
   <data name="&gt;&gt;nUDSZS.Name" xml:space="preserve">
     <value>nUDSZS</value>
@@ -9187,13 +9172,13 @@ with profile</value>
   <data name="&gt;&gt;lVActions.Type" xml:space="preserve">
     <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pnlSixaxis.Name" xml:space="preserve">
-    <value>pnlSixaxis</value>
+  <data name="&gt;&gt;lbGyroTriggers.Parent" xml:space="preserve">
+    <value>pnlSAMouse</value>
   </data>
   <data name="nUDSZS.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
-  <data name="&gt;&gt;lbLright.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lbLUp.Parent" xml:space="preserve">
     <value>pnlController</value>
   </data>
   <data name="&gt;&gt;label15.Type" xml:space="preserve">
@@ -9223,8 +9208,11 @@ with profile</value>
   <data name="&gt;&gt;cBSlide.Name" xml:space="preserve">
     <value>cBSlide</value>
   </data>
-  <data name="&gt;&gt;bnL1.ZOrder" xml:space="preserve">
-    <value>37</value>
+  <data name="bnLSLeft.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;bnL1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="bnLSDown.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
@@ -9255,6 +9243,9 @@ with profile</value>
   </data>
   <data name="btnLSTrackS.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
+  </data>
+  <data name="l3TouchInvStripMenuItem.Text" xml:space="preserve">
+    <value>L3</value>
   </data>
   <data name="&gt;&gt;trackballCk.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -9295,8 +9286,8 @@ with profile</value>
   <data name="lbGyroXP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;pnlSAMouse.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="btnChargingColor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
   </data>
   <data name="&gt;&gt;lbLRS.Name" xml:space="preserve">
     <value>lbLRS</value>
@@ -9304,11 +9295,11 @@ with profile</value>
   <data name="&gt;&gt;lbLSquare.Parent" xml:space="preserve">
     <value>pnlController</value>
   </data>
-  <data name="fLPSettings.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
-    <value>TopDown</value>
+  <data name="bnSwipeUp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
   </data>
-  <data name="nUDGyroSmoothWeight.TabIndex" type="System.Int32, mscorlib">
-    <value>266</value>
+  <data name="touchpadInvertComboBox.Items2" xml:space="preserve">
+    <value>Y Axis</value>
   </data>
   <data name="touchpadInvertComboBox.Items3" xml:space="preserve">
     <value>Both X and Y Axes</value>
@@ -9319,11 +9310,11 @@ with profile</value>
   <data name="lbGyroInvert.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="l3TouchInvStripMenuItem.Text" xml:space="preserve">
-    <value>L3</value>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="bnGyroXN.TabIndex" type="System.Int32, mscorlib">
-    <value>250</value>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label4.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -9331,8 +9322,8 @@ with profile</value>
   <data name="btnBrowse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;l3TouchInvStripMenuItem.Name" xml:space="preserve">
-    <value>l3TouchInvStripMenuItem</value>
+  <data name="&gt;&gt;label23.Name" xml:space="preserve">
+    <value>label23</value>
   </data>
   <data name="lbRSCurvePercent.Text" xml:space="preserve">
     <value>%</value>
@@ -9343,17 +9334,14 @@ with profile</value>
   <data name="&gt;&gt;tBLowRedBar.Parent" xml:space="preserve">
     <value>pnlLowBattery</value>
   </data>
-  <data name="&gt;&gt;bnCross.Name" xml:space="preserve">
-    <value>bnCross</value>
+  <data name="bnTouchUpper.Text" xml:space="preserve">
+    <value>Middle Mouse Button</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>2248, 1017</value>
   </data>
   <data name="bnL3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="&gt;&gt;nUDRSAntiDead.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -9367,8 +9355,8 @@ with profile</value>
   <data name="lbSixaxisX.Location" type="System.Drawing.Point, System.Drawing">
     <value>353, 9</value>
   </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>9, 9, 9, 9</value>
+  <data name="&gt;&gt;cBGyroSmooth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnRumbleHeavyTest.Name" xml:space="preserve">
     <value>btnRumbleHeavyTest</value>
@@ -9379,8 +9367,8 @@ with profile</value>
   <data name="&gt;&gt;tSMILSInvertedX.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="nUDSixAxisZMaxZone.Location" type="System.Drawing.Point, System.Drawing">
-    <value>495, 65</value>
+  <data name="lbL2Track.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
   </data>
   <data name="&gt;&gt;bnSwipeLeft.Parent" xml:space="preserve">
     <value>fLPTouchSwipe</value>
@@ -9388,8 +9376,11 @@ with profile</value>
   <data name="bnOptions.Location" type="System.Drawing.Point, System.Drawing">
     <value>634, 130</value>
   </data>
-  <data name="pSToolStripMenuItem.Text" xml:space="preserve">
-    <value>PS</value>
+  <data name="btnRSTrackS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 76</value>
+  </data>
+  <data name="lbEmpty.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="nUDRSCurve.TabIndex" type="System.Int32, mscorlib">
     <value>207</value>
@@ -9403,8 +9394,8 @@ with profile</value>
   <data name="lbLSCurvePercent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="tPDeadzone.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="cBL2OutputCurve.Items1" xml:space="preserve">
+    <value>Quadratic</value>
   </data>
   <data name="lbFull.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 0, 7, 0</value>
@@ -9427,8 +9418,8 @@ with profile</value>
   <data name="&gt;&gt;lbGyroSens.Name" xml:space="preserve">
     <value>lbGyroSens</value>
   </data>
-  <data name="&gt;&gt;nUDSixAxisXMaxZone.Parent" xml:space="preserve">
-    <value>maxZoneTabPage</value>
+  <data name="&gt;&gt;pnlFull.Name" xml:space="preserve">
+    <value>pnlFull</value>
   </data>
   <data name="bnL2.TabIndex" type="System.Int32, mscorlib">
     <value>90</value>
@@ -9448,14 +9439,14 @@ with profile</value>
   <data name="cBGyroSmooth.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;label17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="lbControlTip.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="nUDR2AntiDead.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="tBsixaxisAccelX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 43</value>
+  <data name="lbLTouchUpper.TabIndex" type="System.Int32, mscorlib">
+    <value>302</value>
   </data>
   <data name="lbR2Track.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -9466,8 +9457,8 @@ with profile</value>
   <data name="bnLeft.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="&gt;&gt;nUDGyroSmoothWeight.Name" xml:space="preserve">
-    <value>nUDGyroSmoothWeight</value>
+  <data name="nUDR2S.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 35</value>
   </data>
   <data name="nUDSZ.Location" type="System.Drawing.Point, System.Drawing">
     <value>477, 70</value>
@@ -9475,14 +9466,14 @@ with profile</value>
   <data name="&gt;&gt;ArrowKeysToolStripMenuItem.Name" xml:space="preserve">
     <value>ArrowKeysToolStripMenuItem</value>
   </data>
-  <data name="tBLowRedBar.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="gyroTriggerBehavior.Size" type="System.Drawing.Size, System.Drawing">
+    <value>369, 33</value>
   </data>
-  <data name="bnTriangle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+  <data name="bnRSDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 18</value>
   </data>
-  <data name="gBTouchpad.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 583</value>
+  <data name="rsOutCurveComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 7</value>
   </data>
   <data name="&gt;&gt;upTouchInvStripMenuItem.Name" xml:space="preserve">
     <value>upTouchInvStripMenuItem</value>
@@ -9493,8 +9484,8 @@ with profile</value>
   <data name="&gt;&gt;lbInputDelay.Name" xml:space="preserve">
     <value>lbInputDelay</value>
   </data>
-  <data name="bnRSDown.Text" xml:space="preserve">
-    <value>Right Y-Axis+</value>
+  <data name="&gt;&gt;btnRSTrackS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="nUDRainbowB.Location" type="System.Drawing.Point, System.Drawing">
     <value>340, 482</value>
@@ -9502,8 +9493,8 @@ with profile</value>
   <data name="fLPTiltControls.Location" type="System.Drawing.Point, System.Drawing">
     <value>14, 115</value>
   </data>
-  <data name="&gt;&gt;lbLSCurve.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lbLowGreen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 119</value>
   </data>
   <data name="bnLSUp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
@@ -9517,11 +9508,14 @@ with profile</value>
   <data name="&gt;&gt;bnCircle.ZOrder" xml:space="preserve">
     <value>50</value>
   </data>
+  <data name="&gt;&gt;enableTouchToggleCheckbox.Parent" xml:space="preserve">
+    <value>gBOther</value>
+  </data>
   <data name="&gt;&gt;pnlSixaxis.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="nUDL2Maxzone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 35</value>
+  <data name="&gt;&gt;cBIdleDisconnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="tpRotation.Size" type="System.Drawing.Size, System.Drawing">
     <value>592, 119</value>
@@ -9529,8 +9523,8 @@ with profile</value>
   <data name="&gt;&gt;bnR2.Name" xml:space="preserve">
     <value>bnR2</value>
   </data>
-  <data name="bnL3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+  <data name="&gt;&gt;fLPTouchSwipe.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="tCSens.Size" type="System.Drawing.Size, System.Drawing">
     <value>612, 176</value>
@@ -9550,14 +9544,11 @@ with profile</value>
   <data name="&gt;&gt;bnSwipeUp.Parent" xml:space="preserve">
     <value>fLPTouchSwipe</value>
   </data>
-  <data name="pnlSAMouse.TabIndex" type="System.Int32, mscorlib">
-    <value>259</value>
+  <data name="lbControlTip.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 0, 7, 0</value>
   </data>
-  <data name="&gt;&gt;label12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="cBScroll.TabIndex" type="System.Int32, mscorlib">
-    <value>231</value>
+  <data name="&gt;&gt;bnOptions.ZOrder" xml:space="preserve">
+    <value>34</value>
   </data>
   <data name="&gt;&gt;nUDSZ.Name" xml:space="preserve">
     <value>nUDSZ</value>
@@ -9583,8 +9574,8 @@ with profile</value>
   <data name="lbR2Track.Location" type="System.Drawing.Point, System.Drawing">
     <value>364, 760</value>
   </data>
-  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>984, 148</value>
+  <data name="lsOutCurveComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 4</value>
   </data>
   <data name="lbIdleMinutes.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -9595,11 +9586,11 @@ with profile</value>
   <data name="bnL1.Location" type="System.Drawing.Point, System.Drawing">
     <value>130, 50</value>
   </data>
-  <data name="lbFull.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;bnCircle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lbLright.ZOrder" xml:space="preserve">
-    <value>21</value>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="l2ToolStripMenuItem.Text" xml:space="preserve">
     <value>L2</value>
@@ -9622,20 +9613,20 @@ with profile</value>
   <data name="&gt;&gt;r3TouchInvStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="circleToolStripMenuItem.Text" xml:space="preserve">
-    <value>Circle</value>
+  <data name="cBScroll.TabIndex" type="System.Int32, mscorlib">
+    <value>231</value>
   </data>
-  <data name="&gt;&gt;tSMILSInvertedY.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;lbLTriangle.Name" xml:space="preserve">
+    <value>lbLTriangle</value>
   </data>
   <data name="&gt;&gt;btnBrowse.Parent" xml:space="preserve">
     <value>gBOther</value>
   </data>
-  <data name="bnLSLeft.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="lbPercentFlashBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 308</value>
   </data>
-  <data name="&gt;&gt;tBBlueBar.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label9.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -9645,6 +9636,9 @@ with profile</value>
   </data>
   <data name="&gt;&gt;lbRed.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="bnRSUp.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="bnTouchMulti.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -9673,8 +9667,8 @@ with profile</value>
   <data name="&gt;&gt;bnRSRight.Name" xml:space="preserve">
     <value>bnRSRight</value>
   </data>
-  <data name="tBsixaxisGyroZ.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 43</value>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lbLLS.Size" type="System.Drawing.Size, System.Drawing">
     <value>4, 4</value>
@@ -9697,8 +9691,8 @@ with profile</value>
   <data name="btPollRateLabel.TabIndex" type="System.Int32, mscorlib">
     <value>259</value>
   </data>
-  <data name="pnlSATrack.TabIndex" type="System.Int32, mscorlib">
-    <value>252</value>
+  <data name="lbSwipeDown.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="gBRumble.Text" xml:space="preserve">
     <value>Rumble</value>
@@ -9742,14 +9736,11 @@ with profile</value>
   <data name="lbLSS.Text" xml:space="preserve">
     <value>LS</value>
   </data>
-  <data name="circleTouchInvStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>361, 42</value>
+  <data name="&gt;&gt;tCControls.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="lbWhileCharging.Text" xml:space="preserve">
     <value>While Charging:</value>
-  </data>
-  <data name="&gt;&gt;lbLCross.Parent" xml:space="preserve">
-    <value>pnlController</value>
   </data>
   <data name="&gt;&gt;nUDLSRotation.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -9781,11 +9772,11 @@ with profile</value>
   <data name="&gt;&gt;cBSlide.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>LS:</value>
+  <data name="nUDRS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 35</value>
   </data>
-  <data name="lbGreen.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="&gt;&gt;bnSwipeDown.Parent" xml:space="preserve">
     <value>fLPTouchSwipe</value>
@@ -9799,8 +9790,8 @@ with profile</value>
   <data name="cBLightbyBattery.Text" xml:space="preserve">
     <value>Color by Battery %</value>
   </data>
-  <data name="&gt;&gt;nUDLS.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;DpadToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;nUDSX.Name" xml:space="preserve">
     <value>nUDSX</value>
@@ -9811,8 +9802,8 @@ with profile</value>
   <data name="lBControls.Location" type="System.Drawing.Point, System.Drawing">
     <value>626, 572</value>
   </data>
-  <data name="bnOptions.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="lbInputDelay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 7</value>
   </data>
   <data name="tBRedBar.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -9820,8 +9811,8 @@ with profile</value>
   <data name="&gt;&gt;lbEmpty.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="bnSquare.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 7, 7, 7</value>
+  <data name="lb6Gryo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 29</value>
   </data>
   <data name="lbSixaxisZS.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 29</value>
@@ -9835,11 +9826,14 @@ with profile</value>
   <data name="fLPTouchSwipe.Size" type="System.Drawing.Size, System.Drawing">
     <value>585, 333</value>
   </data>
+  <data name="&gt;&gt;pnlLSTrack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="tBR2.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
   </data>
-  <data name="&gt;&gt;label20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btnRemAction.Parent" xml:space="preserve">
+    <value>fLPActionButtons</value>
   </data>
   <data name="&gt;&gt;fingersOnTouchpadToolStripMenuItem.Name" xml:space="preserve">
     <value>fingersOnTouchpadToolStripMenuItem</value>
@@ -9865,17 +9859,17 @@ with profile</value>
   <data name="&gt;&gt;lbGyroSmooth.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="bnTriangle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;lbLCross.Parent" xml:space="preserve">
+    <value>pnlController</value>
   </data>
-  <data name="bnTouchUpper.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;bnL3.Name" xml:space="preserve">
+    <value>bnL3</value>
   </data>
-  <data name="lbLSCurve.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 40</value>
+  <data name="lbGyroXP.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
-  <data name="lbGyroSens.Text" xml:space="preserve">
-    <value>Gyro Sensitivity:</value>
+  <data name="bnDown.Text" xml:space="preserve">
+    <value>Down Button</value>
   </data>
   <data name="bnL2.Location" type="System.Drawing.Point, System.Drawing">
     <value>158, 4</value>
@@ -9886,11 +9880,11 @@ with profile</value>
   <data name="&gt;&gt;lbWhileCharging.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="nUDLSAntiDead.Location" type="System.Drawing.Point, System.Drawing">
-    <value>70, 7</value>
+  <data name="&gt;&gt;btnRSTrack.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="r1ToolStripMenuItem.Text" xml:space="preserve">
-    <value>R1</value>
+  <data name="btnLSTrackS.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="bnGyroXP.TabIndex" type="System.Int32, mscorlib">
     <value>250</value>
@@ -9901,8 +9895,8 @@ with profile</value>
   <data name="lbLDown.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="tBR2.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="btnRSTrackS.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
     <value>10</value>
@@ -9916,11 +9910,11 @@ with profile</value>
   <data name="btnLSTrack.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
-    <value>tPOutCurve</value>
+  <data name="&gt;&gt;lbGyroInvert.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
-  <data name="fLPSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="lbLShare.Size" type="System.Drawing.Size, System.Drawing">
+    <value>4, 4</value>
   </data>
   <data name="lbGyroTriggers.Location" type="System.Drawing.Point, System.Drawing">
     <value>14, 32</value>
@@ -9931,8 +9925,8 @@ with profile</value>
   <data name="rBSAControls.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="cBWhileCharging.Items2" xml:space="preserve">
-    <value>Rainbow</value>
+  <data name="&gt;&gt;antiDeadzoneTabPage.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;lbLR1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -9946,17 +9940,17 @@ with profile</value>
   <data name="&gt;&gt;lbSwipeRight.Name" xml:space="preserve">
     <value>lbSwipeRight</value>
   </data>
-  <data name="downTouchInvStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>361, 42</value>
+  <data name="cBSlide.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
   </data>
-  <data name="&gt;&gt;cBlowerRCOn.Name" xml:space="preserve">
-    <value>cBlowerRCOn</value>
+  <data name="&gt;&gt;nUDL2Maxzone.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="gBLightbar.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
   </data>
-  <data name="touchpadDisInvertButton.Text" xml:space="preserve">
-    <value>None</value>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
     <value>RS:</value>
@@ -9964,8 +9958,8 @@ with profile</value>
   <data name="nUDSixaxis.TabIndex" type="System.Int32, mscorlib">
     <value>250</value>
   </data>
-  <data name="&gt;&gt;pnlSixaxis.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="cBGyroSmooth.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
   </data>
   <data name="lbInputDelay.Size" type="System.Drawing.Size, System.Drawing">
     <value>216, 29</value>
@@ -9976,8 +9970,8 @@ with profile</value>
   <data name="&gt;&gt;fLPSettings.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="label24.Text" xml:space="preserve">
-    <value>Sixaxis Z:</value>
+  <data name="&gt;&gt;lowColorChooserButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lbLTouchLM.ZOrder" xml:space="preserve">
     <value>7</value>
@@ -9997,8 +9991,8 @@ with profile</value>
   <data name="&gt;&gt;pnlLowBattery.Parent" xml:space="preserve">
     <value>gBLightbar</value>
   </data>
-  <data name="&gt;&gt;tBGreenBar.Name" xml:space="preserve">
-    <value>tBGreenBar</value>
+  <data name="&gt;&gt;btnChargingColor.Name" xml:space="preserve">
+    <value>btnChargingColor</value>
   </data>
   <data name="&gt;&gt;bnTouchLeft.Name" xml:space="preserve">
     <value>bnTouchLeft</value>
@@ -10006,8 +10000,11 @@ with profile</value>
   <data name="lbLR2.Size" type="System.Drawing.Size, System.Drawing">
     <value>4, 4</value>
   </data>
-  <data name="&gt;&gt;btnRemAction.Name" xml:space="preserve">
-    <value>btnRemAction</value>
+  <data name="tBR2.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>LS:</value>
   </data>
   <data name="&gt;&gt;l1ToolStripMenuItem.Name" xml:space="preserve">
     <value>l1ToolStripMenuItem</value>
@@ -10021,8 +10018,8 @@ with profile</value>
   <data name="cBR2OutputCurve.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="tBLowBlueBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 162</value>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="nUDL2S.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
@@ -10045,8 +10042,8 @@ with profile</value>
   <data name="&gt;&gt;nUDGyroSmoothWeight.Parent" xml:space="preserve">
     <value>pnlSAMouse</value>
   </data>
-  <data name="&gt;&gt;tBLowGreenBar.Name" xml:space="preserve">
-    <value>tBLowGreenBar</value>
+  <data name="&gt;&gt;cBControllerInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lbWhileCharging.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 29</value>
@@ -10057,14 +10054,17 @@ with profile</value>
   <data name="label22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="lbRSCurvePercent.TabIndex" type="System.Int32, mscorlib">
-    <value>204</value>
+  <data name="&gt;&gt;lbEmpty.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="bnR2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
+  <data name="bnRSUp.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
   <data name="&gt;&gt;cbStartTouchpadOff.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>16</value>
   </data>
   <data name="&gt;&gt;label9.Parent" xml:space="preserve">
     <value>tPOutCurve</value>
