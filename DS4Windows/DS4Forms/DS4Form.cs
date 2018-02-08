@@ -10,7 +10,6 @@ using Microsoft.Win32;
 using System.Diagnostics;
 using System.Xml;
 using System.Text;
-using System.Globalization;
 using Microsoft.Win32.TaskScheduler;
 using System.Security.Principal;
 using System.Threading;
@@ -38,9 +37,6 @@ namespace DS4Windows
         WebClient wc = new WebClient();
         NonFormTimer hotkeysTimer = new NonFormTimer();
         NonFormTimer autoProfilesTimer = new NonFormTimer();
-        string exepath = Directory.GetParent(Assembly.GetExecutingAssembly().Location).FullName;
-        string appDataPpath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\DS4Windows";
-        string oldappdatapath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\DS4Tool";
         string tempProfileProgram = string.Empty;
         double dpix, dpiy;
         List<string> profilenames = new List<string>();
@@ -66,7 +62,7 @@ namespace DS4Windows
             { "DS4Windows v" + FileVersionInfo.GetVersionInfo(Assembly.GetExecutingAssembly().Location).FileVersion,
             string.Empty, string.Empty, string.Empty, string.Empty };
 
-        internal const string UPDATER_VERSION = "1.2.5.0";
+        internal const string UPDATER_VERSION = "1.2.6.0";
         internal static int WM_QUERYENDSESSION = 0x11;
         internal string updaterExe = Environment.Is64BitProcess ? "DS4Updater.exe" : "DS4Updater_x86.exe";
 
@@ -87,8 +83,22 @@ namespace DS4Windows
 
         public DS4Form(string[] args)
         {
+            Global.FindConfigLocation();
+
+            if (Global.firstRun)
+            {
+                new SaveWhere(Global.multisavespots).ShowDialog();
+            }
+            else if (Global.oldappdatafail)
+            {
+                MessageBox.Show(Properties.Resources.CannotMoveFiles, "DS4Windows");
+                Process.Start("explorer.exe", @"/select, " + appDataPpath);
+                Close();
+                return;
+            }
+
             Global.Load();
-            this.setCulture(UseLang);
+            Global.SetCulture(UseLang);
 
             InitializeComponent();
             ThemeUtil.SetTheme(lvDebug);
@@ -119,41 +129,6 @@ namespace DS4Windows
 
             SystemEvents.PowerModeChanged += OnPowerChange;
             tSOptions.Visible = false;
-            bool firstrun = false;
-
-            if (File.Exists(exepath + "\\Auto Profiles.xml")
-                && File.Exists(appDataPpath + "\\Auto Profiles.xml"))
-            {
-                firstrun = true;
-                new SaveWhere(true).ShowDialog();
-            }
-            else if (File.Exists(exepath + "\\Auto Profiles.xml"))
-                SaveWhere(exepath);
-            else if (File.Exists(appDataPpath + "\\Auto Profiles.xml"))
-                SaveWhere(appDataPpath);
-            else if (File.Exists(oldappdatapath + "\\Auto Profiles.xml"))
-            {
-                try
-                {
-                    if (Directory.Exists(appDataPpath))
-                        Directory.Move(appDataPpath, Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\DS4Windows Old");
-                    Directory.Move(oldappdatapath, appDataPpath);
-                    SaveWhere(appDataPpath);
-                }
-                catch
-                {
-                    MessageBox.Show(Properties.Resources.CannotMoveFiles, "DS4Windows");
-                    Process.Start("explorer.exe", @"/select, " + appDataPpath);
-                    Close();
-                    return;
-                }
-            }
-            else if (!File.Exists(exepath + "\\Auto Profiles.xml")
-                && !File.Exists(appDataPpath + "\\Auto Profiles.xml"))
-            {
-                firstrun = true;
-                new SaveWhere(false).ShowDialog();
-            }
 
             TaskRunner.Run(() => CheckDrivers());
 
@@ -358,7 +333,7 @@ namespace DS4Windows
             if (checkwhen > 0 && DateTime.Now >= LastChecked + TimeSpan.FromHours(checkwhen))
             {
                 wc.DownloadFileAsync(url, appdatapath + "\\version.txt");
-                wc.DownloadFileCompleted += Check_Version;
+                wc.DownloadFileCompleted += (sender, e) => { TaskRunner.Run(() => Check_Version(sender, e)); };
                 LastChecked = DateTime.Now;
             }
 
@@ -431,16 +406,6 @@ namespace DS4Windows
 
                 control.MouseHover += Items_MouseHover;
             }
-        }
-
-        private void setCulture(string culture)
-        {
-            try
-            {
-                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(culture);
-                CultureInfo.DefaultThreadCurrentUICulture = CultureInfo.GetCultureInfo(culture);
-            }
-            catch { /* Skip setting culture that we cannot set */ }
         }
 
         private void populateHoverTextDict()
@@ -725,8 +690,9 @@ namespace DS4Windows
             string newversion = File.ReadAllText(appdatapath + "\\version.txt").Trim();
             if (version.Replace(',', '.').CompareTo(newversion) == -1)
             {
-                if (MessageBox.Show(Properties.Resources.DownloadVersion.Replace("*number*", newversion),
-                    Properties.Resources.DS4Update, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                if ((DialogResult)this.Invoke(new Func<DialogResult>(() => {
+                    return MessageBox.Show(Properties.Resources.DownloadVersion.Replace("*number*", newversion),
+Properties.Resources.DS4Update, MessageBoxButtons.YesNo, MessageBoxIcon.Question); })) == DialogResult.Yes)
                 {
                     if (!File.Exists(exepath + "\\DS4Updater.exe") || (File.Exists(exepath + "\\DS4Updater.exe")
                         && (FileVersionInfo.GetVersionInfo(exepath + "\\DS4Updater.exe").FileVersion.CompareTo("1.1.0.0") == -1)))
@@ -737,7 +703,7 @@ namespace DS4Windows
                             wc2.DownloadFile(url2, exepath + "\\DS4Updater.exe");
                         else
                         {
-                            MessageBox.Show(Properties.Resources.PleaseDownloadUpdater);
+                            this.BeginInvoke((System.Action)(() => MessageBox.Show(Properties.Resources.PleaseDownloadUpdater)));
                             Process.Start($"http://23.239.26.40/ds4windows/files/{updaterExe}");
                         }
                     }
@@ -1979,18 +1945,22 @@ namespace DS4Windows
             if (nUDUpdateTime.Value == 1)
             {
                 int index = currentIndex;
+                cBUpdateTime.BeginUpdate();
                 cBUpdateTime.Items.Clear();
                 cBUpdateTime.Items.Add(Properties.Resources.Hour);
                 cBUpdateTime.Items.Add(Properties.Resources.Day);
                 cBUpdateTime.SelectedIndex = index;
+                cBUpdateTime.EndUpdate();
             }
             else if (cBUpdateTime.Items[0].ToString() == Properties.Resources.Hour)
             {
                 int index = currentIndex;
+                cBUpdateTime.BeginUpdate();
                 cBUpdateTime.Items.Clear();
                 cBUpdateTime.Items.Add(Properties.Resources.Hours);
                 cBUpdateTime.Items.Add(Properties.Resources.Days);
                 cBUpdateTime.SelectedIndex = index;
+                cBUpdateTime.EndUpdate();
             }
         }
 
@@ -2009,7 +1979,7 @@ namespace DS4Windows
             Uri url = new Uri("http://23.239.26.40/ds4windows/files/builds/newest.txt");
             WebClient wct = new WebClient();
             wct.DownloadFileAsync(url, appdatapath + "\\version.txt");
-            wct.DownloadFileCompleted += wct_DownloadFileCompleted;
+            wct.DownloadFileCompleted += (sender2, e2) => TaskRunner.Run(() => wct_DownloadFileCompleted(sender2, e2));
         }
 
         private void cBDisconnectBT_CheckedChanged(object sender, EventArgs e)
@@ -2025,8 +1995,11 @@ namespace DS4Windows
             string newversion2 = File.ReadAllText(appdatapath + "\\version.txt").Trim();
             if (version2.Replace(',', '.').CompareTo(newversion2) == -1)
             {
-                if (MessageBox.Show(Properties.Resources.DownloadVersion.Replace("*number*", newversion2),
-                    Properties.Resources.DS4Update, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                if ((DialogResult)this.Invoke(new Func<DialogResult>(() =>
+                {
+                    return MessageBox.Show(Properties.Resources.DownloadVersion.Replace("*number*", newversion2),
+                    Properties.Resources.DS4Update, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                })) == DialogResult.Yes)
                 {
                     if (!File.Exists(exepath + "\\DS4Updater.exe") || (File.Exists(exepath + "\\DS4Updater.exe")
                          && (FileVersionInfo.GetVersionInfo(exepath + "\\DS4Updater.exe").FileVersion.CompareTo(UPDATER_VERSION) == -1)))
@@ -2037,7 +2010,7 @@ namespace DS4Windows
                             wc2.DownloadFile(url2, exepath + "\\DS4Updater.exe");
                         else
                         {
-                            MessageBox.Show(Properties.Resources.PleaseDownloadUpdater);
+                            this.BeginInvoke((System.Action)(() => MessageBox.Show(Properties.Resources.PleaseDownloadUpdater)));
                             Process.Start($"http://23.239.26.40/ds4windows/files/{updaterExe}");
                         }
                     }
@@ -2057,7 +2030,7 @@ namespace DS4Windows
             else
             {
                 File.Delete(appdatapath + "\\version.txt");
-                MessageBox.Show(Properties.Resources.UpToDate, "DS4Windows Updater");
+                this.BeginInvoke((System.Action)(() => MessageBox.Show(Properties.Resources.UpToDate, "DS4Windows Updater")));
             }
         }
 

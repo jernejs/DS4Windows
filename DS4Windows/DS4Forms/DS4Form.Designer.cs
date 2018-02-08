@@ -913,7 +913,7 @@
             // 
             resources.ApplyResources(this.hideDS4CheckBox, "hideDS4CheckBox");
             this.hideDS4CheckBox.Name = "hideDS4CheckBox";
-            this.hideDS4CheckBox.UseVisualStyleBackColor = true;
+            this.hideDS4CheckBox.UseVisualStyleBackColor = false;
             this.hideDS4CheckBox.CheckedChanged += new System.EventHandler(this.hideDS4CheckBox_CheckedChanged);
             // 
             // cBSwipeProfiles
@@ -922,7 +922,7 @@
             this.cBSwipeProfiles.Checked = true;
             this.cBSwipeProfiles.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cBSwipeProfiles.Name = "cBSwipeProfiles";
-            this.cBSwipeProfiles.UseVisualStyleBackColor = true;
+            this.cBSwipeProfiles.UseVisualStyleBackColor = false;
             this.cBSwipeProfiles.CheckedChanged += new System.EventHandler(this.cBSwipeProfiles_CheckedChanged);
             // 
             // StartWindowsCheckBox
@@ -953,7 +953,7 @@
             resources.ApplyResources(this.runStartTaskRadio, "runStartTaskRadio");
             this.runStartTaskRadio.Name = "runStartTaskRadio";
             this.runStartTaskRadio.TabStop = true;
-            this.runStartTaskRadio.UseVisualStyleBackColor = true;
+            this.runStartTaskRadio.UseVisualStyleBackColor = false;
             this.runStartTaskRadio.Click += new System.EventHandler(this.runStartTaskRadio_Click);
             // 
             // label1
@@ -967,7 +967,7 @@
             this.runStartProgRadio.Checked = true;
             this.runStartProgRadio.Name = "runStartProgRadio";
             this.runStartProgRadio.TabStop = true;
-            this.runStartProgRadio.UseVisualStyleBackColor = true;
+            this.runStartProgRadio.UseVisualStyleBackColor = false;
             this.runStartProgRadio.Click += new System.EventHandler(this.runStartProgRadio_Click);
             // 
             // startMinimizedCheckBox
@@ -1043,7 +1043,7 @@
             this.cBFlashWhenLate.Checked = true;
             this.cBFlashWhenLate.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cBFlashWhenLate.Name = "cBFlashWhenLate";
-            this.cBFlashWhenLate.UseVisualStyleBackColor = true;
+            this.cBFlashWhenLate.UseVisualStyleBackColor = false;
             this.cBFlashWhenLate.CheckedChanged += new System.EventHandler(this.cBFlashWhenLate_CheckedChanged);
             // 
             // cBCloseMini
@@ -1071,7 +1071,7 @@
             // 
             resources.ApplyResources(this.cBUpdate, "cBUpdate");
             this.cBUpdate.Name = "cBUpdate";
-            this.cBUpdate.UseVisualStyleBackColor = true;
+            this.cBUpdate.UseVisualStyleBackColor = false;
             this.cBUpdate.CheckedChanged += new System.EventHandler(this.cBUpdate_CheckedChanged);
             // 
             // pNUpdate
